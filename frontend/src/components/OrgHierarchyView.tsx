@@ -135,7 +135,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
   }, [departments, departmentFilter]);
 
   return (
-    <div style={{ flex: 1, display: "flex", flexDirection: "column", height: "100%", minHeight: 0, overflow: "hidden", background: "#f8fafc" }}>
+    <div style={{ flex: 1, display: "flex", flexDirection: "column", height: "100%", minHeight: 0, overflow: "hidden", background: "var(--bg-primary)" }}>
       {/* Top Toolbar: View Mode Selector + Filters */}
       <div
         style={{
@@ -143,7 +143,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
           alignItems: "center",
           justifyContent: "space-between",
           padding: "8px 24px",
-          background: "#ffffff",
+          background: "var(--bg-secondary)",
           borderBottom: "1px solid var(--border-subtle)",
           flexWrap: "wrap",
           gap: "10px",
@@ -157,7 +157,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
             style={{
               display: "flex",
               alignItems: "center",
-              background: "#f1f5f9",
+              background: "var(--bg-card)",
               padding: "2px",
               borderRadius: "8px",
               border: "1px solid var(--border-subtle)",
@@ -173,11 +173,11 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                 borderRadius: "6px",
                 fontSize: "12px",
                 fontWeight: viewMode === "swimlanes" ? 700 : 500,
-                background: viewMode === "swimlanes" ? "#ffffff" : "transparent",
-                color: viewMode === "swimlanes" ? "var(--accent-blue)" : "var(--text-secondary)",
+                background: viewMode === "swimlanes" ? "linear-gradient(135deg, var(--accent-orange) 0%, #ea580c 100%)" : "transparent",
+                color: viewMode === "swimlanes" ? "#ffffff" : "var(--text-secondary)",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: viewMode === "swimlanes" ? "0 1px 2px rgba(0,0,0,0.06)" : "none",
+                boxShadow: viewMode === "swimlanes" ? "0 2px 6px rgba(249, 115, 22, 0.35)" : "none",
                 transition: "all 0.15s ease",
               }}
               title="Department columns with management breakdown"
@@ -196,11 +196,11 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                 borderRadius: "6px",
                 fontSize: "12px",
                 fontWeight: viewMode === "levels" ? 700 : 500,
-                background: viewMode === "levels" ? "#ffffff" : "transparent",
-                color: viewMode === "levels" ? "var(--accent-blue)" : "var(--text-secondary)",
+                background: viewMode === "levels" ? "linear-gradient(135deg, var(--accent-orange) 0%, #ea580c 100%)" : "transparent",
+                color: viewMode === "levels" ? "#ffffff" : "var(--text-secondary)",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: viewMode === "levels" ? "0 1px 2px rgba(0,0,0,0.06)" : "none",
+                boxShadow: viewMode === "levels" ? "0 2px 6px rgba(249, 115, 22, 0.35)" : "none",
                 transition: "all 0.15s ease",
               }}
               title="Cascading management levels from L0 down to L6"
@@ -219,11 +219,11 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                 borderRadius: "6px",
                 fontSize: "12px",
                 fontWeight: viewMode === "canvas" ? 700 : 500,
-                background: viewMode === "canvas" ? "#ffffff" : "transparent",
-                color: viewMode === "canvas" ? "var(--accent-blue)" : "var(--text-secondary)",
+                background: viewMode === "canvas" ? "linear-gradient(135deg, var(--accent-orange) 0%, #ea580c 100%)" : "transparent",
+                color: viewMode === "canvas" ? "#ffffff" : "var(--text-secondary)",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: viewMode === "canvas" ? "0 1px 2px rgba(0,0,0,0.06)" : "none",
+                boxShadow: viewMode === "canvas" ? "0 2px 6px rgba(249, 115, 22, 0.35)" : "none",
                 transition: "all 0.15s ease",
               }}
               title="Interactive 2D graph canvas"
@@ -242,7 +242,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
               style={{
                 height: "32px",
                 padding: "0 8px",
-                background: "#ffffff",
+                background: "var(--bg-card)",
                 border: "1px solid var(--border-medium)",
                 borderRadius: "6px",
                 fontSize: "12px",
@@ -266,7 +266,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
               alignItems: "center",
               gap: "6px",
               padding: "0 8px",
-              background: "#ffffff",
+              background: "var(--bg-card)",
               border: "1px solid var(--border-medium)",
               borderRadius: "6px",
               height: "32px",
@@ -340,7 +340,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
         >
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
             <span style={{ fontWeight: 600, color: "var(--text-secondary)" }}>
-              Confidence Cutoff: <strong style={{ color: "var(--accent-blue)" }}>{(confidenceThreshold * 100).toFixed(0)}%</strong>
+              Confidence Cutoff: <strong style={{ color: "var(--accent-orange)" }}>{(confidenceThreshold * 100).toFixed(0)}%</strong>
             </span>
             <input
               type="range"
@@ -349,7 +349,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
               step="0.05"
               value={confidenceThreshold}
               onChange={(e) => onThresholdChange(parseFloat(e.target.value))}
-              style={{ width: "150px", accentColor: "var(--accent-blue)", cursor: "pointer" }}
+              style={{ width: "150px", accentColor: "var(--accent-orange)", cursor: "pointer" }}
             />
             <span style={{ fontSize: "11px", color: "var(--text-muted)" }}>
               (Higher cutoff guarantees zero wrong edges. Lower cutoff resolves more indirect edges.)
@@ -391,11 +391,11 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                   onClick={() => onSelectEmployee(ceo)}
                   style={{
                     width: "360px",
-                    background: selectedEmployeeId === ceo.id ? "#eff6ff" : "#ffffff",
-                    border: selectedEmployeeId === ceo.id ? "2px solid #2563eb" : "1px solid #fde68a",
+                    background: selectedEmployeeId === ceo.id ? "var(--accent-orange-subtle)" : "var(--bg-card)",
+                    border: selectedEmployeeId === ceo.id ? "2px solid var(--accent-orange)" : "1px solid var(--border-medium)",
                     borderRadius: "10px",
                     padding: "14px 18px",
-                    boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                    boxShadow: selectedEmployeeId === ceo.id ? "0 4px 14px rgba(255, 90, 31, 0.25)" : "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
                     cursor: "pointer",
                     position: "relative",
                   }}
@@ -459,10 +459,10 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                   <div
                     key={deptName}
                     style={{
-                      background: "#ffffff",
+                      background: "var(--bg-card)",
                       borderRadius: "10px",
                       border: "1px solid var(--border-subtle)",
-                      boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+                      boxShadow: "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
                       overflow: "hidden",
                     }}
                   >
@@ -470,7 +470,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                     <div
                       style={{
                         padding: "10px 14px",
-                        background: "#f8fafc",
+                        background: "var(--bg-secondary)",
                         borderBottom: "1px solid var(--border-subtle)",
                         display: "flex",
                         alignItems: "center",
@@ -478,7 +478,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                       }}
                     >
                       <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                        <Building2 size={13} color="var(--accent-blue)" />
+                        <Building2 size={13} color="var(--accent-orange)" />
                         <span style={{ fontSize: "12px", fontWeight: 700, color: "var(--text-primary)" }}>
                           {deptName}
                         </span>
@@ -487,11 +487,11 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                         style={{
                           fontSize: "10px",
                           fontWeight: 600,
-                          color: "var(--text-muted)",
-                          background: "#ffffff",
+                          color: "var(--accent-purple)",
+                          background: "var(--accent-purple-subtle)",
                           padding: "1px 6px",
                           borderRadius: "4px",
-                          border: "1px solid var(--border-subtle)",
+                          border: "1px solid var(--accent-purple-border)",
                         }}
                       >
                         {emps.length} emps
@@ -501,15 +501,15 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                     {/* Department Leader Card */}
                     {leader && (
                       <div style={{ padding: "12px 14px", borderBottom: "1px solid var(--border-subtle)" }}>
-                        <div style={{ fontSize: "10px", fontWeight: 700, color: "var(--accent-blue)", marginBottom: "4px" }}>
+                        <div style={{ fontSize: "10px", fontWeight: 700, color: "var(--accent-orange)", marginBottom: "4px" }}>
                           DEPARTMENT EXECUTIVE
                         </div>
                         <div
                           onClick={() => onSelectEmployee(leader)}
                           style={{
                             padding: "8px 10px",
-                            background: selectedEmployeeId === leader.id ? "#eff6ff" : "#f8fafc",
-                            border: selectedEmployeeId === leader.id ? "1px solid #2563eb" : "1px solid var(--border-subtle)",
+                            background: selectedEmployeeId === leader.id ? "var(--accent-orange-subtle)" : "var(--bg-secondary)",
+                            border: selectedEmployeeId === leader.id ? "1px solid var(--accent-orange)" : "1px solid var(--border-subtle)",
                             borderRadius: "6px",
                             cursor: "pointer",
                           }}
@@ -545,7 +545,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                             border: "none",
                             fontSize: "11px",
                             fontWeight: 600,
-                            color: "var(--accent-blue)",
+                            color: "var(--accent-orange)",
                             cursor: "pointer",
                           }}
                         >
@@ -563,8 +563,8 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                             <div
                               key={mgr.id}
                               style={{
-                                background: isSelected ? "#eff6ff" : "#ffffff",
-                                border: isSelected ? "1px solid #2563eb" : "1px solid var(--border-subtle)",
+                                background: isSelected ? "var(--accent-orange-subtle)" : "var(--bg-secondary)",
+                                border: isSelected ? "1px solid var(--accent-orange)" : "1px solid var(--border-subtle)",
                                 borderRadius: "6px",
                                 padding: "6px 8px",
                               }}
@@ -581,7 +581,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                                     {mgr.raw_title}
                                   </div>
                                 </div>
-                                <span style={{ fontSize: "10px", color: "var(--accent-blue)", fontWeight: 600 }}>
+                                <span style={{ fontSize: "10px", color: "var(--accent-orange)", fontWeight: 600 }}>
                                   {reports.length} reports
                                 </span>
                               </div>
@@ -622,8 +622,8 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                                             fontSize: "10px",
                                             padding: "2px 4px",
                                             borderRadius: "4px",
-                                            background: selectedEmployeeId === r.id ? "#eff6ff" : "transparent",
-                                            color: selectedEmployeeId === r.id ? "var(--accent-blue)" : "var(--text-secondary)",
+                                            background: selectedEmployeeId === r.id ? "var(--accent-orange-subtle)" : "transparent",
+                                            color: selectedEmployeeId === r.id ? "var(--accent-orange)" : "var(--text-secondary)",
                                             cursor: "pointer",
                                             display: "flex",
                                             justifyContent: "space-between",
@@ -658,7 +658,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
               minHeight: 0,
               overflowY: "auto",
               padding: "20px 24px",
-              background: "#ffffff",
+              background: "var(--bg-primary)",
             }}
           >
             <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "10px" }}>
@@ -673,13 +673,13 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
 
               {/* Recursive or level-based tree renderer */}
               {[
-                { tier: "L0_EXEC", title: "Level 0: Chief Executive Officer", bg: "#fef3c7", border: "#fde68a" },
-                { tier: "L1_C_SUITE", title: "Level 1: C-Suite Executive Officers", bg: "#ede9fe", border: "#ddd6fe" },
-                { tier: "L2_VP", title: "Level 2: Vice Presidents", bg: "#e0e7ff", border: "#c7d2fe" },
-                { tier: "L3_DIRECTOR", title: "Level 3: Functional Directors", bg: "#e0f2fe", border: "#bae6fd" },
-                { tier: "L4_MANAGER", title: "Level 4: Operational Managers", bg: "#ecfdf5", border: "#a7f3d0" },
-                { tier: "L5_SENIOR_IC", title: "Level 5: Senior Individual Contributors", bg: "#ffedd5", border: "#fed7aa" },
-                { tier: "L6_IC", title: "Level 6: Staff & Associates", bg: "#f1f5f9", border: "#cbd5e1" },
+                { tier: "L0_EXEC", title: "Level 0: Chief Executive Officer" },
+                { tier: "L1_C_SUITE", title: "Level 1: C-Suite Executive Officers" },
+                { tier: "L2_VP", title: "Level 2: Vice Presidents" },
+                { tier: "L3_DIRECTOR", title: "Level 3: Functional Directors" },
+                { tier: "L4_MANAGER", title: "Level 4: Operational Managers" },
+                { tier: "L5_SENIOR_IC", title: "Level 5: Senior Individual Contributors" },
+                { tier: "L6_IC", title: "Level 6: Staff & Associates" },
               ].map(({ tier, title }) => {
                 const tierEmps = company.employees.filter((e) => e.inferred_seniority === tier);
                 if (tierEmps.length === 0) return null;
@@ -691,12 +691,13 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                       border: "1px solid var(--border-subtle)",
                       borderRadius: "8px",
                       overflow: "hidden",
+                      background: "var(--bg-card)",
                     }}
                   >
                     <div
                       style={{
                         padding: "8px 12px",
-                        background: "#f8fafc",
+                        background: "var(--bg-secondary)",
                         borderBottom: "1px solid var(--border-subtle)",
                         display: "flex",
                         alignItems: "center",
@@ -706,7 +707,7 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                       <span style={{ fontWeight: 700, fontSize: "12px", color: "var(--text-primary)" }}>
                         {title}
                       </span>
-                      <span style={{ fontSize: "11px", fontWeight: 600, color: "var(--text-muted)" }}>
+                      <span style={{ fontSize: "11px", fontWeight: 600, color: "var(--accent-orange)" }}>
                         {tierEmps.length} people
                       </span>
                     </div>
@@ -721,8 +722,8 @@ export const OrgHierarchyView: React.FC<OrgHierarchyViewProps> = ({
                             style={{
                               padding: "6px 8px",
                               borderRadius: "6px",
-                              border: isSelected ? "1px solid #2563eb" : "1px solid var(--border-subtle)",
-                              background: isSelected ? "#eff6ff" : "#ffffff",
+                              border: isSelected ? "1px solid var(--accent-orange)" : "1px solid var(--border-subtle)",
+                              background: isSelected ? "var(--accent-orange-subtle)" : "var(--bg-secondary)",
                               cursor: "pointer",
                               fontSize: "11px",
                             }}

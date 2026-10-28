@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import {
   Search,
-  Building2,
   Check,
   ChevronDown,
   X,
   RotateCcw,
 } from "lucide-react";
 import { CompanySummary } from "../types";
+import { FirmableLogo } from "./FirmableLogo";
 
 interface CompanySearchBarProps {
   companies: CompanySummary[];
@@ -102,7 +102,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
   return (
     <div
       style={{
-        background: "#ffffff",
+        background: "var(--bg-secondary)",
         borderBottom: "1px solid var(--border-subtle)",
         padding: "10px 24px",
       }}
@@ -124,12 +124,12 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
               style={{
                 display: "flex",
                 alignItems: "center",
-                background: "#ffffff",
-                border: isOpen ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
+                background: "var(--bg-card)",
+                border: isOpen ? "1px solid var(--accent-orange)" : "1px solid var(--border-medium)",
                 borderRadius: "8px",
                 padding: "0 10px",
                 height: "36px",
-                boxShadow: isOpen ? "0 0 0 3px rgba(37, 99, 235, 0.12)" : "0 1px 2px 0 rgba(0,0,0,0.04)",
+                boxShadow: isOpen ? "0 0 0 3px rgba(255, 90, 31, 0.15)" : "0 1px 2px 0 rgba(16, 24, 40, 0.05)",
                 transition: "all 0.15s ease",
               }}
             >
@@ -226,7 +226,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                     Showing {filteredCompanies.length} of {companies.length} companies
                   </span>
                   {selectedCategory !== "All" && (
-                    <span style={{ color: "var(--accent-blue)" }}>Category: {selectedCategory}</span>
+                    <span style={{ color: "var(--accent-orange)" }}>Category: {selectedCategory}</span>
                   )}
                 </div>
 
@@ -253,13 +253,13 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "space-between",
-                            background: isSelected ? "var(--accent-blue-subtle)" : "transparent",
-                            border: isSelected ? "1px solid #bfdbfe" : "1px solid transparent",
+                            background: isSelected ? "var(--accent-orange-subtle)" : "transparent",
+                            border: isSelected ? "1px solid var(--accent-orange-border)" : "1px solid transparent",
                             marginBottom: "2px",
                             transition: "background 0.12s ease",
                           }}
                           onMouseEnter={(e) => {
-                            if (!isSelected) e.currentTarget.style.background = "var(--bg-muted)";
+                            if (!isSelected) e.currentTarget.style.background = "var(--bg-card-hover)";
                           }}
                           onMouseLeave={(e) => {
                             if (!isSelected) e.currentTarget.style.background = "transparent";
@@ -271,8 +271,8 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                                 width: "32px",
                                 height: "32px",
                                 borderRadius: "6px",
-                                background: isSelected ? "#dbeafe" : "#f1f5f9",
-                                color: isSelected ? "var(--accent-blue)" : "var(--text-secondary)",
+                                background: isSelected ? "var(--accent-orange-subtle)" : "var(--accent-purple-subtle)",
+                                color: isSelected ? "var(--accent-orange)" : "var(--accent-purple)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -313,12 +313,12 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                               style={{
                                 fontSize: "11px",
                                 fontWeight: 600,
-                                color: c.precision >= 0.8 ? "var(--accent-emerald)" : "var(--accent-blue)",
+                                color: c.precision >= 0.8 ? "var(--accent-emerald)" : "var(--accent-orange)",
                               }}
                             >
                               {(c.precision * 100).toFixed(0)}% acc
                             </span>
-                            {isSelected && <Check size={16} color="var(--accent-blue)" />}
+                            {isSelected && <Check size={16} color="var(--accent-orange)" />}
                           </div>
                         </div>
                       );
@@ -340,11 +340,11 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
               style={{
                 height: "36px",
                 padding: "0 10px",
-                background: "#ffffff",
-                border: selectedCategory !== "All" ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
+                background: "var(--bg-card)",
+                border: selectedCategory !== "All" ? "1px solid var(--accent-orange)" : "1px solid var(--border-medium)",
                 borderRadius: "8px",
                 fontSize: "12px",
-                color: selectedCategory !== "All" ? "var(--accent-blue)" : "var(--text-primary)",
+                color: selectedCategory !== "All" ? "var(--accent-orange)" : "var(--text-primary)",
                 fontWeight: selectedCategory !== "All" ? 600 : 500,
                 outline: "none",
                 cursor: "pointer",
@@ -372,11 +372,11 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                 style={{
                   height: "36px",
                   padding: "0 8px",
-                  background: "#ffffff",
-                  border: selectedSize !== "All" ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
+                  background: "var(--bg-card)",
+                  border: selectedSize !== "All" ? "1px solid var(--accent-purple)" : "1px solid var(--border-medium)",
                   borderRadius: "8px",
                   fontSize: "12px",
-                  color: selectedSize !== "All" ? "var(--accent-blue)" : "var(--text-primary)",
+                  color: selectedSize !== "All" ? "var(--accent-purple)" : "var(--text-primary)",
                   fontWeight: selectedSize !== "All" ? 600 : 500,
                   outline: "none",
                   cursor: "pointer",
@@ -422,15 +422,27 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
               style={{
                 display: "flex",
                 alignItems: "center",
-                gap: "6px",
+                gap: "8px",
                 fontSize: "12px",
                 color: "var(--text-secondary)",
-                background: "#f1f5f9",
+                background: "var(--bg-card)",
+                border: "1px solid var(--border-subtle)",
                 padding: "4px 10px",
                 borderRadius: "6px",
               }}
             >
-              <Building2 size={13} color="var(--accent-blue)" />
+              <div
+                style={{
+                  background: "var(--accent-orange-subtle)",
+                  padding: "2px 4px",
+                  borderRadius: "4px",
+                  display: "flex",
+                  alignItems: "center",
+                  border: "1px solid var(--accent-orange-border)",
+                }}
+              >
+                <FirmableLogo height={14} showWordmark={false} />
+              </div>
               <strong style={{ color: "var(--text-primary)" }}>{selectedCompany.name}</strong>
               <span style={{ color: "var(--text-muted)" }}>• {selectedCompany.sub_sector}</span>
             </div>

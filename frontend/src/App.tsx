@@ -150,8 +150,8 @@ export const App: React.FC = () => {
             width: "40px",
             height: "40px",
             borderRadius: "50%",
-            border: "3px solid #e2e8f0",
-            borderTopColor: "var(--accent-blue)",
+            border: "3px solid var(--border-subtle)",
+            borderTopColor: "var(--accent-orange)",
             animation: "spin 0.8s linear infinite",
           }}
         />
@@ -163,7 +163,7 @@ export const App: React.FC = () => {
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", background: "#f8fafc" }}>
+    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", background: "var(--bg-primary)" }}>
       {/* 1. Sleek Top Navbar */}
       <Navbar
         compareWithGroundTruth={compareWithGroundTruth}
@@ -196,18 +196,18 @@ export const App: React.FC = () => {
         <div
           style={{
             padding: "8px 24px",
-            background: "#eff6ff",
-            borderBottom: "1px solid #bfdbfe",
+            background: "var(--accent-orange-subtle)",
+            borderBottom: "1px solid var(--accent-orange-border)",
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
             fontSize: "12px",
-            color: "#1e40af",
+            color: "var(--accent-orange)",
             flexShrink: 0,
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-            <Sparkles size={14} color="var(--accent-blue)" />
+            <Sparkles size={14} color="var(--accent-orange)" />
             <span>{bannerMessage}</span>
           </div>
           <button

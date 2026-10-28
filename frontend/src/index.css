@@ -1,63 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  /* Professional Enterprise SaaS Palette (Slate & Royal Blue) */
-  --bg-primary: #f8fafc;
-  --bg-secondary: #ffffff;
-  --bg-card: #ffffff;
-  --bg-card-hover: #f8fafc;
-  --bg-elevated: #ffffff;
-  --bg-muted: #f1f5f9;
-  
-  --border-subtle: #e2e8f0;
-  --border-medium: #cbd5e1;
-  --border-strong: #94a3b8;
-  --border-accent: #2563eb;
+  /* Firmable Enterprise Design System: Crisp Light Canvas with Electric Orange & Tech Violet */
+  --bg-primary: #f8fafc;        /* Clean, warm canvas base */
+  --bg-secondary: #ffffff;      /* Pure white topbars, headers, cards */
+  --bg-card: #ffffff;           /* Crisp card background */
+  --bg-card-hover: #f9fafb;     /* Interactive card hover */
+  --bg-elevated: #ffffff;       /* Popups, dropdowns, and modals */
+  --bg-muted: #f4f5f7;          /* Recessed table headers and containers */
 
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #64748b;
-  --text-dim: #94a3b8;
+  --border-subtle: #eaecf0;     /* Delicate border */
+  --border-medium: #d0d5dd;     /* Input & interactive border */
+  --border-strong: #98a2b3;     /* Emphasized border */
+  --border-accent: #ff5a1f;     /* Firmable Orange border */
 
-  --accent-cyan: #2563eb;
-  --accent-blue: #2563eb;
-  --accent-blue-hover: #1d4ed8;
-  --accent-blue-subtle: #eff6ff;
-  --accent-purple: #7c3aed;
-  --accent-emerald: #059669;
-  --accent-amber: #d97706;
-  --accent-rose: #e11d48;
+  --text-primary: #101828;      /* Deep rich charcoal text */
+  --text-secondary: #344054;    /* Slate body text */
+  --text-muted: #667085;        /* Captions and metadata */
+  --text-dim: #98a2b3;          /* Placeholder & subtle text */
 
-  /* Refined, accessible seniority badges */
-  --badge-l0-bg: #fef3c7;
-  --badge-l0-text: #92400e;
-  --badge-l0-border: #fde68a;
+  /* Firmable Official Brand Orange */
+  --accent-orange: #ff5a1f;
+  --accent-orange-hover: #e04816;
+  --accent-orange-subtle: #fff4ed;
+  --accent-orange-border: #ffd6ae;
 
-  --badge-l1-bg: #ede9fe;
-  --badge-l1-text: #5b21b6;
-  --badge-l1-border: #ddd6fe;
+  /* Firmable Tech Violet / Purple */
+  --accent-purple: #6938ef;
+  --accent-purple-hover: #53389e;
+  --accent-purple-subtle: #f4ebff;
+  --accent-purple-border: #d6bbfb;
 
-  --badge-l2-bg: #e0e7ff;
-  --badge-l2-text: #3730a3;
-  --badge-l2-border: #c7d2fe;
+  /* Legacy mappings */
+  --accent-blue: #ff5a1f;
+  --accent-blue-hover: #e04816;
+  --accent-blue-subtle: #fff4ed;
+  --accent-cyan: #ff7630;
 
-  --badge-l3-bg: #e0f2fe;
-  --badge-l3-text: #075985;
-  --badge-l3-border: #bae6fd;
+  --accent-emerald: #079455;
+  --accent-emerald-subtle: #ecfdf3;
+  --accent-emerald-border: #a6f4c5;
 
-  --badge-l4-bg: #ecfdf5;
-  --badge-l4-text: #065f46;
-  --badge-l4-border: #a7f3d0;
+  --accent-amber: #dc6803;
+  --accent-amber-subtle: #fffaeb;
+  --accent-amber-border: #fedf89;
 
-  --badge-l5-bg: #ffedd5;
-  --badge-l5-text: #9a3412;
-  --badge-l5-border: #fed7aa;
+  --accent-rose: #d92d20;
+  --accent-rose-subtle: #fef3f2;
+  --accent-rose-border: #fecdca;
 
-  --badge-l6-bg: #f1f5f9;
-  --badge-l6-text: #334155;
-  --badge-l6-border: #cbd5e1;
+  /* Seniority level badges styled in harmonious Orange & Purple enterprise palette */
+  --badge-l0-bg: #fff4ed;
+  --badge-l0-text: #b93815;
+  --badge-l0-border: #ffd6ae;
 
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --badge-l1-bg: #f4ebff;
+  --badge-l1-text: #53389e;
+  --badge-l1-border: #d6bbfb;
+
+  --badge-l2-bg: #eff8ff;
+  --badge-l2-text: #175cd3;
+  --badge-l2-border: #b2ddff;
+
+  --badge-l3-bg: #fdf2fa;
+  --badge-l3-text: #c11574;
+  --badge-l3-border: #fce7f6;
+
+  --badge-l4-bg: #ecfdf3;
+  --badge-l4-text: #027a48;
+  --badge-l4-border: #a6f4c5;
+
+  --badge-l5-bg: #fffaeb;
+  --badge-l5-text: #b54708;
+  --badge-l5-border: #fedf89;
+
+  --badge-l6-bg: #f8f9fa;
+  --badge-l6-text: #344054;
+  --badge-l6-border: #eaecf0;
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color-scheme: light;
 }
 
@@ -79,68 +100,68 @@ body {
 
 /* Surfaces */
 .glass {
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-subtle);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04);
 }
 
 .glass-dropdown {
-  background: #ffffff;
-  border: 1px solid var(--border-subtle);
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-medium);
+  box-shadow: 0 12px 32px -4px rgba(16, 24, 40, 0.12), 0 4px 12px -2px rgba(16, 24, 40, 0.06);
 }
 
 /* Scrollbars */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #94a3b8 #f1f5f9;
+  scrollbar-color: #d0d5dd #f4f5f7;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #f4f5f7;
 }
 ::-webkit-scrollbar-thumb {
-  background: #94a3b8;
+  background: #d0d5dd;
   border-radius: 4px;
-  border: 2px solid #f1f5f9;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #64748b;
+  background: var(--accent-orange);
 }
 
 /* Connector line styles */
 .edge-matrix {
-  stroke-dasharray: 5 4;
+  stroke-dasharray: 4 4;
 }
 
 /* Buttons */
 .btn-primary {
-  background: var(--accent-blue);
+  background: var(--accent-orange);
   color: #ffffff;
   font-weight: 600;
   padding: 7px 14px;
   border-radius: 8px;
-  border: 1px solid var(--accent-blue-hover);
+  border: 1px solid var(--accent-orange);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: 13px;
   transition: all 0.15s ease;
-  box-shadow: 0 1px 2px 0 rgba(37, 99, 235, 0.2);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
 }
 
 .btn-primary:hover {
-  background: var(--accent-blue-hover);
-  box-shadow: 0 2px 4px 0 rgba(37, 99, 235, 0.3);
+  background: var(--accent-orange-hover);
+  border-color: var(--accent-orange-hover);
+  box-shadow: 0 3px 8px rgba(255, 90, 31, 0.25);
 }
 
 .btn-secondary {
-  background: #ffffff;
+  background: var(--bg-card);
   color: var(--text-primary);
   font-weight: 500;
   padding: 7px 12px;
@@ -152,16 +173,17 @@ body {
   gap: 8px;
   font-size: 13px;
   transition: all 0.15s ease;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
 }
 
 .btn-secondary:hover {
-  background: #f8fafc;
+  background: var(--bg-card-hover);
   border-color: var(--border-strong);
+  color: var(--text-primary);
 }
 
 .btn-chip {
-  background: #ffffff;
+  background: var(--bg-card);
   color: var(--text-secondary);
   font-size: 12px;
   font-weight: 500;
@@ -176,15 +198,15 @@ body {
 }
 
 .btn-chip:hover {
-  background: #f8fafc;
+  background: var(--bg-card-hover);
   color: var(--text-primary);
   border-color: var(--border-medium);
 }
 
 .btn-chip.active {
-  background: var(--accent-blue-subtle);
-  color: var(--accent-blue);
-  border-color: #bfdbfe;
+  background: var(--accent-orange-subtle);
+  color: #b93815;
+  border-color: var(--accent-orange-border);
   font-weight: 600;
 }
 
@@ -210,14 +232,14 @@ body {
 
 /* Confidences */
 .conf-high { color: var(--accent-emerald); }
-.conf-med { color: var(--accent-blue); }
+.conf-med { color: var(--accent-orange); }
 .conf-low { color: var(--accent-amber); }
 
 /* Modal overlay */
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(15, 23, 42, 0.45);
+  background: rgba(16, 24, 40, 0.55);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
@@ -227,12 +249,12 @@ body {
 }
 
 .modal-content {
-  background: #ffffff;
+  background: var(--bg-elevated);
   border: 1px solid var(--border-subtle);
   border-radius: 12px;
   width: 100%;
   max-width: 900px;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.15), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 20px 40px -8px rgba(16, 24, 40, 0.16);
 }

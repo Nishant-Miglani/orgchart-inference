@@ -10,6 +10,7 @@ import {
   BarChart2,
 } from "lucide-react";
 import { Company } from "../types";
+import { FirmableLogo } from "./FirmableLogo";
 
 export type CompanyDetailTab = "chart" | "directory" | "sales" | "analytics";
 
@@ -29,7 +30,7 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
   return (
     <div
       style={{
-        background: "#ffffff",
+        background: "var(--bg-secondary)",
         borderBottom: "1px solid var(--border-subtle)",
         padding: "16px 24px 0 24px",
       }}
@@ -45,25 +46,23 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           marginBottom: "16px",
         }}
       >
-        {/* Left: Avatar + Title + Badges */}
+        {/* Left: Company Image / Logo + Title + Badges */}
         <div style={{ display: "flex", alignItems: "flex-start", gap: "14px" }}>
           <div
             style={{
-              width: "48px",
               height: "48px",
+              padding: "0 14px",
               borderRadius: "10px",
-              background: "#eff6ff",
-              border: "1px solid #bfdbfe",
+              background: "#ffffff",
+              border: "1px solid var(--border-subtle)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              color: "var(--accent-blue)",
-              fontWeight: 800,
-              fontSize: "18px",
               flexShrink: 0,
+              boxShadow: "0 1px 3px rgba(16, 24, 40, 0.08)",
             }}
           >
-            {company.name.slice(0, 2).toUpperCase()}
+            <FirmableLogo height={24} />
           </div>
 
           <div>
@@ -84,11 +83,11 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
                 style={{
                   fontSize: "11px",
                   fontWeight: 600,
-                  color: "#3730a3",
-                  background: "#e0e7ff",
+                  color: "var(--accent-purple)",
+                  background: "var(--accent-purple-subtle)",
                   padding: "2px 8px",
                   borderRadius: "6px",
-                  border: "1px solid #c7d2fe",
+                  border: "1px solid var(--accent-purple-border)",
                 }}
               >
                 {company.sub_sector}
@@ -100,7 +99,7 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
                   fontSize: "11px",
                   fontWeight: 500,
                   color: "var(--text-secondary)",
-                  background: "#f1f5f9",
+                  background: "var(--bg-card)",
                   padding: "2px 8px",
                   borderRadius: "6px",
                   border: "1px solid var(--border-subtle)",
@@ -140,7 +139,7 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
                     display: "flex",
                     alignItems: "center",
                     gap: "4px",
-                    color: precision >= 0.8 ? "var(--accent-emerald)" : "var(--accent-blue)",
+                    color: precision >= 0.8 ? "var(--accent-emerald)" : "var(--accent-orange)",
                     fontWeight: 600,
                   }}
                 >
@@ -157,7 +156,7 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           <div
             style={{
               padding: "6px 12px",
-              background: "#f8fafc",
+              background: "var(--bg-card)",
               border: "1px solid var(--border-subtle)",
               borderRadius: "6px",
               textAlign: "center",
@@ -171,14 +170,14 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           <div
             style={{
               padding: "6px 12px",
-              background: "#f8fafc",
+              background: "var(--bg-card)",
               border: "1px solid var(--border-subtle)",
               borderRadius: "6px",
               textAlign: "center",
             }}
           >
             <div style={{ fontSize: "10px", color: "var(--text-muted)", fontWeight: 600 }}>MATRIX LINKS</div>
-            <div style={{ fontSize: "14px", fontWeight: 700, color: "#7c3aed" }}>
+            <div style={{ fontSize: "14px", fontWeight: 700, color: "var(--accent-purple)" }}>
               {company.inferred_edges.filter((e) => e.edge_type === "matrix").length}
             </div>
           </div>
@@ -199,11 +198,11 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           style={{
             background: "transparent",
             border: "none",
-            borderBottom: activeTab === "chart" ? "2px solid var(--accent-blue)" : "2px solid transparent",
+            borderBottom: activeTab === "chart" ? "2px solid var(--accent-orange)" : "2px solid transparent",
             padding: "10px 4px",
             fontSize: "13px",
             fontWeight: activeTab === "chart" ? 700 : 500,
-            color: activeTab === "chart" ? "var(--accent-blue)" : "var(--text-secondary)",
+            color: activeTab === "chart" ? "var(--accent-orange)" : "var(--text-secondary)",
             cursor: "pointer",
             display: "inline-flex",
             alignItems: "center",
@@ -220,11 +219,11 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           style={{
             background: "transparent",
             border: "none",
-            borderBottom: activeTab === "directory" ? "2px solid var(--accent-blue)" : "2px solid transparent",
+            borderBottom: activeTab === "directory" ? "2px solid var(--accent-orange)" : "2px solid transparent",
             padding: "10px 4px",
             fontSize: "13px",
             fontWeight: activeTab === "directory" ? 700 : 500,
-            color: activeTab === "directory" ? "var(--accent-blue)" : "var(--text-secondary)",
+            color: activeTab === "directory" ? "var(--accent-orange)" : "var(--text-secondary)",
             cursor: "pointer",
             display: "inline-flex",
             alignItems: "center",
@@ -241,11 +240,11 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           style={{
             background: "transparent",
             border: "none",
-            borderBottom: activeTab === "sales" ? "2px solid var(--accent-blue)" : "2px solid transparent",
+            borderBottom: activeTab === "sales" ? "2px solid var(--accent-orange)" : "2px solid transparent",
             padding: "10px 4px",
             fontSize: "13px",
             fontWeight: activeTab === "sales" ? 700 : 500,
-            color: activeTab === "sales" ? "var(--accent-blue)" : "var(--text-secondary)",
+            color: activeTab === "sales" ? "var(--accent-orange)" : "var(--text-secondary)",
             cursor: "pointer",
             display: "inline-flex",
             alignItems: "center",
@@ -262,11 +261,11 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
           style={{
             background: "transparent",
             border: "none",
-            borderBottom: activeTab === "analytics" ? "2px solid var(--accent-blue)" : "2px solid transparent",
+            borderBottom: activeTab === "analytics" ? "2px solid var(--accent-orange)" : "2px solid transparent",
             padding: "10px 4px",
             fontSize: "13px",
             fontWeight: activeTab === "analytics" ? 700 : 500,
-            color: activeTab === "analytics" ? "var(--accent-blue)" : "var(--text-secondary)",
+            color: activeTab === "analytics" ? "var(--accent-orange)" : "var(--text-secondary)",
             cursor: "pointer",
             display: "inline-flex",
             alignItems: "center",

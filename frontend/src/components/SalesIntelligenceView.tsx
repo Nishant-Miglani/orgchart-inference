@@ -111,7 +111,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
         flex: 1,
         display: "flex",
         flexDirection: "column",
-        background: "#ffffff",
+        background: "var(--bg-primary)",
         overflowY: "auto",
         padding: "24px",
         gap: "24px",
@@ -120,8 +120,8 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
       {/* Introduction Banner */}
       <div
         style={{
-          background: "#eff6ff",
-          border: "1px solid #bfdbfe",
+          background: "var(--accent-orange-subtle)",
+          border: "1px solid var(--accent-orange-border)",
           borderRadius: "10px",
           padding: "16px 20px",
           display: "flex",
@@ -133,8 +133,8 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
       >
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-            <Sparkles size={16} color="var(--accent-blue)" />
-            <span style={{ fontWeight: 700, fontSize: "14px", color: "var(--accent-blue)" }}>
+            <Sparkles size={16} color="var(--accent-orange)" />
+            <span style={{ fontWeight: 700, fontSize: "14px", color: "var(--accent-orange)" }}>
               B2B Sales Deal Intelligence & Path-to-Power
             </span>
           </div>
@@ -146,7 +146,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
         <button
           onClick={onSwitchToChart}
           className="btn-secondary"
-          style={{ fontSize: "12px", background: "#ffffff" }}
+          style={{ fontSize: "12px" }}
         >
           View Full Org Chart
         </button>
@@ -159,13 +159,13 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
           style={{
             border: "1px solid var(--border-subtle)",
             borderRadius: "10px",
-            background: "#ffffff",
+            background: "var(--bg-card)",
             padding: "20px",
-            boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+            boxShadow: "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
-            <Database size={16} color="var(--accent-blue)" />
+            <Database size={16} color="var(--accent-orange)" />
             <h3 style={{ fontSize: "14px", fontWeight: 700, color: "var(--text-primary)" }}>
               1. Functional Department Leader
             </h3>
@@ -197,7 +197,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
           ) : leaderData?.leader ? (
             <div
               style={{
-                background: "#f8fafc",
+                background: "var(--bg-secondary)",
                 borderRadius: "8px",
                 border: "1px solid var(--border-subtle)",
                 padding: "16px",
@@ -205,7 +205,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
             >
               <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: "10px" }}>
                 <div>
-                  <span style={{ fontSize: "10px", fontWeight: 700, color: "var(--accent-blue)", textTransform: "uppercase" }}>
+                  <span style={{ fontSize: "10px", fontWeight: 700, color: "var(--accent-orange)", textTransform: "uppercase" }}>
                     DEPARTMENT LEADER IDENTIFIED
                   </span>
                   <div
@@ -223,11 +223,11 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
                   style={{
                     fontSize: "11px",
                     fontWeight: 600,
-                    color: "#059669",
-                    background: "#ecfdf5",
+                    color: "var(--accent-emerald)",
+                    background: "rgba(16, 185, 129, 0.12)",
                     padding: "2px 8px",
                     borderRadius: "6px",
-                    border: "1px solid #a7f3d0",
+                    border: "1px solid rgba(16, 185, 129, 0.3)",
                   }}
                 >
                   {(leaderData.confidence * 100).toFixed(0)}% Confidence
@@ -242,7 +242,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
                   gap: "8px",
                   fontSize: "11px",
                   color: "var(--text-secondary)",
-                  background: "#ffffff",
+                  background: "var(--bg-card)",
                   padding: "8px 12px",
                   borderRadius: "6px",
                   border: "1px solid var(--border-subtle)",
@@ -267,12 +267,13 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
                 <span
                   onClick={() => onSelectEmployee(leaderData.leader!)}
                   style={{
-                    background: "#ffffff",
+                    background: "var(--bg-card)",
                     border: "1px solid var(--border-medium)",
                     padding: "3px 8px",
                     borderRadius: "4px",
                     fontSize: "11px",
                     fontWeight: 600,
+                    color: "var(--text-primary)",
                     cursor: "pointer",
                   }}
                 >
@@ -284,11 +285,12 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
                     <span
                       onClick={() => onSelectEmployee(hop)}
                       style={{
-                        background: "#ffffff",
+                        background: "var(--bg-card)",
                         border: "1px solid var(--border-medium)",
                         padding: "3px 8px",
                         borderRadius: "4px",
                         fontSize: "11px",
+                        color: "var(--text-primary)",
                         cursor: "pointer",
                       }}
                     >
@@ -322,9 +324,9 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
           style={{
             border: "1px solid var(--border-subtle)",
             borderRadius: "10px",
-            background: "#ffffff",
+            background: "var(--bg-card)",
             padding: "20px",
-            boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+            boxShadow: "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
@@ -359,7 +361,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
           ) : chainData ? (
             <div
               style={{
-                background: "#f8fafc",
+                background: "var(--bg-secondary)",
                 borderRadius: "8px",
                 border: "1px solid var(--border-subtle)",
                 padding: "16px",
@@ -367,7 +369,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
             >
               {/* Target employee */}
               <div style={{ marginBottom: "10px" }}>
-                <span style={{ fontSize: "10px", fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase" }}>
+                <span style={{ fontSize: "10px", fontWeight: 700, color: "var(--accent-purple)", textTransform: "uppercase" }}>
                   RESOLVED TARGET CONTACT
                 </span>
                 <div
@@ -385,14 +387,14 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
               {chainData.economic_buyer && (
                 <div
                   style={{
-                    background: "#fffbeb",
-                    border: "1px solid #fde68a",
+                    background: "var(--accent-orange-subtle)",
+                    border: "1px solid var(--accent-orange-border)",
                     borderRadius: "6px",
                     padding: "10px 12px",
                     marginBottom: "12px",
                   }}
                 >
-                  <div style={{ display: "flex", alignItems: "center", gap: "6px", color: "#b45309", fontSize: "11px", fontWeight: 700 }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px", color: "var(--accent-orange)", fontSize: "11px", fontWeight: 700 }}>
                     <Crown size={13} />
                     ECONOMIC BUYER: {chainData.economic_buyer.name}
                   </div>
@@ -433,7 +435,7 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
       {/* Section 3: Executive Leadership Roster */}
       <div>
         <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
-          <Crown size={16} color="var(--accent-amber)" />
+          <Crown size={16} color="var(--accent-orange)" />
           <h3 style={{ fontSize: "14px", fontWeight: 700, color: "var(--text-primary)" }}>
             Executive Leadership & Signing Authorities ({executives.length})
           </h3>
@@ -448,25 +450,16 @@ export const SalesIntelligenceView: React.FC<SalesIntelligenceViewProps> = ({
                 padding: "12px",
                 borderRadius: "8px",
                 border: "1px solid var(--border-subtle)",
-                background: "#f8fafc",
+                background: "var(--bg-card)",
                 cursor: "pointer",
                 transition: "all 0.12s ease",
               }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = "#f1f5f9")}
-              onMouseLeave={(e) => (e.currentTarget.style.background = "#f8fafc")}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "var(--bg-card-hover)")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "var(--bg-card)")}
             >
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "4px" }}>
                 <span style={{ fontWeight: 700, fontSize: "13px", color: "var(--text-primary)" }}>{exec.name}</span>
-                <span
-                  style={{
-                    fontSize: "10px",
-                    fontWeight: 700,
-                    padding: "1px 6px",
-                    borderRadius: "4px",
-                    background: exec.inferred_seniority === "L0_EXEC" ? "#fef3c7" : "#ede9fe",
-                    color: exec.inferred_seniority === "L0_EXEC" ? "#92400e" : "#5b21b6",
-                  }}
-                >
+                <span className={`badge ${exec.inferred_seniority === "L0_EXEC" ? "badge-l0" : "badge-l1"}`}>
                   {exec.inferred_seniority === "L0_EXEC" ? "CEO" : "Executive"}
                 </span>
               </div>

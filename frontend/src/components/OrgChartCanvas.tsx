@@ -207,8 +207,8 @@ export const OrgChartCanvas: React.FC<OrgChartCanvasProps> = ({
         flex: 1,
         position: "relative",
         overflow: "hidden",
-        backgroundColor: "#f8fafc",
-        backgroundImage: "radial-gradient(#cbd5e1 1.2px, transparent 1.2px)",
+        backgroundColor: "var(--bg-primary)",
+        backgroundImage: "radial-gradient(#d0d5dd 1.4px, transparent 1.4px)",
         backgroundSize: "24px 24px",
         cursor: isDragging ? "grabbing" : "grab",
         userSelect: "none",
@@ -227,8 +227,9 @@ export const OrgChartCanvas: React.FC<OrgChartCanvasProps> = ({
           padding: "4px",
           borderRadius: "8px",
           zIndex: 50,
-          background: "#ffffff",
-          boxShadow: "0 2px 8px rgba(0, 0, 0, 0.08)",
+          background: "var(--bg-card)",
+          border: "1px solid var(--border-subtle)",
+          boxShadow: "0 2px 8px rgba(16, 24, 40, 0.08)",
         }}
       >
         <button
@@ -307,9 +308,9 @@ export const OrgChartCanvas: React.FC<OrgChartCanvasProps> = ({
                   fill="none"
                   stroke={
                     isHighlighted
-                      ? "#2563eb"
+                      ? "var(--accent-orange)"
                       : isMatrix
-                      ? "#7c3aed"
+                      ? "var(--accent-purple)"
                       : "#cbd5e1"
                   }
                   strokeWidth={isHighlighted ? 3 : isMatrix ? 1.75 : 1.5}

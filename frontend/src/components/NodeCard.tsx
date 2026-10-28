@@ -81,24 +81,26 @@ export const NodeCard: React.FC<NodeCardProps> = ({
         borderRadius: "10px",
         padding: "12px",
         background: isSelected
-          ? "#eff6ff"
+          ? "var(--accent-orange-subtle)"
           : isEconomicBuyer
-          ? "#fffbeb"
+          ? "rgba(249, 115, 22, 0.16)"
           : isHighlighted
-          ? "#f5f3ff"
-          : "#ffffff",
+          ? "var(--accent-purple-subtle)"
+          : "var(--bg-card)",
         border: isSelected
-          ? "2px solid #2563eb"
+          ? "2px solid var(--accent-orange)"
           : isEconomicBuyer
-          ? "2px solid #d97706"
+          ? "2px solid var(--accent-orange)"
           : isHighlighted
-          ? "2px solid #7c3aed"
+          ? "2px solid var(--accent-purple)"
           : "1px solid var(--border-subtle)",
         boxShadow: isSelected
-          ? "0 4px 12px -2px rgba(37, 99, 235, 0.25)"
+          ? "0 4px 14px -2px rgba(255, 90, 31, 0.35)"
           : isEconomicBuyer
-          ? "0 4px 12px -2px rgba(217, 119, 6, 0.25)"
-          : "0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05)",
+          ? "0 4px 14px -2px rgba(255, 90, 31, 0.35)"
+          : isHighlighted
+          ? "0 4px 14px -2px rgba(105, 56, 239, 0.35)"
+          : "0 1px 3px 0 rgba(16, 24, 40, 0.06), 0 1px 2px 0 rgba(16, 24, 40, 0.04)",
         cursor: "pointer",
         transition: "all 0.15s ease",
         position: "relative",
@@ -107,14 +109,13 @@ export const NodeCard: React.FC<NodeCardProps> = ({
       onMouseEnter={(e) => {
         if (!isSelected) {
           e.currentTarget.style.transform = "translateY(-1px)";
-          e.currentTarget.style.boxShadow = "0 4px 10px 0 rgba(0, 0, 0, 0.08)";
+          e.currentTarget.style.boxShadow = "0 6px 16px -2px rgba(16, 24, 40, 0.1)";
         }
       }}
       onMouseLeave={(e) => {
         if (!isSelected) {
           e.currentTarget.style.transform = "translateY(0)";
-          e.currentTarget.style.boxShadow =
-            "0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05)";
+          e.currentTarget.style.boxShadow = "0 1px 3px 0 rgba(16, 24, 40, 0.06), 0 1px 2px 0 rgba(16, 24, 40, 0.04)";
         }
       }}
     >
@@ -139,11 +140,11 @@ export const NodeCard: React.FC<NodeCardProps> = ({
               style={{
                 fontSize: "10px",
                 fontWeight: 600,
-                color: "#4f46e5",
-                background: "#eef2ff",
+                color: "var(--accent-purple)",
+                background: "var(--accent-purple-subtle)",
                 padding: "1px 5px",
                 borderRadius: "4px",
-                border: "1px solid #c7d2fe",
+                border: "1px solid var(--accent-purple-border)",
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "2px",
@@ -158,17 +159,17 @@ export const NodeCard: React.FC<NodeCardProps> = ({
           {compareWithGroundTruth && gtStatus && (
             <>
               {gtStatus === "correct" && (
-                <span title="Matches Ground Truth reporting edge" style={{ color: "#059669" }}>
+                <span title="Matches Ground Truth reporting edge" style={{ color: "var(--accent-emerald)" }}>
                   <CheckCircle2 size={15} />
                 </span>
               )}
               {gtStatus === "wrong" && (
-                <span title="False Positive: Inferred edge differs from Ground Truth" style={{ color: "#e11d48" }}>
+                <span title="False Positive: Inferred edge differs from Ground Truth" style={{ color: "var(--accent-rose)" }}>
                   <AlertTriangle size={15} />
                 </span>
               )}
               {gtStatus === "unassigned_correct" && (
-                <span title="Safely left unassigned (Suppressed false guess)" style={{ color: "#2563eb" }}>
+                <span title="Safely left unassigned (Suppressed false guess)" style={{ color: "var(--accent-orange)" }}>
                   <ShieldCheck size={15} />
                 </span>
               )}
@@ -184,8 +185,8 @@ export const NodeCard: React.FC<NodeCardProps> = ({
             width: "28px",
             height: "28px",
             borderRadius: "6px",
-            background: isSelected ? "#bfdbfe" : "#f1f5f9",
-            color: isSelected ? "#1e40af" : "#475569",
+            background: isSelected ? "var(--accent-orange)" : "var(--accent-purple-subtle)",
+            color: isSelected ? "#ffffff" : "var(--accent-purple)",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",

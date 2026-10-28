@@ -47,7 +47,7 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
         flex: 1,
         display: "flex",
         flexDirection: "column",
-        background: "#ffffff",
+        background: "var(--bg-primary)",
         overflowY: "auto",
         padding: "24px",
         gap: "24px",
@@ -55,7 +55,7 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
     >
       {/* KPI Cards */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
-        <div style={{ padding: "16px", background: "#ecfdf5", border: "1px solid #a7f3d0", borderRadius: "8px" }}>
+        <div style={{ padding: "16px", background: "var(--accent-emerald-subtle)", border: "1px solid var(--accent-emerald-border)", borderRadius: "8px" }}>
           <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-emerald)" }}>PRECISION SCORE</div>
           <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--accent-emerald)", marginTop: "2px" }}>
             {summary ? `${(summary.precision * 100).toFixed(1)}%` : "N/A"}
@@ -65,9 +65,9 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
           </div>
         </div>
 
-        <div style={{ padding: "16px", background: "#eff6ff", border: "1px solid #bfdbfe", borderRadius: "8px" }}>
-          <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-blue)" }}>RECALL SCORE</div>
-          <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--accent-blue)", marginTop: "2px" }}>
+        <div style={{ padding: "16px", background: "var(--accent-orange-subtle)", border: "1px solid var(--accent-orange-border)", borderRadius: "8px" }}>
+          <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-orange)" }}>RECALL SCORE</div>
+          <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--accent-orange)", marginTop: "2px" }}>
             {summary ? `${(summary.recall * 100).toFixed(1)}%` : "N/A"}
           </div>
           <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "2px" }}>
@@ -75,7 +75,7 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
           </div>
         </div>
 
-        <div style={{ padding: "16px", background: "#f8fafc", border: "1px solid var(--border-subtle)", borderRadius: "8px" }}>
+        <div style={{ padding: "16px", background: "var(--bg-card)", border: "1px solid var(--border-subtle)", borderRadius: "8px" }}>
           <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--text-secondary)" }}>TOTAL EMPLOYEES</div>
           <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--text-primary)", marginTop: "2px" }}>
             {totalEmployees}
@@ -85,7 +85,7 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
           </div>
         </div>
 
-        <div style={{ padding: "16px", background: "#fffbeb", border: "1px solid #fde68a", borderRadius: "8px" }}>
+        <div style={{ padding: "16px", background: "var(--accent-amber-subtle)", border: "1px solid var(--accent-amber-border)", borderRadius: "8px" }}>
           <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-amber)" }}>UNASSIGNED NODES</div>
           <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--accent-amber)", marginTop: "2px" }}>
             {summary ? summary.unassigned_count : 0}
@@ -103,13 +103,13 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
           style={{
             border: "1px solid var(--border-subtle)",
             borderRadius: "8px",
-            background: "#ffffff",
+            background: "var(--bg-card)",
             padding: "20px",
-            boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+            boxShadow: "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "16px" }}>
-            <Users size={16} color="var(--accent-blue)" />
+            <Users size={16} color="var(--accent-orange)" />
             <h3 style={{ fontSize: "14px", fontWeight: 700, color: "var(--text-primary)" }}>
               Headcount Distribution by Department
             </h3>
@@ -126,12 +126,12 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
                       {count} ({pct}%)
                     </span>
                   </div>
-                  <div style={{ height: "6px", background: "#f1f5f9", borderRadius: "3px", overflow: "hidden" }}>
+                  <div style={{ height: "6px", background: "var(--bg-muted)", borderRadius: "3px", overflow: "hidden" }}>
                     <div
                       style={{
                         height: "100%",
                         width: `${pct}%`,
-                        background: "var(--accent-blue)",
+                        background: "linear-gradient(90deg, var(--accent-orange), var(--accent-purple))",
                         borderRadius: "3px",
                       }}
                     />
@@ -147,9 +147,9 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
           style={{
             border: "1px solid var(--border-subtle)",
             borderRadius: "8px",
-            background: "#ffffff",
+            background: "var(--bg-card)",
             padding: "20px",
-            boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+            boxShadow: "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "16px" }}>
@@ -170,7 +170,7 @@ export const CompanyAnalyticsView: React.FC<CompanyAnalyticsViewProps> = ({ comp
                       {s.count} ({pct}%)
                     </span>
                   </div>
-                  <div style={{ height: "6px", background: "#f1f5f9", borderRadius: "3px", overflow: "hidden" }}>
+                  <div style={{ height: "6px", background: "var(--bg-muted)", borderRadius: "3px", overflow: "hidden" }}>
                     <div
                       style={{
                         height: "100%",

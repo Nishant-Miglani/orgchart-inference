@@ -64,9 +64,9 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
         right: 0,
         width: "380px",
         height: "100%",
-        background: "#ffffff",
+        background: "var(--bg-elevated)",
         borderLeft: "1px solid var(--border-subtle)",
-        boxShadow: "-8px 0 24px rgba(15, 23, 42, 0.08)",
+        boxShadow: "-8px 0 24px rgba(16, 24, 40, 0.08)",
         zIndex: 90,
         display: "flex",
         flexDirection: "column",
@@ -82,7 +82,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
-          background: "#ffffff",
+          background: "var(--bg-secondary)",
         }}
       >
         <div>
@@ -91,7 +91,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
               fontSize: "11px",
               fontWeight: 700,
               textTransform: "uppercase",
-              color: "var(--accent-blue)",
+              color: "var(--accent-orange)",
               letterSpacing: "0.05em",
             }}
           >
@@ -120,7 +120,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
           <div
             style={{
-              background: "#f8fafc",
+              background: "var(--bg-card)",
               padding: "10px",
               borderRadius: "8px",
               border: "1px solid var(--border-subtle)",
@@ -133,7 +133,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
           </div>
           <div
             style={{
-              background: "#f8fafc",
+              background: "var(--bg-card)",
               padding: "10px",
               borderRadius: "8px",
               border: "1px solid var(--border-subtle)",
@@ -149,8 +149,8 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
         {/* Primary Reporting Line & Confidence Rationale */}
         <div
           style={{
-            background: "#eff6ff",
-            border: "1px solid #bfdbfe",
+            background: "var(--bg-card)",
+            border: "1px solid var(--border-subtle)",
             borderRadius: "8px",
             padding: "12px",
           }}
@@ -163,7 +163,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
               marginBottom: "8px",
             }}
           >
-            <span style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-blue)" }}>
+            <span style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-orange)" }}>
               PRIMARY REPORTING LINE
             </span>
             {employee.manager_confidence !== undefined && employee.manager_confidence !== null && (
@@ -171,9 +171,9 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
                 style={{
                   fontSize: "11px",
                   fontWeight: 600,
-                  color: "#059669",
-                  background: "#ecfdf5",
-                  border: "1px solid #a7f3d0",
+                  color: "var(--accent-emerald)",
+                  background: "rgba(16, 185, 129, 0.12)",
+                  border: "1px solid rgba(16, 185, 129, 0.3)",
                   padding: "1px 6px",
                   borderRadius: "4px",
                 }}
@@ -189,9 +189,9 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
               style={{
                 cursor: "pointer",
                 padding: "8px 10px",
-                background: "#ffffff",
+                background: "var(--bg-secondary)",
                 borderRadius: "6px",
-                border: "1px solid #dbeafe",
+                border: "1px solid var(--border-subtle)",
                 marginBottom: "6px",
               }}
             >
@@ -219,8 +219,8 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
         {matrixManager && (
           <div
             style={{
-              background: "#f5f3ff",
-              border: "1px solid #ddd6fe",
+              background: "var(--accent-purple-subtle)",
+              border: "1px solid var(--accent-purple-border)",
               borderRadius: "8px",
               padding: "12px",
             }}
@@ -237,7 +237,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
                 style={{
                   fontSize: "11px",
                   fontWeight: 700,
-                  color: "#7c3aed",
+                  color: "var(--accent-purple)",
                   display: "flex",
                   alignItems: "center",
                   gap: "4px",
@@ -249,7 +249,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
                 style={{
                   fontSize: "11px",
                   fontWeight: 600,
-                  color: "#7c3aed",
+                  color: "var(--accent-purple)",
                 }}
               >
                 {((employee.matrix_confidence || 0.85) * 100).toFixed(0)}% Conf
@@ -261,9 +261,9 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
               style={{
                 cursor: "pointer",
                 padding: "8px 10px",
-                background: "#ffffff",
+                background: "var(--bg-secondary)",
                 borderRadius: "6px",
-                border: "1px solid #ede9fe",
+                border: "1px solid var(--border-subtle)",
               }}
             >
               <div style={{ fontWeight: 600, fontSize: "12px", color: "var(--text-primary)" }}>
@@ -280,8 +280,8 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
         {economicBuyer && (
           <div
             style={{
-              background: "#fffbeb",
-              border: "1px solid #fde68a",
+              background: "var(--accent-orange-subtle)",
+              border: "1px solid var(--accent-orange-border)",
               borderRadius: "8px",
               padding: "12px",
             }}
@@ -292,7 +292,7 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
                 alignItems: "center",
                 gap: "5px",
                 marginBottom: "6px",
-                color: "#b45309",
+                color: "var(--accent-orange)",
                 fontSize: "11px",
                 fontWeight: 700,
               }}
@@ -341,13 +341,13 @@ export const NodeDrawer: React.FC<NodeDrawerProps> = ({
                   onClick={() => onSelectEmployee(dr)}
                   style={{
                     padding: "6px 8px",
-                    background: "#f8fafc",
+                    background: "var(--bg-card)",
                     borderRadius: "6px",
                     cursor: "pointer",
                     border: "1px solid var(--border-subtle)",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.background = "#f1f5f9")}
-                  onMouseLeave={(e) => (e.currentTarget.style.background = "#f8fafc")}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = "var(--bg-card-hover)")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = "var(--bg-card)")}
                 >
                   <div style={{ fontWeight: 600, fontSize: "12px", color: "var(--text-primary)" }}>
                     {dr.name}

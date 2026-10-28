@@ -97,7 +97,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
         minHeight: 0,
         display: "flex",
         flexDirection: "column",
-        background: "#ffffff",
+        background: "var(--bg-primary)",
         padding: "16px 24px",
         overflow: "hidden",
       }}
@@ -122,7 +122,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
               alignItems: "center",
               gap: "8px",
               padding: "0 10px",
-              background: "#ffffff",
+              background: "var(--bg-card)",
               border: "1px solid var(--border-medium)",
               borderRadius: "8px",
               height: "36px",
@@ -155,7 +155,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
               style={{
                 height: "36px",
                 padding: "0 8px",
-                background: "#ffffff",
+                background: "var(--bg-card)",
                 border: "1px solid var(--border-medium)",
                 borderRadius: "8px",
                 fontSize: "12px",
@@ -208,8 +208,8 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
           overflowX: "auto",
           border: "1px solid var(--border-subtle)",
           borderRadius: "8px",
-          background: "#ffffff",
-          boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+          background: "var(--bg-card)",
+          boxShadow: "0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04)",
         }}
       >
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "12px" }}>
@@ -219,18 +219,18 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
               position: "sticky",
               top: 0,
               zIndex: 10,
-              background: "#f8fafc",
+              background: "var(--bg-secondary)",
               borderBottom: "1px solid var(--border-subtle)",
             }}
           >
             <tr style={{ textAlign: "left" }}>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Employee</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Job Title</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Department</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Seniority Tier</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Direct Manager</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Confidence</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc", textAlign: "right" }}>Actions</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)" }}>Employee</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)" }}>Job Title</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)" }}>Department</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)" }}>Seniority Tier</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)" }}>Direct Manager</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)" }}>Confidence</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "var(--bg-secondary)", textAlign: "right" }}>Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -245,10 +245,10 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                   key={emp.id}
                   style={{
                     borderTop: "1px solid var(--border-subtle)",
-                    background: idx % 2 === 0 ? "#ffffff" : "#fcfcfd",
+                    background: idx % 2 === 0 ? "var(--bg-card)" : "var(--bg-secondary)",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.background = "#f1f5f9")}
-                  onMouseLeave={(e) => (e.currentTarget.style.background = idx % 2 === 0 ? "#ffffff" : "#fcfcfd")}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = "var(--bg-card-hover)")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = idx % 2 === 0 ? "var(--bg-card)" : "var(--bg-secondary)")}
                 >
                   {/* Name + Avatar */}
                   <td style={{ padding: "10px 14px" }}>
@@ -261,8 +261,8 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                           width: "28px",
                           height: "28px",
                           borderRadius: "6px",
-                          background: "#e0e7ff",
-                          color: "#3730a3",
+                          background: "var(--accent-purple-subtle)",
+                          color: "var(--accent-purple)",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -273,7 +273,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                       >
                         {emp.name.slice(0, 2).toUpperCase()}
                       </div>
-                      <span style={{ fontWeight: 600, color: "var(--accent-blue)" }}>{emp.name}</span>
+                      <span style={{ fontWeight: 600, color: "var(--text-primary)" }}>{emp.name}</span>
                     </div>
                   </td>
 

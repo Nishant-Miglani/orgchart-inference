@@ -27,7 +27,7 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            background: "#ffffff",
+            background: "var(--bg-secondary)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -36,14 +36,14 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
                 width: "36px",
                 height: "36px",
                 borderRadius: "8px",
-                background: "var(--accent-blue-subtle)",
-                border: "1px solid #bfdbfe",
+                background: "var(--accent-orange-subtle)",
+                border: "1px solid var(--accent-orange-border)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
               }}
             >
-              <Award size={20} color="var(--accent-blue)" />
+              <Award size={20} color="var(--accent-orange)" />
             </div>
             <div>
               <h2 style={{ fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
@@ -76,8 +76,8 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
           >
             <div
               style={{
-                background: "#ecfdf5",
-                border: "1px solid #a7f3d0",
+                background: "var(--accent-emerald-subtle)",
+                border: "1px solid var(--accent-emerald-border)",
                 padding: "14px",
                 borderRadius: "8px",
               }}
@@ -95,16 +95,16 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
 
             <div
               style={{
-                background: "#eff6ff",
-                border: "1px solid #bfdbfe",
+                background: "var(--accent-orange-subtle)",
+                border: "1px solid var(--accent-orange-border)",
                 padding: "14px",
                 borderRadius: "8px",
               }}
             >
-              <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-blue)" }}>
+              <div style={{ fontSize: "11px", fontWeight: 700, color: "var(--accent-orange)" }}>
                 GLOBAL RECALL
               </div>
-              <div style={{ fontSize: "26px", fontWeight: 800, color: "var(--accent-blue)", marginTop: "2px" }}>
+              <div style={{ fontSize: "26px", fontWeight: 800, color: "var(--accent-orange)", marginTop: "2px" }}>
                 {(agg.global_recall * 100).toFixed(1)}%
               </div>
               <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "2px" }}>
@@ -114,8 +114,8 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
 
             <div
               style={{
-                background: "#f5f3ff",
-                border: "1px solid #ddd6fe",
+                background: "var(--accent-purple-subtle)",
+                border: "1px solid var(--accent-purple-border)",
                 padding: "14px",
                 borderRadius: "8px",
               }}
@@ -133,8 +133,8 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
 
             <div
               style={{
-                background: "#fffbeb",
-                border: "1px solid #fde68a",
+                background: "var(--accent-amber-subtle)",
+                border: "1px solid var(--accent-amber-border)",
                 padding: "14px",
                 borderRadius: "8px",
               }}
@@ -157,7 +157,7 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
               display: "flex",
               justifyContent: "space-between",
               padding: "10px 16px",
-              background: "#f8fafc",
+              background: "var(--bg-secondary)",
               borderRadius: "8px",
               border: "1px solid var(--border-subtle)",
               fontSize: "12px",
@@ -191,11 +191,12 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
                 border: "1px solid var(--border-subtle)",
                 borderRadius: "8px",
                 overflow: "hidden",
+                background: "var(--bg-card)",
               }}
             >
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "12px" }}>
                 <thead>
-                  <tr style={{ background: "#f8fafc", textAlign: "left", borderBottom: "1px solid var(--border-subtle)" }}>
+                  <tr style={{ background: "var(--bg-secondary)", textAlign: "left", borderBottom: "1px solid var(--border-subtle)" }}>
                     <th style={{ padding: "8px 12px", color: "var(--text-secondary)", fontWeight: 600 }}>Retail Sub-Sector</th>
                     <th style={{ padding: "8px 12px", color: "var(--text-secondary)", fontWeight: 600 }}>Companies</th>
                     <th style={{ padding: "8px 12px", color: "var(--text-secondary)", fontWeight: 600 }}>Precision</th>
@@ -209,7 +210,7 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
                       key={sector}
                       style={{
                         borderTop: "1px solid var(--border-subtle)",
-                        background: idx % 2 === 0 ? "#ffffff" : "#f8fafc",
+                        background: idx % 2 === 0 ? "var(--bg-card)" : "var(--bg-secondary)",
                       }}
                     >
                       <td style={{ padding: "8px 12px", fontWeight: 600, color: "var(--text-primary)" }}>{sector}</td>
@@ -218,7 +219,7 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
                         style={{
                           padding: "8px 12px",
                           fontWeight: 700,
-                          color: stats.precision >= 0.8 ? "var(--accent-emerald)" : "var(--accent-blue)",
+                          color: stats.precision >= 0.8 ? "var(--accent-emerald)" : "var(--accent-orange)",
                         }}
                       >
                         {(stats.precision * 100).toFixed(1)}%
@@ -238,8 +239,8 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
           <div
             style={{
               padding: "12px 16px",
-              background: "#eff6ff",
-              border: "1px solid #bfdbfe",
+              background: "var(--accent-orange-subtle)",
+              border: "1px solid var(--accent-orange-border)",
               borderRadius: "8px",
               fontSize: "12px",
               lineHeight: 1.5,
@@ -252,7 +253,7 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ report, onClose 
                 alignItems: "center",
                 gap: "6px",
                 fontWeight: 700,
-                color: "var(--accent-blue)",
+                color: "var(--accent-orange)",
                 marginBottom: "4px",
               }}
             >
