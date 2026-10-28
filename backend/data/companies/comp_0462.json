@@ -5502,7 +5502,5 @@
     "department_accuracy": 0.987,
     "seniority_accuracy": 0.9805,
     "unassigned_count": 2
-  },
-  "domain": "vanguardmarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

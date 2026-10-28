@@ -7887,7 +7887,5 @@
     "department_accuracy": 0.991,
     "seniority_accuracy": 0.9774,
     "unassigned_count": 5
-  },
-  "domain": "pacificluxuryemporium.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

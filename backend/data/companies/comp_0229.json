@@ -6794,7 +6794,5 @@
     "department_accuracy": 0.9842,
     "seniority_accuracy": 0.9789,
     "unassigned_count": 2
-  },
-  "domain": "catalystsupermarkets.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

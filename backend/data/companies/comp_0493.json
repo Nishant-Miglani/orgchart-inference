@@ -5475,7 +5475,5 @@
     "department_accuracy": 0.9673,
     "seniority_accuracy": 0.9673,
     "unassigned_count": 1
-  },
-  "domain": "sierrahomegoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

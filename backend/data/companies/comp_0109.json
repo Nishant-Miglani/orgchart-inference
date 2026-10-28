@@ -4907,7 +4907,5 @@
     "department_accuracy": 0.9781,
     "seniority_accuracy": 0.9781,
     "unassigned_count": 0
-  },
-  "domain": "kestrelprovisions.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

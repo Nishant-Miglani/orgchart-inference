@@ -5128,7 +5128,5 @@
     "department_accuracy": 0.9653,
     "seniority_accuracy": 0.9514,
     "unassigned_count": 5
-  },
-  "domain": "kestrelholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

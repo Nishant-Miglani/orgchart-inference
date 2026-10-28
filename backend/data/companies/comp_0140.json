@@ -8382,7 +8382,5 @@
     "department_accuracy": 0.9829,
     "seniority_accuracy": 0.9744,
     "unassigned_count": 0
-  },
-  "domain": "heritageoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

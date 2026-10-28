@@ -5413,7 +5413,5 @@
     "department_accuracy": 0.9801,
     "seniority_accuracy": 0.9735,
     "unassigned_count": 0
-  },
-  "domain": "apexlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

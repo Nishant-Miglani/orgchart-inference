@@ -5228,7 +5228,5 @@
     "department_accuracy": 0.9595,
     "seniority_accuracy": 0.9459,
     "unassigned_count": 10
-  },
-  "domain": "harborprovisions.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

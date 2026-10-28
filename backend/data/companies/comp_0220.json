@@ -7565,7 +7565,5 @@
     "department_accuracy": 0.9814,
     "seniority_accuracy": 0.9674,
     "unassigned_count": 17
-  },
-  "domain": "equinoxdigitalgoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

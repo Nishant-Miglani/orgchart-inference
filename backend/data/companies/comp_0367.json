@@ -5483,7 +5483,5 @@
     "department_accuracy": 0.9804,
     "seniority_accuracy": 0.9739,
     "unassigned_count": 0
-  },
-  "domain": "horizonretailgroup.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

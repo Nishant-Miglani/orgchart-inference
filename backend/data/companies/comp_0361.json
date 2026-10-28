@@ -4732,7 +4732,5 @@
     "department_accuracy": 0.9773,
     "seniority_accuracy": 0.9545,
     "unassigned_count": 0
-  },
-  "domain": "zenithboutiquegroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -4697,7 +4697,5 @@
     "department_accuracy": 0.9924,
     "seniority_accuracy": 0.9847,
     "unassigned_count": 0
-  },
-  "domain": "evergreenconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

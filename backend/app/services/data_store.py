@@ -37,7 +37,6 @@ class CompanyDataStore:
     def list_companies(
         self,
         sub_sector: Optional[str] = None,
-        domain_type: Optional[str] = None,
         search_query: Optional[str] = None,
         size_category: Optional[str] = None,
         min_precision: Optional[float] = None,
@@ -50,12 +49,6 @@ class CompanyDataStore:
         if sub_sector and sub_sector.lower() != "all":
             filtered = [c for c in filtered if c.sub_sector.lower() == sub_sector.lower()]
 
-        if domain_type and domain_type.lower() != "all":
-            filtered = [
-                c for c in filtered
-                if c.domain_type and (domain_type.lower() in c.domain_type.lower())
-            ]
-
         if size_category and size_category.lower() != "all":
             filtered = [c for c in filtered if c.size_category.lower() == size_category.lower()]
 
@@ -67,7 +60,6 @@ class CompanyDataStore:
             filtered = [
                 c for c in filtered
                 if q in c.name.lower()
-                or (c.domain and q in c.domain.lower())
                 or q in c.headquarters.lower()
                 or q in c.sub_sector.lower()
             ]

@@ -6296,7 +6296,5 @@
     "department_accuracy": 0.983,
     "seniority_accuracy": 0.9773,
     "unassigned_count": 1
-  },
-  "domain": "urbanhomegoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

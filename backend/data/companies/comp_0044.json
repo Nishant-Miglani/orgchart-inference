@@ -4767,7 +4767,5 @@
     "department_accuracy": 0.985,
     "seniority_accuracy": 0.9774,
     "unassigned_count": 0
-  },
-  "domain": "cobaltconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5403,7 +5403,5 @@
     "department_accuracy": 0.9673,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 10
-  },
-  "domain": "urbanapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5308,7 +5308,5 @@
     "department_accuracy": 0.9797,
     "seniority_accuracy": 0.9662,
     "unassigned_count": 0
-  },
-  "domain": "crestviewbrands.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

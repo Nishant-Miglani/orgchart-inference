@@ -5136,7 +5136,5 @@
     "department_accuracy": 0.9583,
     "seniority_accuracy": 0.9444,
     "unassigned_count": 4
-  },
-  "domain": "summitprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

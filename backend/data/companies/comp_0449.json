@@ -4794,7 +4794,5 @@
     "department_accuracy": 0.9776,
     "seniority_accuracy": 0.9701,
     "unassigned_count": 1
-  },
-  "domain": "cobaltdigitalgoods.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

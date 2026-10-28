@@ -4522,7 +4522,5 @@
     "department_accuracy": 0.9683,
     "seniority_accuracy": 0.9683,
     "unassigned_count": 0
-  },
-  "domain": "silvergateholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

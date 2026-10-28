@@ -4592,7 +4592,5 @@
     "department_accuracy": 0.9922,
     "seniority_accuracy": 1.0,
     "unassigned_count": 0
-  },
-  "domain": "catalystholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

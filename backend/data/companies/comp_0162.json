@@ -7012,7 +7012,5 @@
     "department_accuracy": 0.9745,
     "seniority_accuracy": 0.9592,
     "unassigned_count": 1
-  },
-  "domain": "silvergatesupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

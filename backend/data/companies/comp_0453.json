@@ -6996,7 +6996,5 @@
     "department_accuracy": 0.9745,
     "seniority_accuracy": 0.9643,
     "unassigned_count": 3
-  },
-  "domain": "radiantsupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

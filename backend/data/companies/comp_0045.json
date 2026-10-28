@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.9805,
     "seniority_accuracy": 0.9675,
     "unassigned_count": 0
-  },
-  "domain": "redwoodbrands.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

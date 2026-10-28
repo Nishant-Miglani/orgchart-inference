@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9931,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 0
-  },
-  "domain": "elementgeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

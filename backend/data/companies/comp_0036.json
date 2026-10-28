@@ -5133,7 +5133,5 @@
     "department_accuracy": 0.993,
     "seniority_accuracy": 0.986,
     "unassigned_count": 0
-  },
-  "domain": "beaconbrands.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

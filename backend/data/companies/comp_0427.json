@@ -5160,7 +5160,5 @@
     "department_accuracy": 0.9583,
     "seniority_accuracy": 0.9583,
     "unassigned_count": 1
-  },
-  "domain": "metrogeneralmerchandise.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

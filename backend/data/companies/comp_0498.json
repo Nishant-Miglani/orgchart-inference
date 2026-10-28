@@ -5989,7 +5989,5 @@
     "department_accuracy": 0.988,
     "seniority_accuracy": 0.982,
     "unassigned_count": 0
-  },
-  "domain": "cobalthomegoods.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

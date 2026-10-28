@@ -4829,7 +4829,5 @@
     "department_accuracy": 0.9926,
     "seniority_accuracy": 0.9704,
     "unassigned_count": 1
-  },
-  "domain": "urbanluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

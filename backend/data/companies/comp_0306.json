@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.987,
     "seniority_accuracy": 0.9935,
     "unassigned_count": 0
-  },
-  "domain": "frontieroutfitters.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

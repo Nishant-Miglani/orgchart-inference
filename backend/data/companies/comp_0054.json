@@ -5203,7 +5203,5 @@
     "department_accuracy": 0.9862,
     "seniority_accuracy": 0.9586,
     "unassigned_count": 0
-  },
-  "domain": "urbanretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -11233,7 +11233,5 @@
     "department_accuracy": 0.9905,
     "seniority_accuracy": 0.981,
     "unassigned_count": 6
-  },
-  "domain": "beaconholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

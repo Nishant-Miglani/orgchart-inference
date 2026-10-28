@@ -7548,7 +7548,5 @@
     "department_accuracy": 0.9906,
     "seniority_accuracy": 0.9764,
     "unassigned_count": 6
-  },
-  "domain": "frontierluxuryemporium.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

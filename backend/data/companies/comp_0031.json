@@ -6915,7 +6915,5 @@
     "department_accuracy": 0.9845,
     "seniority_accuracy": 0.9741,
     "unassigned_count": 0
-  },
-  "domain": "novadepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

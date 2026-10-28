@@ -5478,7 +5478,5 @@
     "department_accuracy": 0.961,
     "seniority_accuracy": 0.9545,
     "unassigned_count": 5
-  },
-  "domain": "evergreenmarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

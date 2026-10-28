@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9801,
     "seniority_accuracy": 0.9669,
     "unassigned_count": 1
-  },
-  "domain": "oasisholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

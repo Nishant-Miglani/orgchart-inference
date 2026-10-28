@@ -9435,7 +9435,5 @@
     "department_accuracy": 0.9774,
     "seniority_accuracy": 0.966,
     "unassigned_count": 8
-  },
-  "domain": "crestviewprovisions.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

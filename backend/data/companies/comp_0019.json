@@ -7945,7 +7945,5 @@
     "department_accuracy": 0.9912,
     "seniority_accuracy": 0.978,
     "unassigned_count": 24
-  },
-  "domain": "cascadedepartmentstores.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

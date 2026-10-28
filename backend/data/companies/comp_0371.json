@@ -11995,7 +11995,5 @@
     "department_accuracy": 0.9881,
     "seniority_accuracy": 0.9792,
     "unassigned_count": 9
-  },
-  "domain": "apexluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

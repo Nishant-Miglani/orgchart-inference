@@ -4813,7 +4813,5 @@
     "department_accuracy": 0.9852,
     "seniority_accuracy": 0.9556,
     "unassigned_count": 3
-  },
-  "domain": "catalystapparelco.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

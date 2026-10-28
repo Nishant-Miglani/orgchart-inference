@@ -12275,7 +12275,5 @@
     "department_accuracy": 0.9913,
     "seniority_accuracy": 0.9826,
     "unassigned_count": 11
-  },
-  "domain": "avenuesupplyco.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

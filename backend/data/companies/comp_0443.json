@@ -4759,7 +4759,5 @@
     "department_accuracy": 0.9624,
     "seniority_accuracy": 0.9624,
     "unassigned_count": 1
-  },
-  "domain": "pinnaclegeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

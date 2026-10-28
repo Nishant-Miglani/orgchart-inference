@@ -7020,7 +7020,5 @@
     "department_accuracy": 0.9898,
     "seniority_accuracy": 0.9847,
     "unassigned_count": 0
-  },
-  "domain": "redwooddepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

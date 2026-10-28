@@ -11971,7 +11971,5 @@
     "department_accuracy": 0.997,
     "seniority_accuracy": 0.9881,
     "unassigned_count": 12
-  },
-  "domain": "pinnacleluxuryemporium.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

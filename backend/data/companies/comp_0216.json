@@ -12083,7 +12083,5 @@
     "department_accuracy": 0.9884,
     "seniority_accuracy": 0.971,
     "unassigned_count": 35
-  },
-  "domain": "starlightdirectstores.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

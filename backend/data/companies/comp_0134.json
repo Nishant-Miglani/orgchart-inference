@@ -5459,7 +5459,5 @@
     "department_accuracy": 0.9673,
     "seniority_accuracy": 0.9477,
     "unassigned_count": 3
-  },
-  "domain": "timberlineapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

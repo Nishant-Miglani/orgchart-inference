@@ -5357,7 +5357,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9603,
     "unassigned_count": 7
-  },
-  "domain": "frontiergeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

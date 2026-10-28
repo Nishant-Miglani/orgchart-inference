@@ -5483,7 +5483,5 @@
     "department_accuracy": 0.9869,
     "seniority_accuracy": 0.9739,
     "unassigned_count": 0
-  },
-  "domain": "timberlineomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

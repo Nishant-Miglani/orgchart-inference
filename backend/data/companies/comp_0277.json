@@ -10501,7 +10501,5 @@
     "department_accuracy": 0.9864,
     "seniority_accuracy": 0.9763,
     "unassigned_count": 8
-  },
-  "domain": "primedigitalgoods.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

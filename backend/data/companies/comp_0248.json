@@ -12466,7 +12466,5 @@
     "department_accuracy": 0.9886,
     "seniority_accuracy": 0.98,
     "unassigned_count": 9
-  },
-  "domain": "vanguardluxuryemporium.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

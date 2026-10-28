@@ -11201,7 +11201,5 @@
     "department_accuracy": 0.9841,
     "seniority_accuracy": 0.9746,
     "unassigned_count": 10
-  },
-  "domain": "zenithprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

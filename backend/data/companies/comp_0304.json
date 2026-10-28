@@ -4592,7 +4592,5 @@
     "department_accuracy": 0.9688,
     "seniority_accuracy": 0.9766,
     "unassigned_count": 0
-  },
-  "domain": "harborlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

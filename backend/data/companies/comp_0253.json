@@ -5308,7 +5308,5 @@
     "department_accuracy": 0.9865,
     "seniority_accuracy": 0.973,
     "unassigned_count": 0
-  },
-  "domain": "elementsupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

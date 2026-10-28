@@ -5470,7 +5470,5 @@
     "department_accuracy": 1.0,
     "seniority_accuracy": 0.9675,
     "unassigned_count": 6
-  },
-  "domain": "urbanprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

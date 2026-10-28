@@ -8786,7 +8786,5 @@
     "department_accuracy": 0.9878,
     "seniority_accuracy": 0.9756,
     "unassigned_count": 4
-  },
-  "domain": "velocityapparelco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

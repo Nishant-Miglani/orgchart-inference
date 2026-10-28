@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9792,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 0
-  },
-  "domain": "urbansupplyco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

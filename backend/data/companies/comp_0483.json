@@ -8097,7 +8097,5 @@
     "department_accuracy": 0.9956,
     "seniority_accuracy": 0.9868,
     "unassigned_count": 5
-  },
-  "domain": "redwoodlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

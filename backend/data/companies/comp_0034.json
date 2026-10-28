@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.987,
     "seniority_accuracy": 0.9545,
     "unassigned_count": 0
-  },
-  "domain": "blueskyomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

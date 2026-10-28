@@ -4592,7 +4592,5 @@
     "department_accuracy": 0.9844,
     "seniority_accuracy": 0.9609,
     "unassigned_count": 0
-  },
-  "domain": "vanguardconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

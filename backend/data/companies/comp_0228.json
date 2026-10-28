@@ -5419,7 +5419,5 @@
     "department_accuracy": 0.9804,
     "seniority_accuracy": 0.9673,
     "unassigned_count": 8
-  },
-  "domain": "beaconsupplyco.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

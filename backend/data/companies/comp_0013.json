@@ -4662,7 +4662,5 @@
     "department_accuracy": 0.9692,
     "seniority_accuracy": 0.9615,
     "unassigned_count": 0
-  },
-  "domain": "meridianluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

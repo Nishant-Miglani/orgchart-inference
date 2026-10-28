@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9603,
     "seniority_accuracy": 0.9404,
     "unassigned_count": 1
-  },
-  "domain": "silvergateomnichannelstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

@@ -4802,7 +4802,5 @@
     "department_accuracy": 0.9851,
     "seniority_accuracy": 0.9776,
     "unassigned_count": 0
-  },
-  "domain": "ironwooddigitalgoods.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

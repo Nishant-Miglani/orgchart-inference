@@ -9896,7 +9896,5 @@
     "department_accuracy": 0.9857,
     "seniority_accuracy": 0.9893,
     "unassigned_count": 18
-  },
-  "domain": "radiantluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

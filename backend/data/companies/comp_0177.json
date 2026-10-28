@@ -4654,7 +4654,5 @@
     "department_accuracy": 0.9846,
     "seniority_accuracy": 0.9769,
     "unassigned_count": 1
-  },
-  "domain": "timberlinesupermarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

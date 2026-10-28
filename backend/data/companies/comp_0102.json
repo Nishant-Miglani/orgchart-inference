@@ -5435,7 +5435,5 @@
     "department_accuracy": 0.9739,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 6
-  },
-  "domain": "summitapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

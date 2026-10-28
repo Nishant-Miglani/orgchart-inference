@@ -7004,7 +7004,5 @@
     "department_accuracy": 0.9745,
     "seniority_accuracy": 0.9694,
     "unassigned_count": 2
-  },
-  "domain": "atlasbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

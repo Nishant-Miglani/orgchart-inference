@@ -5300,7 +5300,5 @@
     "department_accuracy": 0.973,
     "seniority_accuracy": 0.9662,
     "unassigned_count": 1
-  },
-  "domain": "pinnaclebrands.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

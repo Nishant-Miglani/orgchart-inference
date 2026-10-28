@@ -4829,7 +4829,5 @@
     "department_accuracy": 0.9852,
     "seniority_accuracy": 0.9778,
     "unassigned_count": 1
-  },
-  "domain": "timberlinedigitalgoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

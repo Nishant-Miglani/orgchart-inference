@@ -6690,7 +6690,5 @@
     "department_accuracy": 0.9789,
     "seniority_accuracy": 0.9684,
     "unassigned_count": 15
-  },
-  "domain": "radiantgeneralmerchandise.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

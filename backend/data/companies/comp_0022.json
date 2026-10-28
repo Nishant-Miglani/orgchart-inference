@@ -4829,7 +4829,5 @@
     "department_accuracy": 0.9704,
     "seniority_accuracy": 0.9704,
     "unassigned_count": 1
-  },
-  "domain": "vanguardholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

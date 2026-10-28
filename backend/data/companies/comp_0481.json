@@ -5451,7 +5451,5 @@
     "department_accuracy": 0.9739,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 4
-  },
-  "domain": "summitlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

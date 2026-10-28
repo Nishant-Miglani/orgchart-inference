@@ -5028,7 +5028,5 @@
     "department_accuracy": 0.9786,
     "seniority_accuracy": 0.9786,
     "unassigned_count": 0
-  },
-  "domain": "blueskyprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

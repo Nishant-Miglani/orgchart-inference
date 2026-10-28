@@ -4794,7 +4794,5 @@
     "department_accuracy": 0.9627,
     "seniority_accuracy": 0.9627,
     "unassigned_count": 1
-  },
-  "domain": "ventureomnichannelstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

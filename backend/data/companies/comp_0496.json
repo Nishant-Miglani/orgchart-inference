@@ -4899,7 +4899,5 @@
     "department_accuracy": 0.9927,
     "seniority_accuracy": 0.9927,
     "unassigned_count": 1
-  },
-  "domain": "luminaholdings.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

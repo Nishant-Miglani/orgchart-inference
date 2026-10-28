@@ -7379,7 +7379,5 @@
     "department_accuracy": 0.9856,
     "seniority_accuracy": 0.9761,
     "unassigned_count": 14
-  },
-  "domain": "equinoxhomegoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

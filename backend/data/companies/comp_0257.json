@@ -10312,7 +10312,5 @@
     "department_accuracy": 0.9896,
     "seniority_accuracy": 0.9826,
     "unassigned_count": 1
-  },
-  "domain": "meridianoutfitters.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

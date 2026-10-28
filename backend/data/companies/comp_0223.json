@@ -4584,7 +4584,5 @@
     "department_accuracy": 0.9766,
     "seniority_accuracy": 0.9766,
     "unassigned_count": 1
-  },
-  "domain": "atlasdigitalgoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

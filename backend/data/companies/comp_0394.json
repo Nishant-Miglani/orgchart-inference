@@ -5268,7 +5268,5 @@
     "department_accuracy": 0.973,
     "seniority_accuracy": 0.9527,
     "unassigned_count": 5
-  },
-  "domain": "cascadesupplyco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

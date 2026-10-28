@@ -4514,7 +4514,5 @@
     "department_accuracy": 0.9921,
     "seniority_accuracy": 0.9841,
     "unassigned_count": 1
-  },
-  "domain": "solsticesupplyco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

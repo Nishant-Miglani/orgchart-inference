@@ -6810,7 +6810,5 @@
     "department_accuracy": 0.9947,
     "seniority_accuracy": 0.9947,
     "unassigned_count": 0
-  },
-  "domain": "evergreengeneralmerchandise.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -4767,7 +4767,5 @@
     "department_accuracy": 0.9699,
     "seniority_accuracy": 0.9699,
     "unassigned_count": 0
-  },
-  "domain": "silvergategeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

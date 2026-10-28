@@ -5020,7 +5020,5 @@
     "department_accuracy": 0.9786,
     "seniority_accuracy": 0.9571,
     "unassigned_count": 1
-  },
-  "domain": "crestviewconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

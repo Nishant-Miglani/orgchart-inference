@@ -5462,7 +5462,5 @@
     "department_accuracy": 0.974,
     "seniority_accuracy": 0.961,
     "unassigned_count": 7
-  },
-  "domain": "harborhomegoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

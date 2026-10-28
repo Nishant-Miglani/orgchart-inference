@@ -8972,7 +8972,5 @@
     "department_accuracy": 1.0,
     "seniority_accuracy": 0.9802,
     "unassigned_count": 7
-  },
-  "domain": "beacontradingco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

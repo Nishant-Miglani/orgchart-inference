@@ -4584,7 +4584,5 @@
     "department_accuracy": 0.9688,
     "seniority_accuracy": 0.9609,
     "unassigned_count": 1
-  },
-  "domain": "nordicluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

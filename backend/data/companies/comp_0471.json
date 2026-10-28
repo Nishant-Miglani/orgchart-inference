@@ -4759,7 +4759,5 @@
     "department_accuracy": 0.9699,
     "seniority_accuracy": 0.9624,
     "unassigned_count": 1
-  },
-  "domain": "heritagehomegoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

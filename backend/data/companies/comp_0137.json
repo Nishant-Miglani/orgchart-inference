@@ -5125,7 +5125,5 @@
     "department_accuracy": 0.979,
     "seniority_accuracy": 0.979,
     "unassigned_count": 1
-  },
-  "domain": "evergreenlogisticsretail.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

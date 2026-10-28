@@ -10302,7 +10302,5 @@
     "department_accuracy": 0.9828,
     "seniority_accuracy": 0.9724,
     "unassigned_count": 11
-  },
-  "domain": "halcyonconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

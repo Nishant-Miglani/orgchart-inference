@@ -5483,7 +5483,5 @@
     "department_accuracy": 0.9935,
     "seniority_accuracy": 0.9739,
     "unassigned_count": 0
-  },
-  "domain": "vanguarddigitalgoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

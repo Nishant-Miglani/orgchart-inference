@@ -12737,7 +12737,5 @@
     "department_accuracy": 0.9919,
     "seniority_accuracy": 0.9811,
     "unassigned_count": 69
-  },
-  "domain": "starlightboutiquegroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

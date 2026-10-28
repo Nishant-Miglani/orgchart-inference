@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.9675,
     "seniority_accuracy": 0.9545,
     "unassigned_count": 1
-  },
-  "domain": "metrodigitalgoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

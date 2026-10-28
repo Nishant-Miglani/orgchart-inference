@@ -5435,7 +5435,5 @@
     "department_accuracy": 0.9869,
     "seniority_accuracy": 0.9739,
     "unassigned_count": 6
-  },
-  "domain": "vanguardoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

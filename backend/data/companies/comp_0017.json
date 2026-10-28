@@ -5502,7 +5502,5 @@
     "department_accuracy": 0.9805,
     "seniority_accuracy": 0.987,
     "unassigned_count": 2
-  },
-  "domain": "urbandepartmentstores.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

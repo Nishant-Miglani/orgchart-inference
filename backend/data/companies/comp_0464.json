@@ -12107,7 +12107,5 @@
     "department_accuracy": 0.9884,
     "seniority_accuracy": 0.971,
     "unassigned_count": 32
-  },
-  "domain": "meridianretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

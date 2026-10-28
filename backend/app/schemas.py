@@ -69,8 +69,6 @@ class Employee(BaseModel):
 class Company(BaseModel):
     id: str
     name: str
-    domain: Optional[str] = None
-    domain_type: Optional[str] = None
     sub_sector: str
     size_category: str
     employee_count: int
@@ -85,8 +83,6 @@ class Company(BaseModel):
 class CompanySummary(BaseModel):
     id: str
     name: str
-    domain: Optional[str] = None
-    domain_type: Optional[str] = None
     sub_sector: str
     size_category: str
     employee_count: int

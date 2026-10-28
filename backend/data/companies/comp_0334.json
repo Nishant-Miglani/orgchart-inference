@@ -5300,7 +5300,5 @@
     "department_accuracy": 0.973,
     "seniority_accuracy": 0.9527,
     "unassigned_count": 1
-  },
-  "domain": "equinoxsupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

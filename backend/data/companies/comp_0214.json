@@ -4794,7 +4794,5 @@
     "department_accuracy": 0.9925,
     "seniority_accuracy": 0.9701,
     "unassigned_count": 1
-  },
-  "domain": "atlasconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

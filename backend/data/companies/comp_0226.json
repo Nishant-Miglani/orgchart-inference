@@ -7306,7 +7306,5 @@
     "department_accuracy": 0.9903,
     "seniority_accuracy": 0.9806,
     "unassigned_count": 10
-  },
-  "domain": "blueskylogisticsretail.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

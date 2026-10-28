@@ -5028,7 +5028,5 @@
     "department_accuracy": 0.9786,
     "seniority_accuracy": 0.9714,
     "unassigned_count": 0
-  },
-  "domain": "harborapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

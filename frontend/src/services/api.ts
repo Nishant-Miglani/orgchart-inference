@@ -10,7 +10,6 @@ const API_BASE = "/api";
 
 export async function fetchCompanies(params?: {
   sub_sector?: string;
-  domain_type?: string;
   search?: string;
   size_category?: string;
   min_precision?: number;
@@ -19,7 +18,6 @@ export async function fetchCompanies(params?: {
 }): Promise<{ total: number; items: CompanySummary[] }> {
   const query = new URLSearchParams();
   if (params?.sub_sector) query.set("sub_sector", params.sub_sector);
-  if (params?.domain_type) query.set("domain_type", params.domain_type);
   if (params?.search) query.set("search", params.search);
   if (params?.size_category) query.set("size_category", params.size_category);
   if (params?.min_precision !== undefined) query.set("min_precision", params.min_precision.toString());

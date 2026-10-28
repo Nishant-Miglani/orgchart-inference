@@ -4872,7 +4872,5 @@
     "department_accuracy": 0.9926,
     "seniority_accuracy": 0.9779,
     "unassigned_count": 0
-  },
-  "domain": "meridianprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

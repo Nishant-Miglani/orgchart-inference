@@ -5470,7 +5470,5 @@
     "department_accuracy": 0.9805,
     "seniority_accuracy": 0.9675,
     "unassigned_count": 6
-  },
-  "domain": "elementdigitalgoods.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

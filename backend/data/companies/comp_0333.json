@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.974,
     "seniority_accuracy": 0.961,
     "unassigned_count": 1
-  },
-  "domain": "blueskysupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

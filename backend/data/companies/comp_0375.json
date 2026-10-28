@@ -6810,7 +6810,5 @@
     "department_accuracy": 0.9895,
     "seniority_accuracy": 0.9737,
     "unassigned_count": 0
-  },
-  "domain": "avenuedepartmentstores.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

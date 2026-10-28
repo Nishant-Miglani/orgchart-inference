@@ -6786,7 +6786,5 @@
     "department_accuracy": 0.9842,
     "seniority_accuracy": 0.9684,
     "unassigned_count": 3
-  },
-  "domain": "ventureoutfitters.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

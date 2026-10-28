@@ -6708,7 +6708,5 @@
     "department_accuracy": 0.9894,
     "seniority_accuracy": 0.9681,
     "unassigned_count": 4
-  },
-  "domain": "harborconsumerbrands.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

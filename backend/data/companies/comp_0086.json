@@ -6191,7 +6191,5 @@
     "department_accuracy": 0.9595,
     "seniority_accuracy": 0.948,
     "unassigned_count": 1
-  },
-  "domain": "equinoxtradingco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

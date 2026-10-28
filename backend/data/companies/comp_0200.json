@@ -5152,7 +5152,5 @@
     "department_accuracy": 0.9792,
     "seniority_accuracy": 0.9792,
     "unassigned_count": 2
-  },
-  "domain": "vanguardsupplyco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

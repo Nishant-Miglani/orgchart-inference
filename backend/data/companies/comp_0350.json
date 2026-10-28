@@ -5381,7 +5381,5 @@
     "department_accuracy": 0.9735,
     "seniority_accuracy": 0.9603,
     "unassigned_count": 4
-  },
-  "domain": "redwoodconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

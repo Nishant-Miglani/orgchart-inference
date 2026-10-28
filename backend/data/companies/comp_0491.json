@@ -6907,7 +6907,5 @@
     "department_accuracy": 0.9793,
     "seniority_accuracy": 0.9689,
     "unassigned_count": 1
-  },
-  "domain": "cascadeluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -8016,7 +8016,5 @@
     "department_accuracy": 0.9777,
     "seniority_accuracy": 0.9643,
     "unassigned_count": 2
-  },
-  "domain": "halcyonoutfitters.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

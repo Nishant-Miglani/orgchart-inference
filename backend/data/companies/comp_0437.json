@@ -4522,7 +4522,5 @@
     "department_accuracy": 0.9762,
     "seniority_accuracy": 0.9444,
     "unassigned_count": 0
-  },
-  "domain": "kestrelsupermarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

@@ -4759,7 +4759,5 @@
     "department_accuracy": 0.985,
     "seniority_accuracy": 0.9774,
     "unassigned_count": 1
-  },
-  "domain": "vanguarddirectstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

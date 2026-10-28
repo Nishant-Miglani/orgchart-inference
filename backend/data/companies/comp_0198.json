@@ -7308,7 +7308,5 @@
     "department_accuracy": 0.9853,
     "seniority_accuracy": 0.9804,
     "unassigned_count": 1
-  },
-  "domain": "metrodirectstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

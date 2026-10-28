@@ -5308,7 +5308,5 @@
     "department_accuracy": 0.973,
     "seniority_accuracy": 0.9527,
     "unassigned_count": 0
-  },
-  "domain": "harborbrands.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

@@ -8025,7 +8025,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9736,
     "unassigned_count": 14
-  },
-  "domain": "heritagelogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

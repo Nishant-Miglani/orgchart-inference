@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.961,
     "seniority_accuracy": 0.9545,
     "unassigned_count": 1
-  },
-  "domain": "beaconlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -7701,7 +7701,5 @@
     "department_accuracy": 0.986,
     "seniority_accuracy": 0.9721,
     "unassigned_count": 0
-  },
-  "domain": "beaconmarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

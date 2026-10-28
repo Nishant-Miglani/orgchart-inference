@@ -5483,7 +5483,5 @@
     "department_accuracy": 0.9935,
     "seniority_accuracy": 0.9804,
     "unassigned_count": 0
-  },
-  "domain": "beacondirectstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

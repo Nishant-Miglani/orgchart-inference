@@ -12003,7 +12003,5 @@
     "department_accuracy": 0.9881,
     "seniority_accuracy": 0.9881,
     "unassigned_count": 8
-  },
-  "domain": "primeretailgroup.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

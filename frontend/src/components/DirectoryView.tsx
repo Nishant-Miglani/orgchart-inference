@@ -93,22 +93,25 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
     <div
       style={{
         flex: 1,
+        height: "100%",
+        minHeight: 0,
         display: "flex",
         flexDirection: "column",
         background: "#ffffff",
-        overflowY: "auto",
-        padding: "20px 24px",
+        padding: "16px 24px",
+        overflow: "hidden",
       }}
     >
-      {/* Search & Filters */}
+      {/* Top Search & Filter Bar (Sticky, never scrolls out) */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
           flexWrap: "wrap",
-          gap: "12px",
-          marginBottom: "16px",
+          gap: "10px",
+          marginBottom: "12px",
+          flexShrink: 0,
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap", flex: 1 }}>
@@ -123,7 +126,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
               border: "1px solid var(--border-medium)",
               borderRadius: "8px",
               height: "36px",
-              width: "280px",
+              width: "260px",
             }}
           >
             <Search size={14} color="var(--text-muted)" />
@@ -191,29 +194,43 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
           </div>
         </div>
 
-        <div style={{ fontSize: "12px", color: "var(--text-muted)" }}>
-          Showing {filteredEmployees.length} of {company.employees.length} employees
+        <div style={{ fontSize: "12px", color: "var(--text-muted)", fontWeight: 500 }}>
+          Showing <strong>{filteredEmployees.length}</strong> of {company.employees.length} employees
         </div>
       </div>
 
-      {/* Directory Table */}
+      {/* Scrollable Table Container */}
       <div
         style={{
+          flex: 1,
+          minHeight: 0,
+          overflowY: "auto",
+          overflowX: "auto",
           border: "1px solid var(--border-subtle)",
           borderRadius: "8px",
-          overflow: "hidden",
+          background: "#ffffff",
+          boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
         }}
       >
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "12px" }}>
-          <thead>
-            <tr style={{ background: "#f8fafc", textAlign: "left", borderBottom: "1px solid var(--border-subtle)" }}>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)" }}>Employee</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)" }}>Job Title</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)" }}>Department</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)" }}>Seniority Tier</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)" }}>Direct Manager</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)" }}>Confidence</th>
-              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", textAlign: "right" }}>Actions</th>
+          {/* Sticky Header */}
+          <thead
+            style={{
+              position: "sticky",
+              top: 0,
+              zIndex: 10,
+              background: "#f8fafc",
+              borderBottom: "1px solid var(--border-subtle)",
+            }}
+          >
+            <tr style={{ textAlign: "left" }}>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Employee</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Job Title</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Department</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Seniority Tier</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Direct Manager</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc" }}>Confidence</th>
+              <th style={{ padding: "10px 14px", fontWeight: 600, color: "var(--text-secondary)", background: "#f8fafc", textAlign: "right" }}>Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -335,6 +352,22 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
             })}
           </tbody>
         </table>
+      </div>
+
+      {/* Bottom Pinned Footer */}
+      <div
+        style={{
+          padding: "8px 4px 0 4px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          fontSize: "11px",
+          color: "var(--text-muted)",
+          flexShrink: 0,
+        }}
+      >
+        <span>Scroll vertically inside the directory table to inspect all {filteredEmployees.length} employees.</span>
+        <span>Click any row or &ldquo;Profile&rdquo; to open full reporting details.</span>
       </div>
     </div>
   );

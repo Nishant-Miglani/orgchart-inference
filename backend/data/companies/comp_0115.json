@@ -10264,7 +10264,5 @@
     "department_accuracy": 0.9826,
     "seniority_accuracy": 0.9757,
     "unassigned_count": 7
-  },
-  "domain": "starlighttradingco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

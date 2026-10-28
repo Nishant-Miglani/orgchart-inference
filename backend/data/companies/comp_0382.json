@@ -4907,7 +4907,5 @@
     "department_accuracy": 0.9854,
     "seniority_accuracy": 0.9708,
     "unassigned_count": 0
-  },
-  "domain": "elementholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

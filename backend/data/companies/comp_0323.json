@@ -6600,7 +6600,5 @@
     "department_accuracy": 0.9891,
     "seniority_accuracy": 0.9783,
     "unassigned_count": 0
-  },
-  "domain": "sterlingdigitalgoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

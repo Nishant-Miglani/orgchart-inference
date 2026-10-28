@@ -6802,7 +6802,5 @@
     "department_accuracy": 0.9737,
     "seniority_accuracy": 0.9579,
     "unassigned_count": 1
-  },
-  "domain": "sierramarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

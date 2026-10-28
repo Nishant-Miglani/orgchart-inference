@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.987,
     "seniority_accuracy": 0.974,
     "unassigned_count": 0
-  },
-  "domain": "venturedigitalgoods.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

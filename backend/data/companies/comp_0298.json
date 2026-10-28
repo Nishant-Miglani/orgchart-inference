@@ -4794,7 +4794,5 @@
     "department_accuracy": 0.9701,
     "seniority_accuracy": 0.9478,
     "unassigned_count": 1
-  },
-  "domain": "starlightprovisions.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

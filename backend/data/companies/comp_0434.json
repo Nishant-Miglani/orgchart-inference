@@ -11979,7 +11979,5 @@
     "department_accuracy": 0.9881,
     "seniority_accuracy": 0.9763,
     "unassigned_count": 11
-  },
-  "domain": "sierradepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

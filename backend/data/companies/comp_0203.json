@@ -11811,7 +11811,5 @@
     "department_accuracy": 0.9881,
     "seniority_accuracy": 0.9822,
     "unassigned_count": 32
-  },
-  "domain": "kestreldepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

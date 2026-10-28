@@ -4767,7 +4767,5 @@
     "department_accuracy": 0.9774,
     "seniority_accuracy": 0.9624,
     "unassigned_count": 0
-  },
-  "domain": "luminahomegoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -6738,7 +6738,5 @@
     "department_accuracy": 0.9789,
     "seniority_accuracy": 0.9526,
     "unassigned_count": 9
-  },
-  "domain": "catalystprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -4864,7 +4864,5 @@
     "department_accuracy": 0.9779,
     "seniority_accuracy": 0.9632,
     "unassigned_count": 1
-  },
-  "domain": "pacificboutiquegroup.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

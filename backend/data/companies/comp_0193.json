@@ -5160,7 +5160,5 @@
     "department_accuracy": 0.9653,
     "seniority_accuracy": 0.9375,
     "unassigned_count": 1
-  },
-  "domain": "avenueretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

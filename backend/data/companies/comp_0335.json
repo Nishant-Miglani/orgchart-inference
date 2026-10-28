@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.987,
     "seniority_accuracy": 0.9805,
     "unassigned_count": 1
-  },
-  "domain": "catalystconsumerbrands.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

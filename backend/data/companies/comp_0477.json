@@ -5028,7 +5028,5 @@
     "department_accuracy": 0.9857,
     "seniority_accuracy": 0.9571,
     "unassigned_count": 0
-  },
-  "domain": "goldenroddigitalgoods.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

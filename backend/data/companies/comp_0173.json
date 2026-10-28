@@ -9195,7 +9195,5 @@
     "department_accuracy": 0.9728,
     "seniority_accuracy": 0.9689,
     "unassigned_count": 1
-  },
-  "domain": "ventureretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5292,7 +5292,5 @@
     "department_accuracy": 0.9865,
     "seniority_accuracy": 0.9865,
     "unassigned_count": 2
-  },
-  "domain": "velocitytradingco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

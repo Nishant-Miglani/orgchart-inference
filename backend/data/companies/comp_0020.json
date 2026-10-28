@@ -5518,7 +5518,5 @@
     "department_accuracy": 1.0,
     "seniority_accuracy": 0.9805,
     "unassigned_count": 0
-  },
-  "domain": "apexdepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

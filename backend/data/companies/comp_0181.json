@@ -4864,7 +4864,5 @@
     "department_accuracy": 0.9632,
     "seniority_accuracy": 0.9559,
     "unassigned_count": 1
-  },
-  "domain": "harboromnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

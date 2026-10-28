@@ -4996,7 +4996,5 @@
     "department_accuracy": 0.9714,
     "seniority_accuracy": 0.9429,
     "unassigned_count": 4
-  },
-  "domain": "summittradingco.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

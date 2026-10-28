@@ -6915,7 +6915,5 @@
     "department_accuracy": 0.9845,
     "seniority_accuracy": 0.9845,
     "unassigned_count": 0
-  },
-  "domain": "equinoxlogisticsretail.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -6191,7 +6191,5 @@
     "department_accuracy": 0.9769,
     "seniority_accuracy": 0.9769,
     "unassigned_count": 1
-  },
-  "domain": "ironwoodretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

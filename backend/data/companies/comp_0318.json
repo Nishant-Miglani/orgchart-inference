@@ -11161,7 +11161,5 @@
     "department_accuracy": 0.9841,
     "seniority_accuracy": 0.9746,
     "unassigned_count": 15
-  },
-  "domain": "urbanomnichannelstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

@@ -7020,7 +7020,5 @@
     "department_accuracy": 0.9847,
     "seniority_accuracy": 0.9745,
     "unassigned_count": 0
-  },
-  "domain": "oasistradingco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

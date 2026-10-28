@@ -12267,7 +12267,5 @@
     "department_accuracy": 0.9855,
     "seniority_accuracy": 0.9826,
     "unassigned_count": 12
-  },
-  "domain": "sterlinglogisticsretail.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

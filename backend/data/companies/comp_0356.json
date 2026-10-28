@@ -4759,7 +4759,5 @@
     "department_accuracy": 0.9624,
     "seniority_accuracy": 0.9474,
     "unassigned_count": 1
-  },
-  "domain": "primelogisticsretail.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -5082,7 +5082,5 @@
     "department_accuracy": 0.9718,
     "seniority_accuracy": 0.9718,
     "unassigned_count": 2
-  },
-  "domain": "frontierholdings.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

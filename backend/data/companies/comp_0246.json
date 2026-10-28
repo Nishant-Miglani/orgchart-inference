@@ -4829,7 +4829,5 @@
     "department_accuracy": 0.9852,
     "seniority_accuracy": 0.9556,
     "unassigned_count": 1
-  },
-  "domain": "kestrelgeneralmerchandise.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

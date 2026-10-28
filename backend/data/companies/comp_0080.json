@@ -13408,7 +13408,5 @@
     "department_accuracy": 0.9894,
     "seniority_accuracy": 0.984,
     "unassigned_count": 7
-  },
-  "domain": "blueskyapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

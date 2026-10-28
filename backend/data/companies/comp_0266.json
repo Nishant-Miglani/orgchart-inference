@@ -5430,7 +5430,5 @@
     "department_accuracy": 0.9675,
     "seniority_accuracy": 0.9416,
     "unassigned_count": 11
-  },
-  "domain": "metroluxuryemporium.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

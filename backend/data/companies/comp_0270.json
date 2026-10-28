@@ -9567,7 +9567,5 @@
     "department_accuracy": 0.9926,
     "seniority_accuracy": 0.9851,
     "unassigned_count": 9
-  },
-  "domain": "avenuegeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5276,7 +5276,5 @@
     "department_accuracy": 0.9797,
     "seniority_accuracy": 0.973,
     "unassigned_count": 4
-  },
-  "domain": "beaconprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -4977,7 +4977,5 @@
     "department_accuracy": 0.9856,
     "seniority_accuracy": 0.9712,
     "unassigned_count": 0
-  },
-  "domain": "sterlingmarkets.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

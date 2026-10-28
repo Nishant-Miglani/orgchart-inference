@@ -5413,7 +5413,5 @@
     "department_accuracy": 0.9934,
     "seniority_accuracy": 0.9934,
     "unassigned_count": 0
-  },
-  "domain": "silvergatemarkets.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9861,
     "seniority_accuracy": 0.9792,
     "unassigned_count": 0
-  },
-  "domain": "meridianholdings.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

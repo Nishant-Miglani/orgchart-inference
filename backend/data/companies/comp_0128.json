@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9722,
     "seniority_accuracy": 0.9653,
     "unassigned_count": 0
-  },
-  "domain": "primedepartmentstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

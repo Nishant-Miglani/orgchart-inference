@@ -8988,7 +8988,5 @@
     "department_accuracy": 0.9841,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 5
-  },
-  "domain": "nordicdepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

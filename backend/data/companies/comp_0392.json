@@ -8771,7 +8771,5 @@
     "department_accuracy": 0.9839,
     "seniority_accuracy": 0.9639,
     "unassigned_count": 19
-  },
-  "domain": "harbordirectstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.9935,
     "seniority_accuracy": 0.9675,
     "unassigned_count": 0
-  },
-  "domain": "cascadeapparelco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

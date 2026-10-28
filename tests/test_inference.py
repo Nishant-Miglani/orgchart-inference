@@ -127,8 +127,6 @@ def test_api_company_list_and_filter():
     data = res.json()
     assert data["total"] >= 500
     assert len(data["items"]) == 10
-    assert "domain" in data["items"][0]
-    assert "domain_type" in data["items"][0]
 
     # Filter by category (sub_sector)
     res_cat = client.get("/api/companies?sub_sector=Fashion%20%26%20Apparel")
@@ -136,17 +134,11 @@ def test_api_company_list_and_filter():
     assert res_cat.json()["total"] > 0
     assert all(c["sub_sector"] == "Fashion & Apparel" for c in res_cat.json()["items"])
 
-    # Filter by domain_type
-    res_dt = client.get("/api/companies?domain_type=.store")
-    assert res_dt.status_code == 200
-    assert res_dt.json()["total"] > 0
-    assert all(".store" in (c["domain_type"] or "") for c in res_dt.json()["items"])
-
-    # Search by domain
-    res_search = client.get("/api/companies?search=harborsupermarkets.com")
+    # Search company name
+    res_search = client.get("/api/companies?search=harbor")
     assert res_search.status_code == 200
     assert res_search.json()["total"] >= 1
-    assert any("harborsupermarkets.com" in (c["domain"] or "") for c in res_search.json()["items"])
+    assert any("harbor" in c["name"].lower() for c in res_search.json()["items"])
 
 
 def test_api_sales_queries():

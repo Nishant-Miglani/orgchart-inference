@@ -5160,7 +5160,5 @@
     "department_accuracy": 0.9931,
     "seniority_accuracy": 0.9931,
     "unassigned_count": 1
-  },
-  "domain": "starlightmarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

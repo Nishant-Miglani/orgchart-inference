@@ -4767,7 +4767,5 @@
     "department_accuracy": 0.9925,
     "seniority_accuracy": 0.985,
     "unassigned_count": 0
-  },
-  "domain": "elementapparelco.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

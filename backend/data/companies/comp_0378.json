@@ -5144,7 +5144,5 @@
     "department_accuracy": 0.9931,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 3
-  },
-  "domain": "primebrands.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

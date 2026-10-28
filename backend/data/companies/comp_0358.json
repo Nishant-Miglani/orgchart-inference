@@ -4829,7 +4829,5 @@
     "department_accuracy": 0.9778,
     "seniority_accuracy": 0.9704,
     "unassigned_count": 1
-  },
-  "domain": "sierraapparelco.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

@@ -5502,7 +5502,5 @@
     "department_accuracy": 0.961,
     "seniority_accuracy": 0.9416,
     "unassigned_count": 2
-  },
-  "domain": "cascadegeneralmerchandise.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

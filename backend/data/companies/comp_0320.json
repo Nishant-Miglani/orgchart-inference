@@ -5136,7 +5136,5 @@
     "department_accuracy": 0.9653,
     "seniority_accuracy": 0.9583,
     "unassigned_count": 4
-  },
-  "domain": "timberlinesupplyco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

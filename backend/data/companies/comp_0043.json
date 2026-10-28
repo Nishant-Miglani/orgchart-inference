@@ -8097,7 +8097,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9736,
     "unassigned_count": 5
-  },
-  "domain": "equinoxoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

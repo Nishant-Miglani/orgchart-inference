@@ -6167,7 +6167,5 @@
     "department_accuracy": 0.9884,
     "seniority_accuracy": 0.9769,
     "unassigned_count": 4
-  },
-  "domain": "summitretailgroup.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

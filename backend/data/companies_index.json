@@ -10,9 +10,7 @@
     "recall": 0.8358,
     "f1_score": 0.8358,
     "wrong_edge_rate": 0.1642,
-    "unassigned_count": 0,
-    "domain": "harborsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0002",
@@ -25,9 +23,7 @@
     "recall": 0.7309,
     "f1_score": 0.7512,
     "wrong_edge_rate": 0.2275,
-    "unassigned_count": 12,
-    "domain": "redwoodmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 12
   },
   {
     "id": "comp_0003",
@@ -40,9 +36,7 @@
     "recall": 0.8392,
     "f1_score": 0.8392,
     "wrong_edge_rate": 0.1608,
-    "unassigned_count": 0,
-    "domain": "kestrelbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0004",
@@ -55,9 +49,7 @@
     "recall": 0.7986,
     "f1_score": 0.8014,
     "wrong_edge_rate": 0.1957,
-    "unassigned_count": 1,
-    "domain": "crestviewconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0005",
@@ -70,9 +62,7 @@
     "recall": 0.8657,
     "f1_score": 0.8657,
     "wrong_edge_rate": 0.1343,
-    "unassigned_count": 0,
-    "domain": "crestviewomnichannelstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0006",
@@ -85,9 +75,7 @@
     "recall": 0.7516,
     "f1_score": 0.7854,
     "wrong_edge_rate": 0.1777,
-    "unassigned_count": 27,
-    "domain": "starlightsupplyco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 27
   },
   {
     "id": "comp_0007",
@@ -100,9 +88,7 @@
     "recall": 0.8027,
     "f1_score": 0.8055,
     "wrong_edge_rate": 0.1918,
-    "unassigned_count": 1,
-    "domain": "zenithsupermarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0008",
@@ -115,9 +101,7 @@
     "recall": 0.7972,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.1972,
-    "unassigned_count": 1,
-    "domain": "elementbrands.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0009",
@@ -130,9 +114,7 @@
     "recall": 0.7985,
     "f1_score": 0.7985,
     "wrong_edge_rate": 0.2015,
-    "unassigned_count": 0,
-    "domain": "oasisdigitalgoods.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0010",
@@ -145,9 +127,7 @@
     "recall": 0.8193,
     "f1_score": 0.8218,
     "wrong_edge_rate": 0.1758,
-    "unassigned_count": 1,
-    "domain": "redwooddirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0011",
@@ -160,9 +140,7 @@
     "recall": 0.708,
     "f1_score": 0.7477,
     "wrong_edge_rate": 0.2079,
-    "unassigned_count": 24,
-    "domain": "cobaltsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 24
   },
   {
     "id": "comp_0012",
@@ -175,9 +153,7 @@
     "recall": 0.7899,
     "f1_score": 0.7899,
     "wrong_edge_rate": 0.2101,
-    "unassigned_count": 0,
-    "domain": "apexsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0013",
@@ -190,9 +166,7 @@
     "recall": 0.7907,
     "f1_score": 0.7907,
     "wrong_edge_rate": 0.2093,
-    "unassigned_count": 0,
-    "domain": "meridianluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0014",
@@ -205,9 +179,7 @@
     "recall": 0.7198,
     "f1_score": 0.7554,
     "wrong_edge_rate": 0.2052,
-    "unassigned_count": 32,
-    "domain": "beaconboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 32
   },
   {
     "id": "comp_0015",
@@ -220,9 +192,7 @@
     "recall": 0.7843,
     "f1_score": 0.7843,
     "wrong_edge_rate": 0.2157,
-    "unassigned_count": 0,
-    "domain": "sierrasupplyco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0016",
@@ -235,9 +205,7 @@
     "recall": 0.7762,
     "f1_score": 0.7762,
     "wrong_edge_rate": 0.2238,
-    "unassigned_count": 0,
-    "domain": "urbangeneralmerchandise.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0017",
@@ -250,9 +218,7 @@
     "recall": 0.7908,
     "f1_score": 0.7961,
     "wrong_edge_rate": 0.1987,
-    "unassigned_count": 2,
-    "domain": "urbandepartmentstores.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0018",
@@ -265,9 +231,7 @@
     "recall": 0.8367,
     "f1_score": 0.8396,
     "wrong_edge_rate": 0.1575,
-    "unassigned_count": 1,
-    "domain": "meridianmarkets.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0019",
@@ -280,9 +244,7 @@
     "recall": 0.7168,
     "f1_score": 0.757,
     "wrong_edge_rate": 0.198,
-    "unassigned_count": 24,
-    "domain": "cascadedepartmentstores.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 24
   },
   {
     "id": "comp_0020",
@@ -295,9 +257,7 @@
     "recall": 0.8693,
     "f1_score": 0.8693,
     "wrong_edge_rate": 0.1307,
-    "unassigned_count": 0,
-    "domain": "apexdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0021",
@@ -310,9 +270,7 @@
     "recall": 0.8189,
     "f1_score": 0.8221,
     "wrong_edge_rate": 0.1746,
-    "unassigned_count": 1,
-    "domain": "nordicluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0022",
@@ -325,9 +283,7 @@
     "recall": 0.8284,
     "f1_score": 0.8315,
     "wrong_edge_rate": 0.1654,
-    "unassigned_count": 1,
-    "domain": "vanguardholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0023",
@@ -340,9 +296,7 @@
     "recall": 0.7762,
     "f1_score": 0.7789,
     "wrong_edge_rate": 0.2183,
-    "unassigned_count": 1,
-    "domain": "timberlinegeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0024",
@@ -355,9 +309,7 @@
     "recall": 0.7484,
     "f1_score": 0.7496,
     "wrong_edge_rate": 0.2492,
-    "unassigned_count": 1,
-    "domain": "frontierapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0025",
@@ -370,9 +322,7 @@
     "recall": 0.7807,
     "f1_score": 0.7892,
     "wrong_edge_rate": 0.2022,
-    "unassigned_count": 4,
-    "domain": "harborconsumerbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0026",
@@ -385,9 +335,7 @@
     "recall": 0.8133,
     "f1_score": 0.8133,
     "wrong_edge_rate": 0.1867,
-    "unassigned_count": 0,
-    "domain": "catalystboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0027",
@@ -400,9 +348,7 @@
     "recall": 0.736,
     "f1_score": 0.7796,
     "wrong_edge_rate": 0.1714,
-    "unassigned_count": 22,
-    "domain": "apexgeneralmerchandise.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 22
   },
   {
     "id": "comp_0028",
@@ -415,9 +361,7 @@
     "recall": 0.8562,
     "f1_score": 0.8562,
     "wrong_edge_rate": 0.1438,
-    "unassigned_count": 0,
-    "domain": "goldenrodapparelco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0029",
@@ -430,9 +374,7 @@
     "recall": 0.7534,
     "f1_score": 0.7814,
     "wrong_edge_rate": 0.1884,
-    "unassigned_count": 16,
-    "domain": "silvergatedirectstores.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 16
   },
   {
     "id": "comp_0030",
@@ -445,9 +387,7 @@
     "recall": 0.7672,
     "f1_score": 0.7859,
     "wrong_edge_rate": 0.1944,
-    "unassigned_count": 9,
-    "domain": "catalystprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0031",
@@ -460,9 +400,7 @@
     "recall": 0.8281,
     "f1_score": 0.8281,
     "wrong_edge_rate": 0.1719,
-    "unassigned_count": 0,
-    "domain": "novadepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0032",
@@ -475,9 +413,7 @@
     "recall": 0.8235,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1765,
-    "unassigned_count": 0,
-    "domain": "elementconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0033",
@@ -490,9 +426,7 @@
     "recall": 0.8531,
     "f1_score": 0.8561,
     "wrong_edge_rate": 0.1408,
-    "unassigned_count": 1,
-    "domain": "elementlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0034",
@@ -505,9 +439,7 @@
     "recall": 0.8105,
     "f1_score": 0.8105,
     "wrong_edge_rate": 0.1895,
-    "unassigned_count": 0,
-    "domain": "blueskyomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0035",
@@ -520,9 +452,7 @@
     "recall": 0.8684,
     "f1_score": 0.8713,
     "wrong_edge_rate": 0.1258,
-    "unassigned_count": 1,
-    "domain": "redwoodluxuryemporium.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0036",
@@ -535,9 +465,7 @@
     "recall": 0.8451,
     "f1_score": 0.8451,
     "wrong_edge_rate": 0.1549,
-    "unassigned_count": 0,
-    "domain": "beaconbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0037",
@@ -550,9 +478,7 @@
     "recall": 0.7758,
     "f1_score": 0.7828,
     "wrong_edge_rate": 0.21,
-    "unassigned_count": 4,
-    "domain": "crestviewluxuryemporium.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0038",
@@ -565,9 +491,7 @@
     "recall": 0.7619,
     "f1_score": 0.7619,
     "wrong_edge_rate": 0.2381,
-    "unassigned_count": 0,
-    "domain": "harborbrands.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0039",
@@ -580,9 +504,7 @@
     "recall": 0.8039,
     "f1_score": 0.8039,
     "wrong_edge_rate": 0.1961,
-    "unassigned_count": 0,
-    "domain": "pacifichomegoods.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0040",
@@ -595,9 +517,7 @@
     "recall": 0.8253,
     "f1_score": 0.8278,
     "wrong_edge_rate": 0.1697,
-    "unassigned_count": 1,
-    "domain": "pacificprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0041",
@@ -610,9 +530,7 @@
     "recall": 0.9079,
     "f1_score": 0.9109,
     "wrong_edge_rate": 0.0861,
-    "unassigned_count": 1,
-    "domain": "meridiandigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0042",
@@ -625,9 +543,7 @@
     "recall": 0.8195,
     "f1_score": 0.8195,
     "wrong_edge_rate": 0.1805,
-    "unassigned_count": 0,
-    "domain": "sterlingbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0043",
@@ -640,9 +556,7 @@
     "recall": 0.7389,
     "f1_score": 0.7472,
     "wrong_edge_rate": 0.2443,
-    "unassigned_count": 5,
-    "domain": "equinoxoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0044",
@@ -655,9 +569,7 @@
     "recall": 0.9318,
     "f1_score": 0.9318,
     "wrong_edge_rate": 0.0682,
-    "unassigned_count": 0,
-    "domain": "cobaltconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0045",
@@ -670,9 +582,7 @@
     "recall": 0.8039,
     "f1_score": 0.8039,
     "wrong_edge_rate": 0.1961,
-    "unassigned_count": 0,
-    "domain": "redwoodbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0046",
@@ -685,9 +595,7 @@
     "recall": 0.8169,
     "f1_score": 0.8169,
     "wrong_edge_rate": 0.1831,
-    "unassigned_count": 0,
-    "domain": "timberlinehomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0047",
@@ -700,9 +608,7 @@
     "recall": 0.708,
     "f1_score": 0.708,
     "wrong_edge_rate": 0.292,
-    "unassigned_count": 0,
-    "domain": "kestreloutfitters.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0048",
@@ -715,9 +621,7 @@
     "recall": 0.7974,
     "f1_score": 0.7974,
     "wrong_edge_rate": 0.2026,
-    "unassigned_count": 0,
-    "domain": "heritagesupplyco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0049",
@@ -730,9 +634,7 @@
     "recall": 0.8299,
     "f1_score": 0.8299,
     "wrong_edge_rate": 0.1701,
-    "unassigned_count": 0,
-    "domain": "crestviewbrands.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0050",
@@ -745,9 +647,7 @@
     "recall": 0.8409,
     "f1_score": 0.8409,
     "wrong_edge_rate": 0.1591,
-    "unassigned_count": 0,
-    "domain": "apexconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0051",
@@ -760,9 +660,7 @@
     "recall": 0.8507,
     "f1_score": 0.8507,
     "wrong_edge_rate": 0.1493,
-    "unassigned_count": 0,
-    "domain": "urbanbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0052",
@@ -775,9 +673,7 @@
     "recall": 0.8221,
     "f1_score": 0.8246,
     "wrong_edge_rate": 0.1728,
-    "unassigned_count": 1,
-    "domain": "equinoxomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0053",
@@ -790,9 +686,7 @@
     "recall": 0.817,
     "f1_score": 0.8197,
     "wrong_edge_rate": 0.1776,
-    "unassigned_count": 1,
-    "domain": "starlightholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0054",
@@ -805,9 +699,7 @@
     "recall": 0.8125,
     "f1_score": 0.8125,
     "wrong_edge_rate": 0.1875,
-    "unassigned_count": 0,
-    "domain": "urbanretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0055",
@@ -820,9 +712,7 @@
     "recall": 0.8252,
     "f1_score": 0.8252,
     "wrong_edge_rate": 0.1748,
-    "unassigned_count": 0,
-    "domain": "beacondigitalgoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0056",
@@ -835,9 +725,7 @@
     "recall": 0.86,
     "f1_score": 0.86,
     "wrong_edge_rate": 0.14,
-    "unassigned_count": 0,
-    "domain": "apexoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0057",
@@ -850,9 +738,7 @@
     "recall": 0.8235,
     "f1_score": 0.8262,
     "wrong_edge_rate": 0.1711,
-    "unassigned_count": 1,
-    "domain": "cobaltlogisticsretail.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0058",
@@ -865,9 +751,7 @@
     "recall": 0.8435,
     "f1_score": 0.8464,
     "wrong_edge_rate": 0.1507,
-    "unassigned_count": 1,
-    "domain": "radianthomegoods.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0059",
@@ -880,9 +764,7 @@
     "recall": 0.7548,
     "f1_score": 0.7633,
     "wrong_edge_rate": 0.228,
-    "unassigned_count": 7,
-    "domain": "goldenrodretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0060",
@@ -895,9 +777,7 @@
     "recall": 0.8819,
     "f1_score": 0.8819,
     "wrong_edge_rate": 0.1181,
-    "unassigned_count": 0,
-    "domain": "catalystholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0061",
@@ -910,9 +790,7 @@
     "recall": 0.8562,
     "f1_score": 0.8562,
     "wrong_edge_rate": 0.1438,
-    "unassigned_count": 0,
-    "domain": "atlasprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0062",
@@ -925,9 +803,7 @@
     "recall": 0.7867,
     "f1_score": 0.8055,
     "wrong_edge_rate": 0.1748,
-    "unassigned_count": 7,
-    "domain": "frontiergeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0063",
@@ -940,9 +816,7 @@
     "recall": 0.8333,
     "f1_score": 0.8333,
     "wrong_edge_rate": 0.1667,
-    "unassigned_count": 0,
-    "domain": "cobaltgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0064",
@@ -955,9 +829,7 @@
     "recall": 0.7892,
     "f1_score": 0.7915,
     "wrong_edge_rate": 0.2061,
-    "unassigned_count": 1,
-    "domain": "solsticeomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0065",
@@ -970,9 +842,7 @@
     "recall": 0.7566,
     "f1_score": 0.7797,
     "wrong_edge_rate": 0.1958,
-    "unassigned_count": 9,
-    "domain": "novamarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0066",
@@ -985,9 +855,7 @@
     "recall": 0.76,
     "f1_score": 0.76,
     "wrong_edge_rate": 0.24,
-    "unassigned_count": 0,
-    "domain": "halcyonomnichannelstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0067",
@@ -1000,9 +868,7 @@
     "recall": 0.7647,
     "f1_score": 0.7748,
     "wrong_edge_rate": 0.2148,
-    "unassigned_count": 4,
-    "domain": "apexomnichannelstores.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0068",
@@ -1015,9 +881,7 @@
     "recall": 0.7533,
     "f1_score": 0.7559,
     "wrong_edge_rate": 0.2416,
-    "unassigned_count": 1,
-    "domain": "silvergateomnichannelstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0069",
@@ -1030,9 +894,7 @@
     "recall": 0.814,
     "f1_score": 0.814,
     "wrong_edge_rate": 0.186,
-    "unassigned_count": 0,
-    "domain": "summitboutiquegroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0070",
@@ -1045,9 +907,7 @@
     "recall": 0.7895,
     "f1_score": 0.7895,
     "wrong_edge_rate": 0.2105,
-    "unassigned_count": 0,
-    "domain": "solsticeholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0071",
@@ -1060,9 +920,7 @@
     "recall": 0.8421,
     "f1_score": 0.8449,
     "wrong_edge_rate": 0.1523,
-    "unassigned_count": 1,
-    "domain": "nordicconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0072",
@@ -1075,9 +933,7 @@
     "recall": 0.7952,
     "f1_score": 0.7952,
     "wrong_edge_rate": 0.2048,
-    "unassigned_count": 0,
-    "domain": "nordicgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0073",
@@ -1090,9 +946,7 @@
     "recall": 0.8467,
     "f1_score": 0.8467,
     "wrong_edge_rate": 0.1533,
-    "unassigned_count": 0,
-    "domain": "evergreenboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0074",
@@ -1105,9 +959,7 @@
     "recall": 0.7647,
     "f1_score": 0.7782,
     "wrong_edge_rate": 0.2079,
-    "unassigned_count": 10,
-    "domain": "luminadepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0075",
@@ -1120,9 +972,7 @@
     "recall": 0.7843,
     "f1_score": 0.7869,
     "wrong_edge_rate": 0.2105,
-    "unassigned_count": 1,
-    "domain": "goldenrodtradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0076",
@@ -1135,9 +985,7 @@
     "recall": 0.8067,
     "f1_score": 0.8067,
     "wrong_edge_rate": 0.1933,
-    "unassigned_count": 0,
-    "domain": "radiantbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0077",
@@ -1150,9 +998,7 @@
     "recall": 0.744,
     "f1_score": 0.753,
     "wrong_edge_rate": 0.2378,
-    "unassigned_count": 8,
-    "domain": "primeretailgroup.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0078",
@@ -1165,9 +1011,7 @@
     "recall": 0.9065,
     "f1_score": 0.9065,
     "wrong_edge_rate": 0.0935,
-    "unassigned_count": 0,
-    "domain": "cobaltluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0079",
@@ -1180,9 +1024,7 @@
     "recall": 0.7197,
     "f1_score": 0.748,
     "wrong_edge_rate": 0.2213,
-    "unassigned_count": 10,
-    "domain": "goldenroddepartmentstores.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0080",
@@ -1195,9 +1037,7 @@
     "recall": 0.7413,
     "f1_score": 0.7483,
     "wrong_edge_rate": 0.2446,
-    "unassigned_count": 7,
-    "domain": "blueskyapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0081",
@@ -1210,9 +1050,7 @@
     "recall": 0.7168,
     "f1_score": 0.7407,
     "wrong_edge_rate": 0.2337,
-    "unassigned_count": 18,
-    "domain": "radiantluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 18
   },
   {
     "id": "comp_0082",
@@ -1225,9 +1063,7 @@
     "recall": 0.7451,
     "f1_score": 0.7575,
     "wrong_edge_rate": 0.2297,
-    "unassigned_count": 5,
-    "domain": "evergreenmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0083",
@@ -1240,9 +1076,7 @@
     "recall": 0.7926,
     "f1_score": 0.7926,
     "wrong_edge_rate": 0.2074,
-    "unassigned_count": 0,
-    "domain": "sterlingoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0084",
@@ -1255,9 +1089,7 @@
     "recall": 0.8105,
     "f1_score": 0.8131,
     "wrong_edge_rate": 0.1842,
-    "unassigned_count": 1,
-    "domain": "redwoodhomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0085",
@@ -1270,9 +1102,7 @@
     "recall": 0.82,
     "f1_score": 0.8255,
     "wrong_edge_rate": 0.1689,
-    "unassigned_count": 2,
-    "domain": "frontierlogisticsretail.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0086",
@@ -1285,9 +1115,7 @@
     "recall": 0.7733,
     "f1_score": 0.7755,
     "wrong_edge_rate": 0.2222,
-    "unassigned_count": 1,
-    "domain": "equinoxtradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0087",
@@ -1300,9 +1128,7 @@
     "recall": 0.7697,
     "f1_score": 0.7851,
     "wrong_edge_rate": 0.1988,
-    "unassigned_count": 7,
-    "domain": "cobaltdirectstores.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0088",
@@ -1315,9 +1141,7 @@
     "recall": 0.8618,
     "f1_score": 0.8647,
     "wrong_edge_rate": 0.1325,
-    "unassigned_count": 1,
-    "domain": "sierraretailgroup.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0089",
@@ -1330,9 +1154,7 @@
     "recall": 0.9671,
     "f1_score": 0.9703,
     "wrong_edge_rate": 0.0265,
-    "unassigned_count": 1,
-    "domain": "starlightapparelco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0090",
@@ -1345,9 +1167,7 @@
     "recall": 0.7974,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.1974,
-    "unassigned_count": 1,
-    "domain": "apexdigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0091",
@@ -1360,9 +1180,7 @@
     "recall": 0.8158,
     "f1_score": 0.8185,
     "wrong_edge_rate": 0.1788,
-    "unassigned_count": 1,
-    "domain": "evergreenoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0092",
@@ -1375,9 +1193,7 @@
     "recall": 0.7489,
     "f1_score": 0.7574,
     "wrong_edge_rate": 0.2339,
-    "unassigned_count": 5,
-    "domain": "sterlingdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0093",
@@ -1390,9 +1206,7 @@
     "recall": 0.7166,
     "f1_score": 0.75,
     "wrong_edge_rate": 0.2133,
-    "unassigned_count": 28,
-    "domain": "redwoodsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 28
   },
   {
     "id": "comp_0094",
@@ -1405,9 +1219,7 @@
     "recall": 0.7568,
     "f1_score": 0.7581,
     "wrong_edge_rate": 0.2405,
-    "unassigned_count": 1,
-    "domain": "venturebrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0095",
@@ -1420,9 +1232,7 @@
     "recall": 0.8281,
     "f1_score": 0.8281,
     "wrong_edge_rate": 0.1719,
-    "unassigned_count": 0,
-    "domain": "equinoxlogisticsretail.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0096",
@@ -1435,9 +1245,7 @@
     "recall": 0.8112,
     "f1_score": 0.8112,
     "wrong_edge_rate": 0.1888,
-    "unassigned_count": 0,
-    "domain": "velocitydepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0097",
@@ -1450,9 +1258,7 @@
     "recall": 0.7471,
     "f1_score": 0.7604,
     "wrong_edge_rate": 0.2259,
-    "unassigned_count": 12,
-    "domain": "sterlinglogisticsretail.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 12
   },
   {
     "id": "comp_0098",
@@ -1465,9 +1271,7 @@
     "recall": 0.8345,
     "f1_score": 0.8375,
     "wrong_edge_rate": 0.1594,
-    "unassigned_count": 1,
-    "domain": "horizonomnichannelstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0099",
@@ -1480,9 +1284,7 @@
     "recall": 0.8301,
     "f1_score": 0.8328,
     "wrong_edge_rate": 0.1645,
-    "unassigned_count": 1,
-    "domain": "luminadirectstores.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0100",
@@ -1495,9 +1297,7 @@
     "recall": 0.7,
     "f1_score": 0.7496,
     "wrong_edge_rate": 0.1931,
-    "unassigned_count": 49,
-    "domain": "primeapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 49
   },
   {
     "id": "comp_0101",
@@ -1510,9 +1310,7 @@
     "recall": 0.7843,
     "f1_score": 0.7895,
     "wrong_edge_rate": 0.2053,
-    "unassigned_count": 2,
-    "domain": "novaconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0102",
@@ -1525,9 +1323,7 @@
     "recall": 0.7829,
     "f1_score": 0.7987,
     "wrong_edge_rate": 0.1849,
-    "unassigned_count": 6,
-    "domain": "summitapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0103",
@@ -1540,9 +1336,7 @@
     "recall": 0.7762,
     "f1_score": 0.7789,
     "wrong_edge_rate": 0.2183,
-    "unassigned_count": 1,
-    "domain": "silvergateboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0104",
@@ -1555,9 +1349,7 @@
     "recall": 0.7985,
     "f1_score": 0.8015,
     "wrong_edge_rate": 0.1955,
-    "unassigned_count": 1,
-    "domain": "urbanluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0105",
@@ -1570,9 +1362,7 @@
     "recall": 0.8112,
     "f1_score": 0.814,
     "wrong_edge_rate": 0.1831,
-    "unassigned_count": 1,
-    "domain": "novaomnichannelstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0106",
@@ -1585,9 +1375,7 @@
     "recall": 0.8519,
     "f1_score": 0.8519,
     "wrong_edge_rate": 0.1481,
-    "unassigned_count": 0,
-    "domain": "ironwoodholdings.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0107",
@@ -1600,9 +1388,7 @@
     "recall": 0.7773,
     "f1_score": 0.7862,
     "wrong_edge_rate": 0.2047,
-    "unassigned_count": 5,
-    "domain": "pacificluxuryemporium.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0108",
@@ -1615,9 +1401,7 @@
     "recall": 0.8693,
     "f1_score": 0.8693,
     "wrong_edge_rate": 0.1307,
-    "unassigned_count": 0,
-    "domain": "halcyonboutiquegroup.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0109",
@@ -1630,9 +1414,7 @@
     "recall": 0.8015,
     "f1_score": 0.8015,
     "wrong_edge_rate": 0.1985,
-    "unassigned_count": 0,
-    "domain": "kestrelprovisions.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0110",
@@ -1645,9 +1427,7 @@
     "recall": 0.7692,
     "f1_score": 0.7829,
     "wrong_edge_rate": 0.2029,
-    "unassigned_count": 5,
-    "domain": "kestrelholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0111",
@@ -1660,9 +1440,7 @@
     "recall": 0.8023,
     "f1_score": 0.8023,
     "wrong_edge_rate": 0.1977,
-    "unassigned_count": 0,
-    "domain": "crownsupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0112",
@@ -1675,9 +1453,7 @@
     "recall": 0.8531,
     "f1_score": 0.8561,
     "wrong_edge_rate": 0.1408,
-    "unassigned_count": 1,
-    "domain": "radianttradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0113",
@@ -1690,9 +1466,7 @@
     "recall": 0.8252,
     "f1_score": 0.8339,
     "wrong_edge_rate": 0.1571,
-    "unassigned_count": 3,
-    "domain": "goldenroddirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0114",
@@ -1705,9 +1479,7 @@
     "recall": 0.785,
     "f1_score": 0.785,
     "wrong_edge_rate": 0.215,
-    "unassigned_count": 0,
-    "domain": "solsticeluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0115",
@@ -1720,9 +1492,7 @@
     "recall": 0.7561,
     "f1_score": 0.7654,
     "wrong_edge_rate": 0.225,
-    "unassigned_count": 7,
-    "domain": "starlighttradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0116",
@@ -1735,9 +1505,7 @@
     "recall": 0.8583,
     "f1_score": 0.8583,
     "wrong_edge_rate": 0.1417,
-    "unassigned_count": 0,
-    "domain": "starlightconsumerbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0117",
@@ -1750,9 +1518,7 @@
     "recall": 0.7173,
     "f1_score": 0.7281,
     "wrong_edge_rate": 0.2607,
-    "unassigned_count": 10,
-    "domain": "vanguardboutiquegroup.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0118",
@@ -1765,9 +1531,7 @@
     "recall": 0.8182,
     "f1_score": 0.8182,
     "wrong_edge_rate": 0.1818,
-    "unassigned_count": 0,
-    "domain": "pacificomnichannelstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0119",
@@ -1780,9 +1544,7 @@
     "recall": 0.8182,
     "f1_score": 0.8182,
     "wrong_edge_rate": 0.1818,
-    "unassigned_count": 0,
-    "domain": "ironwoodlogisticsretail.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0120",
@@ -1795,9 +1557,7 @@
     "recall": 0.8553,
     "f1_score": 0.8725,
     "wrong_edge_rate": 0.1096,
-    "unassigned_count": 6,
-    "domain": "vanguardoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0121",
@@ -1810,9 +1570,7 @@
     "recall": 0.8235,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1765,
-    "unassigned_count": 0,
-    "domain": "catalystsupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0122",
@@ -1825,9 +1583,7 @@
     "recall": 0.8084,
     "f1_score": 0.8122,
     "wrong_edge_rate": 0.184,
-    "unassigned_count": 2,
-    "domain": "radiantprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0123",
@@ -1840,9 +1596,7 @@
     "recall": 0.8444,
     "f1_score": 0.8444,
     "wrong_edge_rate": 0.1556,
-    "unassigned_count": 0,
-    "domain": "meridianprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0124",
@@ -1855,9 +1609,7 @@
     "recall": 0.8487,
     "f1_score": 0.8515,
     "wrong_edge_rate": 0.1457,
-    "unassigned_count": 1,
-    "domain": "timberlineoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0125",
@@ -1870,9 +1622,7 @@
     "recall": 0.7908,
     "f1_score": 0.7934,
     "wrong_edge_rate": 0.2039,
-    "unassigned_count": 1,
-    "domain": "velocityboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0126",
@@ -1885,9 +1635,7 @@
     "recall": 0.8819,
     "f1_score": 0.8854,
     "wrong_edge_rate": 0.1111,
-    "unassigned_count": 1,
-    "domain": "starlightsupermarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0127",
@@ -1900,9 +1648,7 @@
     "recall": 0.8806,
     "f1_score": 0.8806,
     "wrong_edge_rate": 0.1194,
-    "unassigned_count": 0,
-    "domain": "timberlinelogisticsretail.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0128",
@@ -1915,9 +1661,7 @@
     "recall": 0.8112,
     "f1_score": 0.8112,
     "wrong_edge_rate": 0.1888,
-    "unassigned_count": 0,
-    "domain": "primedepartmentstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0129",
@@ -1930,9 +1674,7 @@
     "recall": 0.7354,
     "f1_score": 0.7438,
     "wrong_edge_rate": 0.2477,
-    "unassigned_count": 5,
-    "domain": "oasissupermarkets.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0130",
@@ -1945,9 +1687,7 @@
     "recall": 0.8271,
     "f1_score": 0.8271,
     "wrong_edge_rate": 0.1729,
-    "unassigned_count": 0,
-    "domain": "crownmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0131",
@@ -1960,9 +1700,7 @@
     "recall": 0.7727,
     "f1_score": 0.7786,
     "wrong_edge_rate": 0.2154,
-    "unassigned_count": 2,
-    "domain": "cascadedigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0132",
@@ -1975,9 +1713,7 @@
     "recall": 0.8345,
     "f1_score": 0.8345,
     "wrong_edge_rate": 0.1655,
-    "unassigned_count": 0,
-    "domain": "starlighthomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0133",
@@ -1990,9 +1726,7 @@
     "recall": 0.7712,
     "f1_score": 0.7815,
     "wrong_edge_rate": 0.2081,
-    "unassigned_count": 4,
-    "domain": "vanguardgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0134",
@@ -2005,9 +1739,7 @@
     "recall": 0.8158,
     "f1_score": 0.8239,
     "wrong_edge_rate": 0.1678,
-    "unassigned_count": 3,
-    "domain": "timberlineapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0135",
@@ -2020,9 +1752,7 @@
     "recall": 0.8189,
     "f1_score": 0.8189,
     "wrong_edge_rate": 0.1811,
-    "unassigned_count": 0,
-    "domain": "novadirectstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0136",
@@ -2035,9 +1765,7 @@
     "recall": 0.8182,
     "f1_score": 0.8269,
     "wrong_edge_rate": 0.1643,
-    "unassigned_count": 3,
-    "domain": "cobaltprovisions.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0137",
@@ -2050,9 +1778,7 @@
     "recall": 0.831,
     "f1_score": 0.8339,
     "wrong_edge_rate": 0.1631,
-    "unassigned_count": 1,
-    "domain": "evergreenlogisticsretail.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0138",
@@ -2065,9 +1791,7 @@
     "recall": 0.8366,
     "f1_score": 0.8393,
     "wrong_edge_rate": 0.1579,
-    "unassigned_count": 1,
-    "domain": "velocitysupermarkets.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0139",
@@ -2080,9 +1804,7 @@
     "recall": 0.7887,
     "f1_score": 0.7887,
     "wrong_edge_rate": 0.2113,
-    "unassigned_count": 0,
-    "domain": "venturegeneralmerchandise.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0140",
@@ -2095,9 +1817,7 @@
     "recall": 0.7897,
     "f1_score": 0.7897,
     "wrong_edge_rate": 0.2103,
-    "unassigned_count": 0,
-    "domain": "heritageoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0141",
@@ -2110,9 +1830,7 @@
     "recall": 0.8273,
     "f1_score": 0.8273,
     "wrong_edge_rate": 0.1727,
-    "unassigned_count": 0,
-    "domain": "redwoodgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0142",
@@ -2125,9 +1843,7 @@
     "recall": 0.7527,
     "f1_score": 0.7527,
     "wrong_edge_rate": 0.2473,
-    "unassigned_count": 0,
-    "domain": "apexsupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0143",
@@ -2140,9 +1856,7 @@
     "recall": 0.8235,
     "f1_score": 0.8262,
     "wrong_edge_rate": 0.1711,
-    "unassigned_count": 1,
-    "domain": "urbanoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0144",
@@ -2155,9 +1869,7 @@
     "recall": 0.7509,
     "f1_score": 0.7654,
     "wrong_edge_rate": 0.2194,
-    "unassigned_count": 11,
-    "domain": "halcyonconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 11
   },
   {
     "id": "comp_0145",
@@ -2170,9 +1882,7 @@
     "recall": 0.8112,
     "f1_score": 0.814,
     "wrong_edge_rate": 0.1831,
-    "unassigned_count": 1,
-    "domain": "harbortradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0146",
@@ -2185,9 +1895,7 @@
     "recall": 0.8158,
     "f1_score": 0.8185,
     "wrong_edge_rate": 0.1788,
-    "unassigned_count": 1,
-    "domain": "crestviewapparelco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0147",
@@ -2200,9 +1908,7 @@
     "recall": 0.7166,
     "f1_score": 0.75,
     "wrong_edge_rate": 0.2133,
-    "unassigned_count": 28,
-    "domain": "nordicsupermarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 28
   },
   {
     "id": "comp_0148",
@@ -2215,9 +1921,7 @@
     "recall": 0.756,
     "f1_score": 0.7697,
     "wrong_edge_rate": 0.216,
-    "unassigned_count": 12,
-    "domain": "pinnacleluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 12
   },
   {
     "id": "comp_0149",
@@ -2230,9 +1934,7 @@
     "recall": 0.8478,
     "f1_score": 0.8478,
     "wrong_edge_rate": 0.1522,
-    "unassigned_count": 0,
-    "domain": "sterlingmarkets.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0150",
@@ -2245,9 +1947,7 @@
     "recall": 0.7558,
     "f1_score": 0.7855,
     "wrong_edge_rate": 0.1824,
-    "unassigned_count": 13,
-    "domain": "crestviewtradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 13
   },
   {
     "id": "comp_0151",
@@ -2260,9 +1960,7 @@
     "recall": 0.875,
     "f1_score": 0.875,
     "wrong_edge_rate": 0.125,
-    "unassigned_count": 0,
-    "domain": "primehomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0152",
@@ -2275,9 +1973,7 @@
     "recall": 0.8671,
     "f1_score": 0.8671,
     "wrong_edge_rate": 0.1329,
-    "unassigned_count": 0,
-    "domain": "goldenrodomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0153",
@@ -2290,9 +1986,7 @@
     "recall": 0.7339,
     "f1_score": 0.7371,
     "wrong_edge_rate": 0.2597,
-    "unassigned_count": 2,
-    "domain": "sterlingboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0154",
@@ -2305,9 +1999,7 @@
     "recall": 0.791,
     "f1_score": 0.791,
     "wrong_edge_rate": 0.209,
-    "unassigned_count": 0,
-    "domain": "summitdirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0155",
@@ -2320,9 +2012,7 @@
     "recall": 0.8693,
     "f1_score": 0.8693,
     "wrong_edge_rate": 0.1307,
-    "unassigned_count": 0,
-    "domain": "cascadeapparelco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0156",
@@ -2335,9 +2025,7 @@
     "recall": 0.8367,
     "f1_score": 0.8367,
     "wrong_edge_rate": 0.1633,
-    "unassigned_count": 0,
-    "domain": "redwoodoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0157",
@@ -2350,9 +2038,7 @@
     "recall": 0.9167,
     "f1_score": 0.9202,
     "wrong_edge_rate": 0.0763,
-    "unassigned_count": 1,
-    "domain": "summitsupplyco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0158",
@@ -2365,9 +2051,7 @@
     "recall": 0.7712,
     "f1_score": 0.7738,
     "wrong_edge_rate": 0.2237,
-    "unassigned_count": 1,
-    "domain": "sierraluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0159",
@@ -2380,9 +2064,7 @@
     "recall": 0.7259,
     "f1_score": 0.7286,
     "wrong_edge_rate": 0.2687,
-    "unassigned_count": 1,
-    "domain": "primegeneralmerchandise.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0160",
@@ -2395,9 +2077,7 @@
     "recall": 0.7949,
     "f1_score": 0.8073,
     "wrong_edge_rate": 0.1799,
-    "unassigned_count": 6,
-    "domain": "elementhomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0161",
@@ -2410,9 +2090,7 @@
     "recall": 0.8921,
     "f1_score": 0.8921,
     "wrong_edge_rate": 0.1079,
-    "unassigned_count": 0,
-    "domain": "apexboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0162",
@@ -2425,9 +2103,7 @@
     "recall": 0.8,
     "f1_score": 0.8021,
     "wrong_edge_rate": 0.1959,
-    "unassigned_count": 1,
-    "domain": "silvergatesupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0163",
@@ -2440,9 +2116,7 @@
     "recall": 0.768,
     "f1_score": 0.768,
     "wrong_edge_rate": 0.232,
-    "unassigned_count": 0,
-    "domain": "silvergateholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0164",
@@ -2455,9 +2129,7 @@
     "recall": 0.8301,
     "f1_score": 0.8301,
     "wrong_edge_rate": 0.1699,
-    "unassigned_count": 0,
-    "domain": "solsticeconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0165",
@@ -2470,9 +2142,7 @@
     "recall": 0.8507,
     "f1_score": 0.8507,
     "wrong_edge_rate": 0.1493,
-    "unassigned_count": 0,
-    "domain": "blueskyboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0166",
@@ -2485,9 +2155,7 @@
     "recall": 0.8618,
     "f1_score": 0.8675,
     "wrong_edge_rate": 0.1267,
-    "unassigned_count": 2,
-    "domain": "nordicretailgroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0167",
@@ -2500,9 +2168,7 @@
     "recall": 0.7513,
     "f1_score": 0.7533,
     "wrong_edge_rate": 0.2447,
-    "unassigned_count": 1,
-    "domain": "sierramarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0168",
@@ -2515,9 +2181,7 @@
     "recall": 0.8301,
     "f1_score": 0.8301,
     "wrong_edge_rate": 0.1699,
-    "unassigned_count": 0,
-    "domain": "novasupplyco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0169",
@@ -2530,9 +2194,7 @@
     "recall": 0.8431,
     "f1_score": 0.8431,
     "wrong_edge_rate": 0.1569,
-    "unassigned_count": 0,
-    "domain": "cascadesupermarkets.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0170",
@@ -2545,9 +2207,7 @@
     "recall": 0.8301,
     "f1_score": 0.8301,
     "wrong_edge_rate": 0.1699,
-    "unassigned_count": 0,
-    "domain": "zenithholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0171",
@@ -2560,9 +2220,7 @@
     "recall": 0.8,
     "f1_score": 0.8027,
     "wrong_edge_rate": 0.1946,
-    "unassigned_count": 1,
-    "domain": "cascadeconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0172",
@@ -2575,9 +2233,7 @@
     "recall": 0.7959,
     "f1_score": 0.8014,
     "wrong_edge_rate": 0.1931,
-    "unassigned_count": 2,
-    "domain": "velocitytradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0173",
@@ -2590,9 +2246,7 @@
     "recall": 0.7422,
     "f1_score": 0.7436,
     "wrong_edge_rate": 0.2549,
-    "unassigned_count": 1,
-    "domain": "ventureretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0174",
@@ -2605,9 +2259,7 @@
     "recall": 0.8117,
     "f1_score": 0.8135,
     "wrong_edge_rate": 0.1847,
-    "unassigned_count": 1,
-    "domain": "evergreenapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0175",
@@ -2620,9 +2272,7 @@
     "recall": 0.7843,
     "f1_score": 0.7869,
     "wrong_edge_rate": 0.2105,
-    "unassigned_count": 1,
-    "domain": "metrodigitalgoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0176",
@@ -2635,9 +2285,7 @@
     "recall": 0.8358,
     "f1_score": 0.8358,
     "wrong_edge_rate": 0.1642,
-    "unassigned_count": 0,
-    "domain": "ironwoodmarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0177",
@@ -2650,9 +2298,7 @@
     "recall": 0.8605,
     "f1_score": 0.8638,
     "wrong_edge_rate": 0.1328,
-    "unassigned_count": 1,
-    "domain": "timberlinesupermarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0178",
@@ -2665,9 +2311,7 @@
     "recall": 0.7832,
     "f1_score": 0.7943,
     "wrong_edge_rate": 0.1942,
-    "unassigned_count": 4,
-    "domain": "ironwoodconsumerbrands.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0179",
@@ -2680,9 +2324,7 @@
     "recall": 0.817,
     "f1_score": 0.817,
     "wrong_edge_rate": 0.183,
-    "unassigned_count": 0,
-    "domain": "novageneralmerchandise.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0180",
@@ -2695,9 +2337,7 @@
     "recall": 0.7389,
     "f1_score": 0.7508,
     "wrong_edge_rate": 0.2368,
-    "unassigned_count": 10,
-    "domain": "zenithprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0181",
@@ -2710,9 +2350,7 @@
     "recall": 0.7704,
     "f1_score": 0.7732,
     "wrong_edge_rate": 0.2239,
-    "unassigned_count": 1,
-    "domain": "harboromnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0182",
@@ -2725,9 +2363,7 @@
     "recall": 0.8042,
     "f1_score": 0.8156,
     "wrong_edge_rate": 0.1727,
-    "unassigned_count": 4,
-    "domain": "elementdirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0183",
@@ -2740,9 +2376,7 @@
     "recall": 0.8343,
     "f1_score": 0.8367,
     "wrong_edge_rate": 0.1609,
-    "unassigned_count": 1,
-    "domain": "pacificmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0184",
@@ -2755,9 +2389,7 @@
     "recall": 0.7727,
     "f1_score": 0.7727,
     "wrong_edge_rate": 0.2273,
-    "unassigned_count": 0,
-    "domain": "silvergategeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0185",
@@ -2770,9 +2402,7 @@
     "recall": 0.7533,
     "f1_score": 0.7713,
     "wrong_edge_rate": 0.2098,
-    "unassigned_count": 7,
-    "domain": "goldenrodluxuryemporium.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0186",
@@ -2785,9 +2415,7 @@
     "recall": 0.7467,
     "f1_score": 0.7568,
     "wrong_edge_rate": 0.2329,
-    "unassigned_count": 4,
-    "domain": "silvergatehomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0187",
@@ -2800,9 +2428,7 @@
     "recall": 0.7389,
     "f1_score": 0.7608,
     "wrong_edge_rate": 0.216,
-    "unassigned_count": 13,
-    "domain": "solsticehomegoods.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 13
   },
   {
     "id": "comp_0188",
@@ -2815,9 +2441,7 @@
     "recall": 0.7611,
     "f1_score": 0.7854,
     "wrong_edge_rate": 0.1887,
-    "unassigned_count": 14,
-    "domain": "harborluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 14
   },
   {
     "id": "comp_0189",
@@ -2830,9 +2454,7 @@
     "recall": 0.9431,
     "f1_score": 0.9431,
     "wrong_edge_rate": 0.0569,
-    "unassigned_count": 0,
-    "domain": "frontierconsumerbrands.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0190",
@@ -2845,9 +2467,7 @@
     "recall": 0.8133,
     "f1_score": 0.8133,
     "wrong_edge_rate": 0.1867,
-    "unassigned_count": 0,
-    "domain": "solsticeoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0191",
@@ -2860,9 +2480,7 @@
     "recall": 0.7917,
     "f1_score": 0.8023,
     "wrong_edge_rate": 0.1868,
-    "unassigned_count": 7,
-    "domain": "crestviewretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0192",
@@ -2875,9 +2493,7 @@
     "recall": 0.7972,
     "f1_score": 0.7972,
     "wrong_edge_rate": 0.2028,
-    "unassigned_count": 0,
-    "domain": "goldenrodprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0193",
@@ -2890,9 +2506,7 @@
     "recall": 0.7692,
     "f1_score": 0.7719,
     "wrong_edge_rate": 0.2254,
-    "unassigned_count": 1,
-    "domain": "avenueretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0194",
@@ -2905,9 +2519,7 @@
     "recall": 0.86,
     "f1_score": 0.86,
     "wrong_edge_rate": 0.14,
-    "unassigned_count": 0,
-    "domain": "cobaltapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0195",
@@ -2920,9 +2532,7 @@
     "recall": 0.7986,
     "f1_score": 0.8014,
     "wrong_edge_rate": 0.1957,
-    "unassigned_count": 1,
-    "domain": "pinnacledepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0196",
@@ -2935,9 +2545,7 @@
     "recall": 0.773,
     "f1_score": 0.7786,
     "wrong_edge_rate": 0.2158,
-    "unassigned_count": 2,
-    "domain": "frontierholdings.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0197",
@@ -2950,9 +2558,7 @@
     "recall": 0.8508,
     "f1_score": 0.8532,
     "wrong_edge_rate": 0.1444,
-    "unassigned_count": 1,
-    "domain": "sierraprovisions.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0198",
@@ -2965,9 +2571,7 @@
     "recall": 0.8128,
     "f1_score": 0.8148,
     "wrong_edge_rate": 0.1832,
-    "unassigned_count": 1,
-    "domain": "metrodirectstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0199",
@@ -2980,9 +2584,7 @@
     "recall": 0.7676,
     "f1_score": 0.7786,
     "wrong_edge_rate": 0.2101,
-    "unassigned_count": 4,
-    "domain": "sierrageneralmerchandise.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0200",
@@ -2995,9 +2597,7 @@
     "recall": 0.7972,
     "f1_score": 0.8028,
     "wrong_edge_rate": 0.1915,
-    "unassigned_count": 2,
-    "domain": "vanguardsupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0201",
@@ -3010,9 +2610,7 @@
     "recall": 0.8286,
     "f1_score": 0.8286,
     "wrong_edge_rate": 0.1714,
-    "unassigned_count": 0,
-    "domain": "nordicomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0202",
@@ -3025,9 +2623,7 @@
     "recall": 0.7697,
     "f1_score": 0.7959,
     "wrong_edge_rate": 0.1761,
-    "unassigned_count": 10,
-    "domain": "urbanapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0203",
@@ -3040,9 +2636,7 @@
     "recall": 0.7024,
     "f1_score": 0.7375,
     "wrong_edge_rate": 0.2237,
-    "unassigned_count": 32,
-    "domain": "kestreldepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 32
   },
   {
     "id": "comp_0204",
@@ -3055,9 +2649,7 @@
     "recall": 0.8205,
     "f1_score": 0.8205,
     "wrong_edge_rate": 0.1795,
-    "unassigned_count": 0,
-    "domain": "silvergatedepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0205",
@@ -3070,9 +2662,7 @@
     "recall": 0.8333,
     "f1_score": 0.8333,
     "wrong_edge_rate": 0.1667,
-    "unassigned_count": 0,
-    "domain": "timberlinedepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0206",
@@ -3085,9 +2675,7 @@
     "recall": 0.8067,
     "f1_score": 0.8259,
     "wrong_edge_rate": 0.1538,
-    "unassigned_count": 7,
-    "domain": "primemarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0207",
@@ -3100,9 +2688,7 @@
     "recall": 0.7265,
     "f1_score": 0.7414,
     "wrong_edge_rate": 0.243,
-    "unassigned_count": 9,
-    "domain": "sierratradingco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0208",
@@ -3115,9 +2701,7 @@
     "recall": 0.746,
     "f1_score": 0.7769,
     "wrong_edge_rate": 0.1897,
-    "unassigned_count": 15,
-    "domain": "radiantgeneralmerchandise.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 15
   },
   {
     "id": "comp_0209",
@@ -3130,9 +2714,7 @@
     "recall": 0.7516,
     "f1_score": 0.7641,
     "wrong_edge_rate": 0.223,
-    "unassigned_count": 5,
-    "domain": "solsticeretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0210",
@@ -3145,9 +2727,7 @@
     "recall": 0.7257,
     "f1_score": 0.7489,
     "wrong_edge_rate": 0.2264,
-    "unassigned_count": 14,
-    "domain": "heritagelogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 14
   },
   {
     "id": "comp_0211",
@@ -3160,9 +2740,7 @@
     "recall": 0.8261,
     "f1_score": 0.8261,
     "wrong_edge_rate": 0.1739,
-    "unassigned_count": 0,
-    "domain": "harbordigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0212",
@@ -3175,9 +2753,7 @@
     "recall": 0.7843,
     "f1_score": 0.7869,
     "wrong_edge_rate": 0.2105,
-    "unassigned_count": 1,
-    "domain": "horizonsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0213",
@@ -3190,9 +2766,7 @@
     "recall": 0.8561,
     "f1_score": 0.8561,
     "wrong_edge_rate": 0.1439,
-    "unassigned_count": 0,
-    "domain": "harborapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0214",
@@ -3205,9 +2779,7 @@
     "recall": 0.8722,
     "f1_score": 0.8755,
     "wrong_edge_rate": 0.1212,
-    "unassigned_count": 1,
-    "domain": "atlasconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0215",
@@ -3220,9 +2792,7 @@
     "recall": 0.7842,
     "f1_score": 0.787,
     "wrong_edge_rate": 0.2101,
-    "unassigned_count": 1,
-    "domain": "atlasomnichannelstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0216",
@@ -3235,9 +2805,7 @@
     "recall": 0.7442,
     "f1_score": 0.7841,
     "wrong_edge_rate": 0.1715,
-    "unassigned_count": 35,
-    "domain": "starlightdirectstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 35
   },
   {
     "id": "comp_0217",
@@ -3250,9 +2818,7 @@
     "recall": 0.8301,
     "f1_score": 0.8301,
     "wrong_edge_rate": 0.1699,
-    "unassigned_count": 0,
-    "domain": "venturedigitalgoods.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0218",
@@ -3265,9 +2831,7 @@
     "recall": 0.8358,
     "f1_score": 0.8358,
     "wrong_edge_rate": 0.1642,
-    "unassigned_count": 0,
-    "domain": "vanguardsupermarkets.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0219",
@@ -3280,9 +2844,7 @@
     "recall": 0.7388,
     "f1_score": 0.75,
     "wrong_edge_rate": 0.2385,
-    "unassigned_count": 4,
-    "domain": "novabrands.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0220",
@@ -3295,9 +2857,7 @@
     "recall": 0.7617,
     "f1_score": 0.7932,
     "wrong_edge_rate": 0.1726,
-    "unassigned_count": 17,
-    "domain": "equinoxdigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 17
   },
   {
     "id": "comp_0221",
@@ -3310,9 +2870,7 @@
     "recall": 0.8431,
     "f1_score": 0.8431,
     "wrong_edge_rate": 0.1569,
-    "unassigned_count": 0,
-    "domain": "ironwoodsupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0222",
@@ -3325,9 +2883,7 @@
     "recall": 0.8562,
     "f1_score": 0.859,
     "wrong_edge_rate": 0.1382,
-    "unassigned_count": 1,
-    "domain": "crowngeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0223",
@@ -3340,9 +2896,7 @@
     "recall": 0.8268,
     "f1_score": 0.83,
     "wrong_edge_rate": 0.1667,
-    "unassigned_count": 1,
-    "domain": "atlasdigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0224",
@@ -3355,9 +2909,7 @@
     "recall": 0.8657,
     "f1_score": 0.8657,
     "wrong_edge_rate": 0.1343,
-    "unassigned_count": 0,
-    "domain": "novaholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0225",
@@ -3370,9 +2922,7 @@
     "recall": 0.7832,
     "f1_score": 0.7832,
     "wrong_edge_rate": 0.2168,
-    "unassigned_count": 0,
-    "domain": "urbansupplyco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0226",
@@ -3385,9 +2935,7 @@
     "recall": 0.7951,
     "f1_score": 0.815,
     "wrong_edge_rate": 0.1641,
-    "unassigned_count": 10,
-    "domain": "blueskylogisticsretail.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0227",
@@ -3400,9 +2948,7 @@
     "recall": 0.806,
     "f1_score": 0.8151,
     "wrong_edge_rate": 0.1756,
-    "unassigned_count": 3,
-    "domain": "catalystapparelco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0228",
@@ -3415,9 +2961,7 @@
     "recall": 0.8092,
     "f1_score": 0.8311,
     "wrong_edge_rate": 0.1458,
-    "unassigned_count": 8,
-    "domain": "beaconsupplyco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0229",
@@ -3430,9 +2974,7 @@
     "recall": 0.7884,
     "f1_score": 0.7926,
     "wrong_edge_rate": 0.2032,
-    "unassigned_count": 2,
-    "domain": "catalystsupermarkets.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0230",
@@ -3445,9 +2987,7 @@
     "recall": 0.7697,
     "f1_score": 0.7932,
     "wrong_edge_rate": 0.1818,
-    "unassigned_count": 9,
-    "domain": "urbanlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0231",
@@ -3460,9 +3000,7 @@
     "recall": 0.7908,
     "f1_score": 0.7934,
     "wrong_edge_rate": 0.2039,
-    "unassigned_count": 1,
-    "domain": "beaconlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0232",
@@ -3475,9 +3013,7 @@
     "recall": 0.7227,
     "f1_score": 0.7335,
     "wrong_edge_rate": 0.2553,
-    "unassigned_count": 10,
-    "domain": "zenithconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0233",
@@ -3490,9 +3026,7 @@
     "recall": 0.7908,
     "f1_score": 0.7908,
     "wrong_edge_rate": 0.2092,
-    "unassigned_count": 0,
-    "domain": "harbordepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0234",
@@ -3505,9 +3039,7 @@
     "recall": 0.9145,
     "f1_score": 0.9145,
     "wrong_edge_rate": 0.0855,
-    "unassigned_count": 0,
-    "domain": "venturemarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0235",
@@ -3520,9 +3052,7 @@
     "recall": 0.7933,
     "f1_score": 0.8041,
     "wrong_edge_rate": 0.1849,
-    "unassigned_count": 4,
-    "domain": "sterlingsupermarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0236",
@@ -3535,9 +3065,7 @@
     "recall": 0.8042,
     "f1_score": 0.807,
     "wrong_edge_rate": 0.1901,
-    "unassigned_count": 1,
-    "domain": "venturehomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0237",
@@ -3550,9 +3078,7 @@
     "recall": 0.8235,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1765,
-    "unassigned_count": 0,
-    "domain": "redwoodtradingco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0238",
@@ -3565,9 +3091,7 @@
     "recall": 0.7655,
     "f1_score": 0.7793,
     "wrong_edge_rate": 0.2064,
-    "unassigned_count": 8,
-    "domain": "nordicprovisions.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0239",
@@ -3580,9 +3104,7 @@
     "recall": 0.8301,
     "f1_score": 0.8328,
     "wrong_edge_rate": 0.1645,
-    "unassigned_count": 1,
-    "domain": "halcyonapparelco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0240",
@@ -3595,9 +3117,7 @@
     "recall": 0.8193,
     "f1_score": 0.8193,
     "wrong_edge_rate": 0.1807,
-    "unassigned_count": 0,
-    "domain": "summitholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0241",
@@ -3610,9 +3130,7 @@
     "recall": 0.8693,
     "f1_score": 0.8721,
     "wrong_edge_rate": 0.125,
-    "unassigned_count": 1,
-    "domain": "cobalttradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0242",
@@ -3625,9 +3143,7 @@
     "recall": 0.7533,
     "f1_score": 0.7559,
     "wrong_edge_rate": 0.2416,
-    "unassigned_count": 1,
-    "domain": "oasisholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0243",
@@ -3640,9 +3156,7 @@
     "recall": 0.8366,
     "f1_score": 0.8366,
     "wrong_edge_rate": 0.1634,
-    "unassigned_count": 0,
-    "domain": "apexprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0244",
@@ -3655,9 +3169,7 @@
     "recall": 0.7611,
     "f1_score": 0.771,
     "wrong_edge_rate": 0.219,
-    "unassigned_count": 8,
-    "domain": "novaoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0245",
@@ -3670,9 +3182,7 @@
     "recall": 0.7611,
     "f1_score": 0.7679,
     "wrong_edge_rate": 0.2252,
-    "unassigned_count": 4,
-    "domain": "goldenrodbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0246",
@@ -3685,9 +3195,7 @@
     "recall": 0.8358,
     "f1_score": 0.839,
     "wrong_edge_rate": 0.1579,
-    "unassigned_count": 1,
-    "domain": "kestrelgeneralmerchandise.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0247",
@@ -3700,9 +3208,7 @@
     "recall": 0.8671,
     "f1_score": 0.8671,
     "wrong_edge_rate": 0.1329,
-    "unassigned_count": 0,
-    "domain": "meridianholdings.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0248",
@@ -3715,9 +3221,7 @@
     "recall": 0.7564,
     "f1_score": 0.7663,
     "wrong_edge_rate": 0.2235,
-    "unassigned_count": 9,
-    "domain": "vanguardluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0249",
@@ -3730,9 +3234,7 @@
     "recall": 0.7529,
     "f1_score": 0.7651,
     "wrong_edge_rate": 0.2222,
-    "unassigned_count": 11,
-    "domain": "avenuesupplyco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 11
   },
   {
     "id": "comp_0250",
@@ -3745,9 +3247,7 @@
     "recall": 0.8235,
     "f1_score": 0.8262,
     "wrong_edge_rate": 0.1711,
-    "unassigned_count": 1,
-    "domain": "avenuelogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0251",
@@ -3760,9 +3260,7 @@
     "recall": 0.8042,
     "f1_score": 0.807,
     "wrong_edge_rate": 0.1901,
-    "unassigned_count": 1,
-    "domain": "pinnacleomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0252",
@@ -3775,9 +3273,7 @@
     "recall": 0.7675,
     "f1_score": 0.7749,
     "wrong_edge_rate": 0.2175,
-    "unassigned_count": 6,
-    "domain": "beaconholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0253",
@@ -3790,9 +3286,7 @@
     "recall": 0.8367,
     "f1_score": 0.8367,
     "wrong_edge_rate": 0.1633,
-    "unassigned_count": 0,
-    "domain": "elementsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0254",
@@ -3805,9 +3299,7 @@
     "recall": 0.7733,
     "f1_score": 0.8036,
     "wrong_edge_rate": 0.1635,
-    "unassigned_count": 13,
-    "domain": "halcyonretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 13
   },
   {
     "id": "comp_0255",
@@ -3820,9 +3312,7 @@
     "recall": 0.7578,
     "f1_score": 0.7682,
     "wrong_edge_rate": 0.2212,
-    "unassigned_count": 6,
-    "domain": "velocityconsumerbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0256",
@@ -3835,9 +3325,7 @@
     "recall": 0.8462,
     "f1_score": 0.8491,
     "wrong_edge_rate": 0.1479,
-    "unassigned_count": 1,
-    "domain": "timberlinedirectstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0257",
@@ -3850,9 +3338,7 @@
     "recall": 0.77,
     "f1_score": 0.7714,
     "wrong_edge_rate": 0.2273,
-    "unassigned_count": 1,
-    "domain": "meridianoutfitters.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0258",
@@ -3865,9 +3351,7 @@
     "recall": 0.8882,
     "f1_score": 0.8882,
     "wrong_edge_rate": 0.1118,
-    "unassigned_count": 0,
-    "domain": "beacondirectstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0259",
@@ -3880,9 +3364,7 @@
     "recall": 0.8667,
     "f1_score": 0.8667,
     "wrong_edge_rate": 0.1333,
-    "unassigned_count": 0,
-    "domain": "silvergatemarkets.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0260",
@@ -3895,9 +3377,7 @@
     "recall": 0.7849,
     "f1_score": 0.7872,
     "wrong_edge_rate": 0.2105,
-    "unassigned_count": 1,
-    "domain": "radiantholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0261",
@@ -3910,9 +3390,7 @@
     "recall": 0.8112,
     "f1_score": 0.814,
     "wrong_edge_rate": 0.1831,
-    "unassigned_count": 1,
-    "domain": "ventureapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0262",
@@ -3925,9 +3403,7 @@
     "recall": 0.8201,
     "f1_score": 0.8231,
     "wrong_edge_rate": 0.1739,
-    "unassigned_count": 1,
-    "domain": "catalysttradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0263",
@@ -3940,9 +3416,7 @@
     "recall": 0.7733,
     "f1_score": 0.7973,
     "wrong_edge_rate": 0.1773,
-    "unassigned_count": 9,
-    "domain": "elementmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0264",
@@ -3955,9 +3429,7 @@
     "recall": 0.8198,
     "f1_score": 0.8222,
     "wrong_edge_rate": 0.1754,
-    "unassigned_count": 1,
-    "domain": "heritagedigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0265",
@@ -3970,9 +3442,7 @@
     "recall": 0.8,
     "f1_score": 0.8027,
     "wrong_edge_rate": 0.1946,
-    "unassigned_count": 1,
-    "domain": "ironwoodsupermarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0266",
@@ -3985,9 +3455,7 @@
     "recall": 0.6993,
     "f1_score": 0.7254,
     "wrong_edge_rate": 0.2465,
-    "unassigned_count": 11,
-    "domain": "metroluxuryemporium.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 11
   },
   {
     "id": "comp_0267",
@@ -4000,9 +3468,7 @@
     "recall": 0.8816,
     "f1_score": 0.8845,
     "wrong_edge_rate": 0.1126,
-    "unassigned_count": 1,
-    "domain": "oasisapparelco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0268",
@@ -4015,9 +3481,7 @@
     "recall": 0.8562,
     "f1_score": 0.8562,
     "wrong_edge_rate": 0.1438,
-    "unassigned_count": 0,
-    "domain": "ventureholdings.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0269",
@@ -4030,9 +3494,7 @@
     "recall": 0.7974,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.1974,
-    "unassigned_count": 1,
-    "domain": "solsticeprovisions.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0270",
@@ -4045,9 +3507,7 @@
     "recall": 0.7649,
     "f1_score": 0.778,
     "wrong_edge_rate": 0.2085,
-    "unassigned_count": 9,
-    "domain": "avenuegeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0271",
@@ -4060,9 +3520,7 @@
     "recall": 0.814,
     "f1_score": 0.8163,
     "wrong_edge_rate": 0.1813,
-    "unassigned_count": 1,
-    "domain": "amberbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0272",
@@ -4075,9 +3533,7 @@
     "recall": 0.7552,
     "f1_score": 0.766,
     "wrong_edge_rate": 0.223,
-    "unassigned_count": 4,
-    "domain": "summitprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0273",
@@ -4090,9 +3546,7 @@
     "recall": 0.8301,
     "f1_score": 0.8328,
     "wrong_edge_rate": 0.1645,
-    "unassigned_count": 1,
-    "domain": "novaprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0274",
@@ -4105,9 +3559,7 @@
     "recall": 0.8882,
     "f1_score": 0.8882,
     "wrong_edge_rate": 0.1118,
-    "unassigned_count": 0,
-    "domain": "elementretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0275",
@@ -4120,9 +3572,7 @@
     "recall": 0.7796,
     "f1_score": 0.786,
     "wrong_edge_rate": 0.2075,
-    "unassigned_count": 4,
-    "domain": "velocityapparelco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0276",
@@ -4135,9 +3585,7 @@
     "recall": 0.7655,
     "f1_score": 0.7758,
     "wrong_edge_rate": 0.2136,
-    "unassigned_count": 6,
-    "domain": "sierraconsumerbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0277",
@@ -4150,9 +3598,7 @@
     "recall": 0.7585,
     "f1_score": 0.769,
     "wrong_edge_rate": 0.2203,
-    "unassigned_count": 8,
-    "domain": "primedigitalgoods.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0278",
@@ -4165,9 +3611,7 @@
     "recall": 0.8092,
     "f1_score": 0.8311,
     "wrong_edge_rate": 0.1458,
-    "unassigned_count": 8,
-    "domain": "crestviewsupplyco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0279",
@@ -4180,9 +3624,7 @@
     "recall": 0.8497,
     "f1_score": 0.8497,
     "wrong_edge_rate": 0.1503,
-    "unassigned_count": 0,
-    "domain": "sterlinggeneralmerchandise.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0280",
@@ -4195,9 +3637,7 @@
     "recall": 0.8252,
     "f1_score": 0.8252,
     "wrong_edge_rate": 0.1748,
-    "unassigned_count": 0,
-    "domain": "pinnaclesupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0281",
@@ -4210,9 +3650,7 @@
     "recall": 0.7566,
     "f1_score": 0.7692,
     "wrong_edge_rate": 0.2177,
-    "unassigned_count": 5,
-    "domain": "radiantsupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0282",
@@ -4225,9 +3663,7 @@
     "recall": 0.7544,
     "f1_score": 0.7612,
     "wrong_edge_rate": 0.2319,
-    "unassigned_count": 5,
-    "domain": "meridiangeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0283",
@@ -4240,9 +3676,7 @@
     "recall": 0.8513,
     "f1_score": 0.8513,
     "wrong_edge_rate": 0.1487,
-    "unassigned_count": 0,
-    "domain": "redwooddepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0284",
@@ -4255,9 +3689,7 @@
     "recall": 0.7647,
     "f1_score": 0.7774,
     "wrong_edge_rate": 0.2095,
-    "unassigned_count": 10,
-    "domain": "amberdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0285",
@@ -4270,9 +3702,7 @@
     "recall": 0.8881,
     "f1_score": 0.8881,
     "wrong_edge_rate": 0.1119,
-    "unassigned_count": 0,
-    "domain": "atlastradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0286",
@@ -4285,9 +3715,7 @@
     "recall": 0.7692,
     "f1_score": 0.7801,
     "wrong_edge_rate": 0.2086,
-    "unassigned_count": 4,
-    "domain": "nordicboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0287",
@@ -4300,9 +3728,7 @@
     "recall": 0.8095,
     "f1_score": 0.8095,
     "wrong_edge_rate": 0.1905,
-    "unassigned_count": 0,
-    "domain": "radiantdigitalgoods.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0288",
@@ -4315,9 +3741,7 @@
     "recall": 0.803,
     "f1_score": 0.8049,
     "wrong_edge_rate": 0.1931,
-    "unassigned_count": 1,
-    "domain": "ambergeneralmerchandise.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0289",
@@ -4330,9 +3754,7 @@
     "recall": 0.7832,
     "f1_score": 0.7972,
     "wrong_edge_rate": 0.1884,
-    "unassigned_count": 5,
-    "domain": "luminaomnichannelstores.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0290",
@@ -4345,9 +3767,7 @@
     "recall": 0.8618,
     "f1_score": 0.8647,
     "wrong_edge_rate": 0.1325,
-    "unassigned_count": 1,
-    "domain": "novaboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0291",
@@ -4360,9 +3780,7 @@
     "recall": 0.8385,
     "f1_score": 0.8385,
     "wrong_edge_rate": 0.1615,
-    "unassigned_count": 0,
-    "domain": "evergreenconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0292",
@@ -4375,9 +3793,7 @@
     "recall": 0.7759,
     "f1_score": 0.7881,
     "wrong_edge_rate": 0.1994,
-    "unassigned_count": 11,
-    "domain": "venturesupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 11
   },
   {
     "id": "comp_0293",
@@ -4390,9 +3806,7 @@
     "recall": 0.8467,
     "f1_score": 0.8467,
     "wrong_edge_rate": 0.1533,
-    "unassigned_count": 0,
-    "domain": "avenueboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0294",
@@ -4405,9 +3819,7 @@
     "recall": 0.7843,
     "f1_score": 0.7921,
     "wrong_edge_rate": 0.2,
-    "unassigned_count": 3,
-    "domain": "apexretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0295",
@@ -4420,9 +3832,7 @@
     "recall": 0.8947,
     "f1_score": 0.8977,
     "wrong_edge_rate": 0.0993,
-    "unassigned_count": 1,
-    "domain": "heritagedepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0296",
@@ -4435,9 +3845,7 @@
     "recall": 0.7774,
     "f1_score": 0.7868,
     "wrong_edge_rate": 0.2035,
-    "unassigned_count": 7,
-    "domain": "crowndepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0297",
@@ -4450,9 +3858,7 @@
     "recall": 0.947,
     "f1_score": 0.947,
     "wrong_edge_rate": 0.053,
-    "unassigned_count": 0,
-    "domain": "elementapparelco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0298",
@@ -4465,9 +3871,7 @@
     "recall": 0.797,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.197,
-    "unassigned_count": 1,
-    "domain": "starlightprovisions.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0299",
@@ -4480,9 +3884,7 @@
     "recall": 0.7301,
     "f1_score": 0.7399,
     "wrong_edge_rate": 0.25,
-    "unassigned_count": 6,
-    "domain": "halcyongeneralmerchandise.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0300",
@@ -4495,9 +3897,7 @@
     "recall": 0.8571,
     "f1_score": 0.8571,
     "wrong_edge_rate": 0.1429,
-    "unassigned_count": 0,
-    "domain": "sterlingapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0301",
@@ -4510,9 +3910,7 @@
     "recall": 0.8072,
     "f1_score": 0.8097,
     "wrong_edge_rate": 0.1879,
-    "unassigned_count": 1,
-    "domain": "velocityoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0302",
@@ -4525,9 +3923,7 @@
     "recall": 0.8267,
     "f1_score": 0.8267,
     "wrong_edge_rate": 0.1733,
-    "unassigned_count": 0,
-    "domain": "meridianconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0303",
@@ -4540,9 +3936,7 @@
     "recall": 0.8382,
     "f1_score": 0.8382,
     "wrong_edge_rate": 0.1618,
-    "unassigned_count": 0,
-    "domain": "pinnacleapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0304",
@@ -4555,9 +3949,7 @@
     "recall": 0.8268,
     "f1_score": 0.8268,
     "wrong_edge_rate": 0.1732,
-    "unassigned_count": 0,
-    "domain": "harborlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0305",
@@ -4570,9 +3962,7 @@
     "recall": 0.8601,
     "f1_score": 0.8632,
     "wrong_edge_rate": 0.1338,
-    "unassigned_count": 1,
-    "domain": "sterlingretailgroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0306",
@@ -4585,9 +3975,7 @@
     "recall": 0.8758,
     "f1_score": 0.8758,
     "wrong_edge_rate": 0.1242,
-    "unassigned_count": 0,
-    "domain": "frontieroutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0307",
@@ -4600,9 +3988,7 @@
     "recall": 0.8267,
     "f1_score": 0.8294,
     "wrong_edge_rate": 0.1678,
-    "unassigned_count": 1,
-    "domain": "amberprovisions.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0308",
@@ -4615,9 +4001,7 @@
     "recall": 0.782,
     "f1_score": 0.7933,
     "wrong_edge_rate": 0.1951,
-    "unassigned_count": 6,
-    "domain": "frontierluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0309",
@@ -4630,9 +4014,7 @@
     "recall": 0.8816,
     "f1_score": 0.8845,
     "wrong_edge_rate": 0.1126,
-    "unassigned_count": 1,
-    "domain": "elementprovisions.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0310",
@@ -4645,9 +4027,7 @@
     "recall": 0.8433,
     "f1_score": 0.8433,
     "wrong_edge_rate": 0.1567,
-    "unassigned_count": 0,
-    "domain": "evergreenluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0311",
@@ -4660,9 +4040,7 @@
     "recall": 0.9803,
     "f1_score": 0.9803,
     "wrong_edge_rate": 0.0197,
-    "unassigned_count": 0,
-    "domain": "meridiansupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0312",
@@ -4675,9 +4053,7 @@
     "recall": 0.7791,
     "f1_score": 0.7813,
     "wrong_edge_rate": 0.2164,
-    "unassigned_count": 1,
-    "domain": "ironwoodluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0313",
@@ -4690,9 +4066,7 @@
     "recall": 0.761,
     "f1_score": 0.7655,
     "wrong_edge_rate": 0.2298,
-    "unassigned_count": 3,
-    "domain": "venturelogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0314",
@@ -4705,9 +4079,7 @@
     "recall": 0.8267,
     "f1_score": 0.8294,
     "wrong_edge_rate": 0.1678,
-    "unassigned_count": 1,
-    "domain": "halcyondirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0315",
@@ -4720,9 +4092,7 @@
     "recall": 0.8947,
     "f1_score": 0.8947,
     "wrong_edge_rate": 0.1053,
-    "unassigned_count": 0,
-    "domain": "crestviewboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0316",
@@ -4735,9 +4105,7 @@
     "recall": 0.7566,
     "f1_score": 0.7617,
     "wrong_edge_rate": 0.2332,
-    "unassigned_count": 3,
-    "domain": "crownoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0317",
@@ -4750,9 +4118,7 @@
     "recall": 0.8043,
     "f1_score": 0.8043,
     "wrong_edge_rate": 0.1957,
-    "unassigned_count": 0,
-    "domain": "metroconsumerbrands.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0318",
@@ -4765,9 +4131,7 @@
     "recall": 0.7611,
     "f1_score": 0.7798,
     "wrong_edge_rate": 0.2007,
-    "unassigned_count": 15,
-    "domain": "urbanomnichannelstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 15
   },
   {
     "id": "comp_0319",
@@ -4780,9 +4144,7 @@
     "recall": 0.8366,
     "f1_score": 0.8366,
     "wrong_edge_rate": 0.1634,
-    "unassigned_count": 0,
-    "domain": "avenuebrands.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0320",
@@ -4795,9 +4157,7 @@
     "recall": 0.7972,
     "f1_score": 0.8085,
     "wrong_edge_rate": 0.1799,
-    "unassigned_count": 4,
-    "domain": "timberlinesupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0321",
@@ -4810,9 +4170,7 @@
     "recall": 0.9539,
     "f1_score": 0.9539,
     "wrong_edge_rate": 0.0461,
-    "unassigned_count": 0,
-    "domain": "crownboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0322",
@@ -4825,9 +4183,7 @@
     "recall": 0.8021,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1538,
-    "unassigned_count": 10,
-    "domain": "cascaderetailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0323",
@@ -4840,9 +4196,7 @@
     "recall": 0.847,
     "f1_score": 0.847,
     "wrong_edge_rate": 0.153,
-    "unassigned_count": 0,
-    "domain": "sterlingdigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0324",
@@ -4855,9 +4209,7 @@
     "recall": 0.8008,
     "f1_score": 0.8121,
     "wrong_edge_rate": 0.1762,
-    "unassigned_count": 7,
-    "domain": "beacontradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0325",
@@ -4870,9 +4222,7 @@
     "recall": 0.8162,
     "f1_score": 0.8162,
     "wrong_edge_rate": 0.1838,
-    "unassigned_count": 0,
-    "domain": "novasupermarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0326",
@@ -4885,9 +4235,7 @@
     "recall": 0.8533,
     "f1_score": 0.8533,
     "wrong_edge_rate": 0.1467,
-    "unassigned_count": 0,
-    "domain": "luminaluxuryemporium.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0327",
@@ -4900,9 +4248,7 @@
     "recall": 0.7981,
     "f1_score": 0.8117,
     "wrong_edge_rate": 0.1741,
-    "unassigned_count": 7,
-    "domain": "catalystdirectstores.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0328",
@@ -4915,9 +4261,7 @@
     "recall": 0.8424,
     "f1_score": 0.8444,
     "wrong_edge_rate": 0.1535,
-    "unassigned_count": 1,
-    "domain": "halcyonsupermarkets.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0329",
@@ -4930,9 +4274,7 @@
     "recall": 0.7622,
     "f1_score": 0.7622,
     "wrong_edge_rate": 0.2378,
-    "unassigned_count": 0,
-    "domain": "horizondigitalgoods.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0330",
@@ -4945,9 +4287,7 @@
     "recall": 0.8301,
     "f1_score": 0.8328,
     "wrong_edge_rate": 0.1645,
-    "unassigned_count": 1,
-    "domain": "ambermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0331",
@@ -4960,9 +4300,7 @@
     "recall": 0.8112,
     "f1_score": 0.814,
     "wrong_edge_rate": 0.1831,
-    "unassigned_count": 1,
-    "domain": "ironwoodprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0332",
@@ -4975,9 +4313,7 @@
     "recall": 0.7941,
     "f1_score": 0.7941,
     "wrong_edge_rate": 0.2059,
-    "unassigned_count": 0,
-    "domain": "solsticesupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0333",
@@ -4990,9 +4326,7 @@
     "recall": 0.7974,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.1974,
-    "unassigned_count": 1,
-    "domain": "blueskysupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0334",
@@ -5005,9 +4339,7 @@
     "recall": 0.7959,
     "f1_score": 0.7986,
     "wrong_edge_rate": 0.1986,
-    "unassigned_count": 1,
-    "domain": "equinoxsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0335",
@@ -5020,9 +4352,7 @@
     "recall": 0.8301,
     "f1_score": 0.8328,
     "wrong_edge_rate": 0.1645,
-    "unassigned_count": 1,
-    "domain": "catalystconsumerbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0336",
@@ -5035,9 +4365,7 @@
     "recall": 0.7483,
     "f1_score": 0.7746,
     "wrong_edge_rate": 0.1971,
-    "unassigned_count": 10,
-    "domain": "harborprovisions.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 10
   },
   {
     "id": "comp_0337",
@@ -5050,9 +4378,7 @@
     "recall": 0.8235,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1765,
-    "unassigned_count": 0,
-    "domain": "goldenrodoutfitters.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0338",
@@ -5065,9 +4391,7 @@
     "recall": 0.8289,
     "f1_score": 0.8289,
     "wrong_edge_rate": 0.1711,
-    "unassigned_count": 0,
-    "domain": "zenithretailgroup.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0339",
@@ -5080,9 +4404,7 @@
     "recall": 0.8125,
     "f1_score": 0.8205,
     "wrong_edge_rate": 0.1713,
-    "unassigned_count": 5,
-    "domain": "meridiandepartmentstores.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0340",
@@ -5095,9 +4417,7 @@
     "recall": 0.7733,
     "f1_score": 0.7811,
     "wrong_edge_rate": 0.2109,
-    "unassigned_count": 3,
-    "domain": "horizondirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0341",
@@ -5110,9 +4430,7 @@
     "recall": 0.7382,
     "f1_score": 0.7594,
     "wrong_edge_rate": 0.2182,
-    "unassigned_count": 13,
-    "domain": "crestviewlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 13
   },
   {
     "id": "comp_0342",
@@ -5125,9 +4443,7 @@
     "recall": 0.7391,
     "f1_score": 0.7617,
     "wrong_edge_rate": 0.2143,
-    "unassigned_count": 15,
-    "domain": "amberlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 15
   },
   {
     "id": "comp_0343",
@@ -5140,9 +4456,7 @@
     "recall": 0.8489,
     "f1_score": 0.8489,
     "wrong_edge_rate": 0.1511,
-    "unassigned_count": 0,
-    "domain": "frontierhomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0344",
@@ -5155,9 +4469,7 @@
     "recall": 0.8777,
     "f1_score": 0.8777,
     "wrong_edge_rate": 0.1223,
-    "unassigned_count": 0,
-    "domain": "blueskyprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0345",
@@ -5170,9 +4482,7 @@
     "recall": 0.8562,
     "f1_score": 0.8562,
     "wrong_edge_rate": 0.1438,
-    "unassigned_count": 0,
-    "domain": "nordicoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0346",
@@ -5185,9 +4495,7 @@
     "recall": 0.8421,
     "f1_score": 0.8449,
     "wrong_edge_rate": 0.1523,
-    "unassigned_count": 1,
-    "domain": "crestviewdepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0347",
@@ -5200,9 +4508,7 @@
     "recall": 0.759,
     "f1_score": 0.759,
     "wrong_edge_rate": 0.241,
-    "unassigned_count": 0,
-    "domain": "blueskydigitalgoods.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0348",
@@ -5215,9 +4521,7 @@
     "recall": 0.7614,
     "f1_score": 0.7731,
     "wrong_edge_rate": 0.2148,
-    "unassigned_count": 8,
-    "domain": "crestviewprovisions.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0349",
@@ -5230,9 +4534,7 @@
     "recall": 0.7687,
     "f1_score": 0.7713,
     "wrong_edge_rate": 0.226,
-    "unassigned_count": 1,
-    "domain": "heritageapparelco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0350",
@@ -5245,9 +4547,7 @@
     "recall": 0.7467,
     "f1_score": 0.7568,
     "wrong_edge_rate": 0.2329,
-    "unassigned_count": 4,
-    "domain": "redwoodconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0351",
@@ -5260,9 +4560,7 @@
     "recall": 0.7771,
     "f1_score": 0.7866,
     "wrong_edge_rate": 0.2037,
-    "unassigned_count": 4,
-    "domain": "atlasdirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0352",
@@ -5275,9 +4573,7 @@
     "recall": 0.8531,
     "f1_score": 0.8531,
     "wrong_edge_rate": 0.1469,
-    "unassigned_count": 0,
-    "domain": "elementgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0353",
@@ -5290,9 +4586,7 @@
     "recall": 0.8296,
     "f1_score": 0.8924,
     "wrong_edge_rate": 0.0345,
-    "unassigned_count": 19,
-    "domain": "redwoodboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 19
   },
   {
     "id": "comp_0354",
@@ -5305,9 +4599,7 @@
     "recall": 0.7301,
     "f1_score": 0.7416,
     "wrong_edge_rate": 0.2466,
-    "unassigned_count": 7,
-    "domain": "primeprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0355",
@@ -5320,9 +4612,7 @@
     "recall": 0.86,
     "f1_score": 0.8629,
     "wrong_edge_rate": 0.1342,
-    "unassigned_count": 1,
-    "domain": "redwoodholdings.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0356",
@@ -5335,9 +4625,7 @@
     "recall": 0.7727,
     "f1_score": 0.7757,
     "wrong_edge_rate": 0.2214,
-    "unassigned_count": 1,
-    "domain": "primelogisticsretail.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0357",
@@ -5350,9 +4638,7 @@
     "recall": 0.8039,
     "f1_score": 0.8039,
     "wrong_edge_rate": 0.1961,
-    "unassigned_count": 0,
-    "domain": "ventureboutiquegroup.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0358",
@@ -5365,9 +4651,7 @@
     "recall": 0.7985,
     "f1_score": 0.8015,
     "wrong_edge_rate": 0.1955,
-    "unassigned_count": 1,
-    "domain": "sierraapparelco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0359",
@@ -5380,9 +4664,7 @@
     "recall": 0.7266,
     "f1_score": 0.7372,
     "wrong_edge_rate": 0.2519,
-    "unassigned_count": 4,
-    "domain": "summittradingco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0360",
@@ -5395,9 +4677,7 @@
     "recall": 0.7755,
     "f1_score": 0.7808,
     "wrong_edge_rate": 0.2138,
-    "unassigned_count": 2,
-    "domain": "halcyontradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0361",
@@ -5410,9 +4690,7 @@
     "recall": 0.8168,
     "f1_score": 0.8168,
     "wrong_edge_rate": 0.1832,
-    "unassigned_count": 0,
-    "domain": "zenithboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0362",
@@ -5425,9 +4703,7 @@
     "recall": 0.8671,
     "f1_score": 0.8671,
     "wrong_edge_rate": 0.1329,
-    "unassigned_count": 0,
-    "domain": "beacongeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0363",
@@ -5440,9 +4716,7 @@
     "recall": 0.8103,
     "f1_score": 0.8144,
     "wrong_edge_rate": 0.1813,
-    "unassigned_count": 2,
-    "domain": "atlasbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0364",
@@ -5455,9 +4729,7 @@
     "recall": 0.82,
     "f1_score": 0.82,
     "wrong_edge_rate": 0.18,
-    "unassigned_count": 0,
-    "domain": "apexlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0365",
@@ -5470,9 +4742,7 @@
     "recall": 0.7817,
     "f1_score": 0.7877,
     "wrong_edge_rate": 0.2062,
-    "unassigned_count": 3,
-    "domain": "elementluxuryemporium.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0366",
@@ -5485,9 +4755,7 @@
     "recall": 0.8103,
     "f1_score": 0.8103,
     "wrong_edge_rate": 0.1897,
-    "unassigned_count": 0,
-    "domain": "oasistradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0367",
@@ -5500,9 +4768,7 @@
     "recall": 0.9079,
     "f1_score": 0.9079,
     "wrong_edge_rate": 0.0921,
-    "unassigned_count": 0,
-    "domain": "horizonretailgroup.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0368",
@@ -5515,9 +4781,7 @@
     "recall": 0.8038,
     "f1_score": 0.8038,
     "wrong_edge_rate": 0.1962,
-    "unassigned_count": 0,
-    "domain": "solsticeapparelco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0369",
@@ -5530,9 +4794,7 @@
     "recall": 0.7972,
     "f1_score": 0.7972,
     "wrong_edge_rate": 0.2028,
-    "unassigned_count": 0,
-    "domain": "evergreenretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0370",
@@ -5545,9 +4807,7 @@
     "recall": 0.9268,
     "f1_score": 0.9268,
     "wrong_edge_rate": 0.0732,
-    "unassigned_count": 0,
-    "domain": "beacondepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0371",
@@ -5560,9 +4820,7 @@
     "recall": 0.756,
     "f1_score": 0.7662,
     "wrong_edge_rate": 0.2232,
-    "unassigned_count": 9,
-    "domain": "apexluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 9
   },
   {
     "id": "comp_0372",
@@ -5575,9 +4833,7 @@
     "recall": 0.7487,
     "f1_score": 0.7787,
     "wrong_edge_rate": 0.1889,
-    "unassigned_count": 15,
-    "domain": "pacificholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 15
   },
   {
     "id": "comp_0373",
@@ -5590,9 +4846,7 @@
     "recall": 0.7902,
     "f1_score": 0.7902,
     "wrong_edge_rate": 0.2098,
-    "unassigned_count": 0,
-    "domain": "luminaoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0374",
@@ -5605,9 +4859,7 @@
     "recall": 0.75,
     "f1_score": 0.7592,
     "wrong_edge_rate": 0.2314,
-    "unassigned_count": 6,
-    "domain": "pacificdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0375",
@@ -5620,9 +4872,7 @@
     "recall": 0.8201,
     "f1_score": 0.8201,
     "wrong_edge_rate": 0.1799,
-    "unassigned_count": 0,
-    "domain": "avenuedepartmentstores.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0376",
@@ -5635,9 +4885,7 @@
     "recall": 0.7489,
     "f1_score": 0.7506,
     "wrong_edge_rate": 0.2477,
-    "unassigned_count": 1,
-    "domain": "atlasholdings.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0377",
@@ -5650,9 +4898,7 @@
     "recall": 0.8849,
     "f1_score": 0.8849,
     "wrong_edge_rate": 0.1151,
-    "unassigned_count": 0,
-    "domain": "apexholdings.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0378",
@@ -5665,9 +4911,7 @@
     "recall": 0.8182,
     "f1_score": 0.8269,
     "wrong_edge_rate": 0.1643,
-    "unassigned_count": 3,
-    "domain": "primebrands.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0379",
@@ -5680,9 +4924,7 @@
     "recall": 0.8553,
     "f1_score": 0.8581,
     "wrong_edge_rate": 0.1391,
-    "unassigned_count": 1,
-    "domain": "metroretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0380",
@@ -5695,9 +4937,7 @@
     "recall": 0.7059,
     "f1_score": 0.72,
     "wrong_edge_rate": 0.2653,
-    "unassigned_count": 6,
-    "domain": "zenithgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0381",
@@ -5710,9 +4950,7 @@
     "recall": 0.7216,
     "f1_score": 0.7437,
     "wrong_edge_rate": 0.2328,
-    "unassigned_count": 22,
-    "domain": "amberomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 22
   },
   {
     "id": "comp_0382",
@@ -5725,9 +4963,7 @@
     "recall": 0.8235,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1765,
-    "unassigned_count": 0,
-    "domain": "elementholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0383",
@@ -5740,9 +4976,7 @@
     "recall": 0.8112,
     "f1_score": 0.814,
     "wrong_edge_rate": 0.1831,
-    "unassigned_count": 1,
-    "domain": "summitomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0384",
@@ -5755,9 +4989,7 @@
     "recall": 0.8562,
     "f1_score": 0.859,
     "wrong_edge_rate": 0.1382,
-    "unassigned_count": 1,
-    "domain": "radiantdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0385",
@@ -5770,9 +5002,7 @@
     "recall": 0.8273,
     "f1_score": 0.8273,
     "wrong_edge_rate": 0.1727,
-    "unassigned_count": 0,
-    "domain": "equinoxsupplyco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0386",
@@ -5785,9 +5015,7 @@
     "recall": 0.7755,
     "f1_score": 0.793,
     "wrong_edge_rate": 0.1886,
-    "unassigned_count": 13,
-    "domain": "luminaapparelco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 13
   },
   {
     "id": "comp_0387",
@@ -5800,9 +5028,7 @@
     "recall": 0.8198,
     "f1_score": 0.8343,
     "wrong_edge_rate": 0.1506,
-    "unassigned_count": 6,
-    "domain": "timberlineprovisions.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0388",
@@ -5815,9 +5041,7 @@
     "recall": 0.8142,
     "f1_score": 0.8178,
     "wrong_edge_rate": 0.1786,
-    "unassigned_count": 2,
-    "domain": "summitluxuryemporium.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0389",
@@ -5830,9 +5054,7 @@
     "recall": 0.8993,
     "f1_score": 0.8993,
     "wrong_edge_rate": 0.1007,
-    "unassigned_count": 0,
-    "domain": "kestrelluxuryemporium.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0390",
@@ -5845,9 +5067,7 @@
     "recall": 0.7136,
     "f1_score": 0.7252,
     "wrong_edge_rate": 0.2629,
-    "unassigned_count": 7,
-    "domain": "novalogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0391",
@@ -5860,9 +5080,7 @@
     "recall": 0.8438,
     "f1_score": 0.8438,
     "wrong_edge_rate": 0.1562,
-    "unassigned_count": 0,
-    "domain": "silvergatedigitalgoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0392",
@@ -5875,9 +5093,7 @@
     "recall": 0.7298,
     "f1_score": 0.7589,
     "wrong_edge_rate": 0.2096,
-    "unassigned_count": 19,
-    "domain": "harbordirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 19
   },
   {
     "id": "comp_0393",
@@ -5890,9 +5106,7 @@
     "recall": 0.9021,
     "f1_score": 0.9053,
     "wrong_edge_rate": 0.0915,
-    "unassigned_count": 1,
-    "domain": "starlightmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0394",
@@ -5905,9 +5119,7 @@
     "recall": 0.7415,
     "f1_score": 0.7543,
     "wrong_edge_rate": 0.2324,
-    "unassigned_count": 5,
-    "domain": "cascadesupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0395",
@@ -5920,9 +5132,7 @@
     "recall": 0.8533,
     "f1_score": 0.8562,
     "wrong_edge_rate": 0.1409,
-    "unassigned_count": 1,
-    "domain": "solsticetradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0396",
@@ -5935,9 +5145,7 @@
     "recall": 0.7561,
     "f1_score": 0.7614,
     "wrong_edge_rate": 0.2332,
-    "unassigned_count": 4,
-    "domain": "cobaltbrands.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0397",
@@ -5950,9 +5158,7 @@
     "recall": 0.7669,
     "f1_score": 0.7757,
     "wrong_edge_rate": 0.2154,
-    "unassigned_count": 3,
-    "domain": "zenithtradingco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0398",
@@ -5965,9 +5171,7 @@
     "recall": 0.7712,
     "f1_score": 0.7867,
     "wrong_edge_rate": 0.1973,
-    "unassigned_count": 6,
-    "domain": "elementdigitalgoods.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0399",
@@ -5980,9 +5184,7 @@
     "recall": 0.8882,
     "f1_score": 0.8911,
     "wrong_edge_rate": 0.106,
-    "unassigned_count": 1,
-    "domain": "apexhomegoods.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0400",
@@ -5995,9 +5197,7 @@
     "recall": 0.7641,
     "f1_score": 0.768,
     "wrong_edge_rate": 0.228,
-    "unassigned_count": 2,
-    "domain": "apexbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0401",
@@ -6010,9 +5210,7 @@
     "recall": 0.8864,
     "f1_score": 0.8897,
     "wrong_edge_rate": 0.1069,
-    "unassigned_count": 1,
-    "domain": "vanguarddirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0402",
@@ -6025,9 +5223,7 @@
     "recall": 0.8947,
     "f1_score": 0.8947,
     "wrong_edge_rate": 0.1053,
-    "unassigned_count": 0,
-    "domain": "timberlineomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0403",
@@ -6040,9 +5236,7 @@
     "recall": 0.7687,
     "f1_score": 0.7687,
     "wrong_edge_rate": 0.2313,
-    "unassigned_count": 0,
-    "domain": "catalystoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0404",
@@ -6055,9 +5249,7 @@
     "recall": 0.8627,
     "f1_score": 0.8656,
     "wrong_edge_rate": 0.1316,
-    "unassigned_count": 1,
-    "domain": "ironwooddirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0405",
@@ -6070,9 +5262,7 @@
     "recall": 0.8816,
     "f1_score": 0.8816,
     "wrong_edge_rate": 0.1184,
-    "unassigned_count": 0,
-    "domain": "vanguarddigitalgoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0406",
@@ -6085,9 +5275,7 @@
     "recall": 0.7451,
     "f1_score": 0.75,
     "wrong_edge_rate": 0.245,
-    "unassigned_count": 2,
-    "domain": "cascadegeneralmerchandise.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0407",
@@ -6100,9 +5288,7 @@
     "recall": 0.7832,
     "f1_score": 0.7943,
     "wrong_edge_rate": 0.1942,
-    "unassigned_count": 4,
-    "domain": "ambersupermarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0408",
@@ -6115,9 +5301,7 @@
     "recall": 0.8462,
     "f1_score": 0.8491,
     "wrong_edge_rate": 0.1479,
-    "unassigned_count": 1,
-    "domain": "ironwoodoutfitters.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0409",
@@ -6130,9 +5314,7 @@
     "recall": 0.8496,
     "f1_score": 0.8496,
     "wrong_edge_rate": 0.1504,
-    "unassigned_count": 0,
-    "domain": "ironwooddigitalgoods.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0410",
@@ -6145,9 +5327,7 @@
     "recall": 0.7762,
     "f1_score": 0.7789,
     "wrong_edge_rate": 0.2183,
-    "unassigned_count": 1,
-    "domain": "silvergateprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0411",
@@ -6160,9 +5340,7 @@
     "recall": 0.8095,
     "f1_score": 0.8123,
     "wrong_edge_rate": 0.1849,
-    "unassigned_count": 1,
-    "domain": "sterlingluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0412",
@@ -6175,9 +5353,7 @@
     "recall": 0.8235,
     "f1_score": 0.84,
     "wrong_edge_rate": 0.1429,
-    "unassigned_count": 6,
-    "domain": "urbanprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0413",
@@ -6190,9 +5366,7 @@
     "recall": 0.7483,
     "f1_score": 0.7535,
     "wrong_edge_rate": 0.2411,
-    "unassigned_count": 2,
-    "domain": "harboroutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0414",
@@ -6205,9 +5379,7 @@
     "recall": 0.8712,
     "f1_score": 0.8745,
     "wrong_edge_rate": 0.1221,
-    "unassigned_count": 1,
-    "domain": "harborretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0415",
@@ -6220,9 +5392,7 @@
     "recall": 0.7712,
     "f1_score": 0.7893,
     "wrong_edge_rate": 0.1918,
-    "unassigned_count": 7,
-    "domain": "harborhomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 7
   },
   {
     "id": "comp_0416",
@@ -6235,9 +5405,7 @@
     "recall": 0.7713,
     "f1_score": 0.7748,
     "wrong_edge_rate": 0.2217,
-    "unassigned_count": 2,
-    "domain": "halcyonoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0417",
@@ -6250,9 +5418,7 @@
     "recall": 0.7803,
     "f1_score": 0.782,
     "wrong_edge_rate": 0.2162,
-    "unassigned_count": 1,
-    "domain": "solsticegeneralmerchandise.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0418",
@@ -6265,9 +5431,7 @@
     "recall": 0.7656,
     "f1_score": 0.7717,
     "wrong_edge_rate": 0.2222,
-    "unassigned_count": 4,
-    "domain": "pinnacledirectstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0419",
@@ -6280,9 +5444,7 @@
     "recall": 0.8027,
     "f1_score": 0.8055,
     "wrong_edge_rate": 0.1918,
-    "unassigned_count": 1,
-    "domain": "cascademarkets.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0420",
@@ -6295,9 +5457,7 @@
     "recall": 0.8198,
     "f1_score": 0.8222,
     "wrong_edge_rate": 0.1754,
-    "unassigned_count": 1,
-    "domain": "ironwoodretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0421",
@@ -6310,9 +5470,7 @@
     "recall": 0.8382,
     "f1_score": 0.8382,
     "wrong_edge_rate": 0.1618,
-    "unassigned_count": 0,
-    "domain": "amberoutfitters.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0422",
@@ -6325,9 +5483,7 @@
     "recall": 0.7712,
     "f1_score": 0.7815,
     "wrong_edge_rate": 0.2081,
-    "unassigned_count": 4,
-    "domain": "nordicbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0423",
@@ -6340,9 +5496,7 @@
     "recall": 0.6838,
     "f1_score": 0.7541,
     "wrong_edge_rate": 0.1595,
-    "unassigned_count": 69,
-    "domain": "starlightboutiquegroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 69
   },
   {
     "id": "comp_0424",
@@ -6355,9 +5509,7 @@
     "recall": 0.7837,
     "f1_score": 0.8109,
     "wrong_edge_rate": 0.1598,
-    "unassigned_count": 14,
-    "domain": "equinoxhomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 14
   },
   {
     "id": "comp_0425",
@@ -6370,9 +5522,7 @@
     "recall": 0.7937,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.1935,
-    "unassigned_count": 3,
-    "domain": "ventureoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0426",
@@ -6385,9 +5535,7 @@
     "recall": 0.7537,
     "f1_score": 0.771,
     "wrong_edge_rate": 0.2109,
-    "unassigned_count": 6,
-    "domain": "zenithmarkets.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 6
   },
   {
     "id": "comp_0427",
@@ -6400,9 +5548,7 @@
     "recall": 0.8042,
     "f1_score": 0.807,
     "wrong_edge_rate": 0.1901,
-    "unassigned_count": 1,
-    "domain": "metrogeneralmerchandise.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0428",
@@ -6415,9 +5561,7 @@
     "recall": 0.7773,
     "f1_score": 0.7923,
     "wrong_edge_rate": 0.1921,
-    "unassigned_count": 8,
-    "domain": "catalystdigitalgoods.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 8
   },
   {
     "id": "comp_0429",
@@ -6430,9 +5574,7 @@
     "recall": 0.7908,
     "f1_score": 0.7934,
     "wrong_edge_rate": 0.2039,
-    "unassigned_count": 1,
-    "domain": "heritageprovisions.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0430",
@@ -6445,9 +5587,7 @@
     "recall": 0.8355,
     "f1_score": 0.8383,
     "wrong_edge_rate": 0.1589,
-    "unassigned_count": 1,
-    "domain": "novaretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0431",
@@ -6460,9 +5600,7 @@
     "recall": 0.8235,
     "f1_score": 0.8262,
     "wrong_edge_rate": 0.1711,
-    "unassigned_count": 1,
-    "domain": "velocityomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0432",
@@ -6475,9 +5613,7 @@
     "recall": 0.7832,
     "f1_score": 0.7902,
     "wrong_edge_rate": 0.2027,
-    "unassigned_count": 4,
-    "domain": "ironwoodapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0433",
@@ -6490,9 +5626,7 @@
     "recall": 0.8,
     "f1_score": 0.8027,
     "wrong_edge_rate": 0.1946,
-    "unassigned_count": 1,
-    "domain": "halcyonlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0434",
@@ -6505,9 +5639,7 @@
     "recall": 0.7411,
     "f1_score": 0.7534,
     "wrong_edge_rate": 0.2338,
-    "unassigned_count": 11,
-    "domain": "sierradepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 11
   },
   {
     "id": "comp_0435",
@@ -6520,9 +5652,7 @@
     "recall": 0.8366,
     "f1_score": 0.8366,
     "wrong_edge_rate": 0.1634,
-    "unassigned_count": 0,
-    "domain": "avenuedigitalgoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0436",
@@ -6535,9 +5665,7 @@
     "recall": 0.8571,
     "f1_score": 0.8571,
     "wrong_edge_rate": 0.1429,
-    "unassigned_count": 0,
-    "domain": "evergreengeneralmerchandise.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0437",
@@ -6550,9 +5678,7 @@
     "recall": 0.768,
     "f1_score": 0.768,
     "wrong_edge_rate": 0.232,
-    "unassigned_count": 0,
-    "domain": "kestrelsupermarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0438",
@@ -6565,9 +5691,7 @@
     "recall": 0.7669,
     "f1_score": 0.7757,
     "wrong_edge_rate": 0.2154,
-    "unassigned_count": 3,
-    "domain": "ambersupplyco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0439",
@@ -6580,9 +5704,7 @@
     "recall": 0.814,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1667,
-    "unassigned_count": 4,
-    "domain": "summitretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0440",
@@ -6595,9 +5717,7 @@
     "recall": 0.84,
     "f1_score": 0.8428,
     "wrong_edge_rate": 0.1544,
-    "unassigned_count": 1,
-    "domain": "heritagetradingco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0441",
@@ -6610,9 +5730,7 @@
     "recall": 0.8031,
     "f1_score": 0.8031,
     "wrong_edge_rate": 0.1969,
-    "unassigned_count": 0,
-    "domain": "vanguardconsumerbrands.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0442",
@@ -6625,9 +5743,7 @@
     "recall": 0.8235,
     "f1_score": 0.8262,
     "wrong_edge_rate": 0.1711,
-    "unassigned_count": 1,
-    "domain": "redwoodapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0443",
@@ -6640,9 +5756,7 @@
     "recall": 0.7955,
     "f1_score": 0.7985,
     "wrong_edge_rate": 0.1985,
-    "unassigned_count": 1,
-    "domain": "pinnaclegeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0444",
@@ -6655,9 +5769,7 @@
     "recall": 0.8618,
     "f1_score": 0.8675,
     "wrong_edge_rate": 0.1267,
-    "unassigned_count": 2,
-    "domain": "velocityluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0445",
@@ -6670,9 +5782,7 @@
     "recall": 0.8705,
     "f1_score": 0.8705,
     "wrong_edge_rate": 0.1295,
-    "unassigned_count": 0,
-    "domain": "meridianboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0446",
@@ -6685,9 +5795,7 @@
     "recall": 0.8267,
     "f1_score": 0.8267,
     "wrong_edge_rate": 0.1733,
-    "unassigned_count": 0,
-    "domain": "pacificoutfitters.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0447",
@@ -6700,9 +5808,7 @@
     "recall": 0.8084,
     "f1_score": 0.8084,
     "wrong_edge_rate": 0.1916,
-    "unassigned_count": 0,
-    "domain": "beaconmarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0448",
@@ -6715,9 +5821,7 @@
     "recall": 0.8231,
     "f1_score": 0.8259,
     "wrong_edge_rate": 0.1712,
-    "unassigned_count": 1,
-    "domain": "pinnaclebrands.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0449",
@@ -6730,9 +5834,7 @@
     "recall": 0.8496,
     "f1_score": 0.8528,
     "wrong_edge_rate": 0.1439,
-    "unassigned_count": 1,
-    "domain": "cobaltdigitalgoods.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0450",
@@ -6745,9 +5847,7 @@
     "recall": 0.8881,
     "f1_score": 0.8881,
     "wrong_edge_rate": 0.1119,
-    "unassigned_count": 0,
-    "domain": "equinoxmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0451",
@@ -6760,9 +5860,7 @@
     "recall": 0.8099,
     "f1_score": 0.8127,
     "wrong_edge_rate": 0.1844,
-    "unassigned_count": 1,
-    "domain": "starlightgeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0452",
@@ -6775,9 +5873,7 @@
     "recall": 0.8488,
     "f1_score": 0.8513,
     "wrong_edge_rate": 0.1462,
-    "unassigned_count": 1,
-    "domain": "horizongeneralmerchandise.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0453",
@@ -6790,9 +5886,7 @@
     "recall": 0.7692,
     "f1_score": 0.7752,
     "wrong_edge_rate": 0.2188,
-    "unassigned_count": 3,
-    "domain": "radiantsupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0454",
@@ -6805,9 +5899,7 @@
     "recall": 0.8228,
     "f1_score": 0.8228,
     "wrong_edge_rate": 0.1772,
-    "unassigned_count": 0,
-    "domain": "ironwooddepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0455",
@@ -6820,9 +5912,7 @@
     "recall": 0.8148,
     "f1_score": 0.8178,
     "wrong_edge_rate": 0.1791,
-    "unassigned_count": 1,
-    "domain": "pacificboutiquegroup.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0456",
@@ -6835,9 +5925,7 @@
     "recall": 0.7612,
     "f1_score": 0.7698,
     "wrong_edge_rate": 0.2214,
-    "unassigned_count": 3,
-    "domain": "pinnaclehomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 3
   },
   {
     "id": "comp_0457",
@@ -6850,9 +5938,7 @@
     "recall": 0.8252,
     "f1_score": 0.8252,
     "wrong_edge_rate": 0.1748,
-    "unassigned_count": 0,
-    "domain": "solsticedepartmentstores.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0458",
@@ -6865,9 +5951,7 @@
     "recall": 0.797,
     "f1_score": 0.8,
     "wrong_edge_rate": 0.197,
-    "unassigned_count": 1,
-    "domain": "ventureomnichannelstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0459",
@@ -6880,9 +5964,7 @@
     "recall": 0.8433,
     "f1_score": 0.8464,
     "wrong_edge_rate": 0.1504,
-    "unassigned_count": 1,
-    "domain": "velocityretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0460",
@@ -6895,9 +5977,7 @@
     "recall": 0.7534,
     "f1_score": 0.7619,
     "wrong_edge_rate": 0.2294,
-    "unassigned_count": 5,
-    "domain": "sterlingomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0461",
@@ -6910,9 +5990,7 @@
     "recall": 0.8039,
     "f1_score": 0.8066,
     "wrong_edge_rate": 0.1908,
-    "unassigned_count": 1,
-    "domain": "timberlineretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0462",
@@ -6925,9 +6003,7 @@
     "recall": 0.7908,
     "f1_score": 0.7961,
     "wrong_edge_rate": 0.1987,
-    "unassigned_count": 2,
-    "domain": "vanguardmarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0463",
@@ -6940,9 +6016,7 @@
     "recall": 0.7823,
     "f1_score": 0.7931,
     "wrong_edge_rate": 0.1958,
-    "unassigned_count": 4,
-    "domain": "beaconprovisions.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0464",
@@ -6955,9 +6029,7 @@
     "recall": 0.7122,
     "f1_score": 0.747,
     "wrong_edge_rate": 0.2147,
-    "unassigned_count": 32,
-    "domain": "meridianretailgroup.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 32
   },
   {
     "id": "comp_0465",
@@ -6970,9 +6042,7 @@
     "recall": 0.8421,
     "f1_score": 0.8421,
     "wrong_edge_rate": 0.1579,
-    "unassigned_count": 0,
-    "domain": "novatradingco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0466",
@@ -6985,9 +6055,7 @@
     "recall": 0.8171,
     "f1_score": 0.8195,
     "wrong_edge_rate": 0.1782,
-    "unassigned_count": 1,
-    "domain": "urbanhomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0467",
@@ -7000,9 +6068,7 @@
     "recall": 0.7519,
     "f1_score": 0.7549,
     "wrong_edge_rate": 0.2422,
-    "unassigned_count": 1,
-    "domain": "zenithdirectstores.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0468",
@@ -7015,9 +6081,7 @@
     "recall": 0.738,
     "f1_score": 0.7419,
     "wrong_edge_rate": 0.2541,
-    "unassigned_count": 2,
-    "domain": "kestreldirectstores.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0469",
@@ -7030,9 +6094,7 @@
     "recall": 0.8397,
     "f1_score": 0.8397,
     "wrong_edge_rate": 0.1603,
-    "unassigned_count": 0,
-    "domain": "luminatradingco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0470",
@@ -7045,9 +6107,7 @@
     "recall": 0.8133,
     "f1_score": 0.8133,
     "wrong_edge_rate": 0.1867,
-    "unassigned_count": 0,
-    "domain": "zenithomnichannelstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0471",
@@ -7060,9 +6120,7 @@
     "recall": 0.8788,
     "f1_score": 0.8821,
     "wrong_edge_rate": 0.1145,
-    "unassigned_count": 1,
-    "domain": "heritagehomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0472",
@@ -7075,9 +6133,7 @@
     "recall": 0.9079,
     "f1_score": 0.9079,
     "wrong_edge_rate": 0.0921,
-    "unassigned_count": 0,
-    "domain": "silvergatesupplyco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0473",
@@ -7090,9 +6146,7 @@
     "recall": 0.738,
     "f1_score": 0.7624,
     "wrong_edge_rate": 0.2114,
-    "unassigned_count": 12,
-    "domain": "nordiclogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 12
   },
   {
     "id": "comp_0474",
@@ -7105,9 +6159,7 @@
     "recall": 0.8881,
     "f1_score": 0.8881,
     "wrong_edge_rate": 0.1119,
-    "unassigned_count": 0,
-    "domain": "crownholdings.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0475",
@@ -7120,9 +6172,7 @@
     "recall": 0.7803,
     "f1_score": 0.7803,
     "wrong_edge_rate": 0.2197,
-    "unassigned_count": 0,
-    "domain": "luminahomegoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0476",
@@ -7135,9 +6185,7 @@
     "recall": 0.8507,
     "f1_score": 0.8539,
     "wrong_edge_rate": 0.1429,
-    "unassigned_count": 1,
-    "domain": "timberlinedigitalgoods.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0477",
@@ -7150,9 +6198,7 @@
     "recall": 0.8201,
     "f1_score": 0.8201,
     "wrong_edge_rate": 0.1799,
-    "unassigned_count": 0,
-    "domain": "goldenroddigitalgoods.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0478",
@@ -7165,9 +6211,7 @@
     "recall": 0.8467,
     "f1_score": 0.8495,
     "wrong_edge_rate": 0.1477,
-    "unassigned_count": 1,
-    "domain": "nordicsupplyco.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0479",
@@ -7180,9 +6224,7 @@
     "recall": 0.7712,
     "f1_score": 0.7738,
     "wrong_edge_rate": 0.2237,
-    "unassigned_count": 1,
-    "domain": "catalystretailgroup.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0480",
@@ -7195,9 +6237,7 @@
     "recall": 0.8235,
     "f1_score": 0.8235,
     "wrong_edge_rate": 0.1765,
-    "unassigned_count": 0,
-    "domain": "equinoxapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0481",
@@ -7210,9 +6250,7 @@
     "recall": 0.8092,
     "f1_score": 0.82,
     "wrong_edge_rate": 0.1689,
-    "unassigned_count": 4,
-    "domain": "summitlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 4
   },
   {
     "id": "comp_0482",
@@ -7225,9 +6263,7 @@
     "recall": 0.875,
     "f1_score": 0.8779,
     "wrong_edge_rate": 0.1192,
-    "unassigned_count": 1,
-    "domain": "radiantdirectstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0483",
@@ -7240,9 +6276,7 @@
     "recall": 0.7655,
     "f1_score": 0.774,
     "wrong_edge_rate": 0.2172,
-    "unassigned_count": 5,
-    "domain": "redwoodlogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0484",
@@ -7255,9 +6289,7 @@
     "recall": 0.7649,
     "f1_score": 0.7726,
     "wrong_edge_rate": 0.2195,
-    "unassigned_count": 5,
-    "domain": "nordicdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 5
   },
   {
     "id": "comp_0485",
@@ -7270,9 +6302,7 @@
     "recall": 0.88,
     "f1_score": 0.8835,
     "wrong_edge_rate": 0.1129,
-    "unassigned_count": 1,
-    "domain": "solsticesupplyco.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0486",
@@ -7285,9 +6315,7 @@
     "recall": 0.8693,
     "f1_score": 0.8693,
     "wrong_edge_rate": 0.1307,
-    "unassigned_count": 0,
-    "domain": "vanguardprovisions.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0487",
@@ -7300,9 +6328,7 @@
     "recall": 0.8341,
     "f1_score": 0.8341,
     "wrong_edge_rate": 0.1659,
-    "unassigned_count": 0,
-    "domain": "heritagemarkets.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0488",
@@ -7315,9 +6341,7 @@
     "recall": 0.875,
     "f1_score": 0.8779,
     "wrong_edge_rate": 0.1192,
-    "unassigned_count": 1,
-    "domain": "urbanmarkets.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0489",
@@ -7330,9 +6354,7 @@
     "recall": 0.8158,
     "f1_score": 0.8212,
     "wrong_edge_rate": 0.1733,
-    "unassigned_count": 2,
-    "domain": "kestrelapparelco.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0490",
@@ -7345,9 +6367,7 @@
     "recall": 0.8392,
     "f1_score": 0.8392,
     "wrong_edge_rate": 0.1608,
-    "unassigned_count": 0,
-    "domain": "atlasapparelco.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0491",
@@ -7360,9 +6380,7 @@
     "recall": 0.8125,
     "f1_score": 0.8146,
     "wrong_edge_rate": 0.1832,
-    "unassigned_count": 1,
-    "domain": "cascadeluxuryemporium.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0492",
@@ -7375,9 +6393,7 @@
     "recall": 0.8072,
     "f1_score": 0.8072,
     "wrong_edge_rate": 0.1928,
-    "unassigned_count": 0,
-    "domain": "sierrasupermarkets.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0493",
@@ -7390,9 +6406,7 @@
     "recall": 0.8882,
     "f1_score": 0.8911,
     "wrong_edge_rate": 0.106,
-    "unassigned_count": 1,
-    "domain": "sierrahomegoods.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0494",
@@ -7405,9 +6419,7 @@
     "recall": 0.8382,
     "f1_score": 0.8382,
     "wrong_edge_rate": 0.1618,
-    "unassigned_count": 0,
-    "domain": "oasislogisticsretail.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0495",
@@ -7420,9 +6432,7 @@
     "recall": 0.8741,
     "f1_score": 0.8741,
     "wrong_edge_rate": 0.1259,
-    "unassigned_count": 0,
-    "domain": "starlightlogisticsretail.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0496",
@@ -7435,9 +6445,7 @@
     "recall": 0.9044,
     "f1_score": 0.9077,
     "wrong_edge_rate": 0.0889,
-    "unassigned_count": 1,
-    "domain": "luminaholdings.com.au",
-    "domain_type": "Regional AU (.com.au)"
+    "unassigned_count": 1
   },
   {
     "id": "comp_0497",
@@ -7450,9 +6458,7 @@
     "recall": 0.7537,
     "f1_score": 0.7537,
     "wrong_edge_rate": 0.2463,
-    "unassigned_count": 0,
-    "domain": "avenueapparelco.store",
-    "domain_type": "E-Commerce (.store)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0498",
@@ -7465,9 +6471,7 @@
     "recall": 0.8554,
     "f1_score": 0.8554,
     "wrong_edge_rate": 0.1446,
-    "unassigned_count": 0,
-    "domain": "cobalthomegoods.io",
-    "domain_type": "Tech & Digital (.io)"
+    "unassigned_count": 0
   },
   {
     "id": "comp_0499",
@@ -7480,9 +6484,7 @@
     "recall": 0.8224,
     "f1_score": 0.8278,
     "wrong_edge_rate": 0.1667,
-    "unassigned_count": 2,
-    "domain": "cascadeprovisions.co",
-    "domain_type": "Corporate (.co)"
+    "unassigned_count": 2
   },
   {
     "id": "comp_0500",
@@ -7495,8 +6497,6 @@
     "recall": 0.82,
     "f1_score": 0.8227,
     "wrong_edge_rate": 0.1745,
-    "unassigned_count": 1,
-    "domain": "atlasdepartmentstores.com",
-    "domain_type": "Commercial (.com)"
+    "unassigned_count": 1
   }
 ]

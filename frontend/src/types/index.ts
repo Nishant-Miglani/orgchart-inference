@@ -57,8 +57,6 @@ export interface Employee {
 export interface Company {
   id: string;
   name: string;
-  domain?: string;
-  domain_type?: string;
   sub_sector: string;
   size_category: string;
   employee_count: number;
@@ -95,8 +93,6 @@ export interface EvaluationSummary {
 export interface CompanySummary {
   id: string;
   name: string;
-  domain?: string;
-  domain_type?: string;
   sub_sector: string;
   size_category: string;
   employee_count: number;

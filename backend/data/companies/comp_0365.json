@@ -7066,7 +7066,5 @@
     "department_accuracy": 0.9747,
     "seniority_accuracy": 0.9596,
     "unassigned_count": 3
-  },
-  "domain": "elementluxuryemporium.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -6835,7 +6835,5 @@
     "department_accuracy": 0.9948,
     "seniority_accuracy": 0.9741,
     "unassigned_count": 10
-  },
-  "domain": "cascaderetailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

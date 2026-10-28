@@ -7435,7 +7435,5 @@
     "department_accuracy": 0.9904,
     "seniority_accuracy": 0.9761,
     "unassigned_count": 7
-  },
-  "domain": "catalystdirectstores.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

@@ -6151,7 +6151,5 @@
     "department_accuracy": 0.9884,
     "seniority_accuracy": 0.9769,
     "unassigned_count": 6
-  },
-  "domain": "timberlineprovisions.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

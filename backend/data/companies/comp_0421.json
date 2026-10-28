@@ -4907,7 +4907,5 @@
     "department_accuracy": 0.9854,
     "seniority_accuracy": 0.9635,
     "unassigned_count": 0
-  },
-  "domain": "amberoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

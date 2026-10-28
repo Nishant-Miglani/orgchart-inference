@@ -5381,7 +5381,5 @@
     "department_accuracy": 0.9603,
     "seniority_accuracy": 0.9536,
     "unassigned_count": 4
-  },
-  "domain": "silvergatehomegoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -7701,7 +7701,5 @@
     "department_accuracy": 0.9814,
     "seniority_accuracy": 0.9767,
     "unassigned_count": 0
-  },
-  "domain": "solsticeluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

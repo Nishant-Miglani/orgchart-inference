@@ -5028,7 +5028,5 @@
     "department_accuracy": 0.9929,
     "seniority_accuracy": 0.9786,
     "unassigned_count": 0
-  },
-  "domain": "kestrelluxuryemporium.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

@@ -5981,7 +5981,5 @@
     "department_accuracy": 0.9641,
     "seniority_accuracy": 0.9581,
     "unassigned_count": 1
-  },
-  "domain": "solsticeomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

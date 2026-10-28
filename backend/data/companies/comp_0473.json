@@ -6644,7 +6644,5 @@
     "department_accuracy": 0.9681,
     "seniority_accuracy": 0.9628,
     "unassigned_count": 12
-  },
-  "domain": "nordiclogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

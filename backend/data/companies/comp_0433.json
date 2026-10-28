@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9669,
     "seniority_accuracy": 0.9603,
     "unassigned_count": 1
-  },
-  "domain": "halcyonlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

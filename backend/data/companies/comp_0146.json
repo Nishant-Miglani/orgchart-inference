@@ -5475,7 +5475,5 @@
     "department_accuracy": 0.9673,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 1
-  },
-  "domain": "crestviewapparelco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -8081,7 +8081,5 @@
     "department_accuracy": 0.978,
     "seniority_accuracy": 0.9604,
     "unassigned_count": 7
-  },
-  "domain": "primeprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

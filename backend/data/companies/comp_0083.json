@@ -4872,7 +4872,5 @@
     "department_accuracy": 0.9779,
     "seniority_accuracy": 0.9632,
     "unassigned_count": 0
-  },
-  "domain": "sterlingoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

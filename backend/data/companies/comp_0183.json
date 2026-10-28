@@ -6296,7 +6296,5 @@
     "department_accuracy": 0.9943,
     "seniority_accuracy": 0.9886,
     "unassigned_count": 1
-  },
-  "domain": "pacificmarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

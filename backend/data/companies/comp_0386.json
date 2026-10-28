@@ -10461,7 +10461,5 @@
     "department_accuracy": 0.9932,
     "seniority_accuracy": 0.9831,
     "unassigned_count": 13
-  },
-  "domain": "luminaapparelco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

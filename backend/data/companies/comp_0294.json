@@ -5494,7 +5494,5 @@
     "department_accuracy": 0.9805,
     "seniority_accuracy": 0.9675,
     "unassigned_count": 3
-  },
-  "domain": "apexretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

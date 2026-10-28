@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.9675,
     "seniority_accuracy": 0.961,
     "unassigned_count": 1
-  },
-  "domain": "solsticeprovisions.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

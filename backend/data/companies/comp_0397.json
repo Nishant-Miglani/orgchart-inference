@@ -4778,7 +4778,5 @@
     "department_accuracy": 0.9776,
     "seniority_accuracy": 0.9776,
     "unassigned_count": 3
-  },
-  "domain": "zenithtradingco.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

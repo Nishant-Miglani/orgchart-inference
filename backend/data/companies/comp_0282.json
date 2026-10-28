@@ -10070,7 +10070,5 @@
     "department_accuracy": 0.9823,
     "seniority_accuracy": 0.9681,
     "unassigned_count": 5
-  },
-  "domain": "meridiangeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

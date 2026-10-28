@@ -5136,7 +5136,5 @@
     "department_accuracy": 0.9792,
     "seniority_accuracy": 0.9583,
     "unassigned_count": 4
-  },
-  "domain": "ambersupermarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

@@ -7992,7 +7992,5 @@
     "department_accuracy": 0.9821,
     "seniority_accuracy": 0.9777,
     "unassigned_count": 5
-  },
-  "domain": "oasissupermarkets.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

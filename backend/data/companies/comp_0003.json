@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9861,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 0
-  },
-  "domain": "kestrelbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

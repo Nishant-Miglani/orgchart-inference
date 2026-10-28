@@ -8073,7 +8073,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9736,
     "unassigned_count": 8
-  },
-  "domain": "nordicprovisions.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

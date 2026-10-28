@@ -5133,7 +5133,5 @@
     "department_accuracy": 0.972,
     "seniority_accuracy": 0.972,
     "unassigned_count": 0
-  },
-  "domain": "timberlinehomegoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

@@ -5486,7 +5486,5 @@
     "department_accuracy": 0.974,
     "seniority_accuracy": 0.9545,
     "unassigned_count": 4
-  },
-  "domain": "nordicbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

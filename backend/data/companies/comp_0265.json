@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9735,
     "seniority_accuracy": 0.9735,
     "unassigned_count": 1
-  },
-  "domain": "ironwoodsupermarkets.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

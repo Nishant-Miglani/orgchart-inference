@@ -5411,7 +5411,5 @@
     "department_accuracy": 0.9804,
     "seniority_accuracy": 0.9412,
     "unassigned_count": 9
-  },
-  "domain": "novamarkets.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

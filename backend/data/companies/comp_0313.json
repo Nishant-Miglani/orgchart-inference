@@ -9004,7 +9004,5 @@
     "department_accuracy": 0.9802,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 3
-  },
-  "domain": "venturelogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

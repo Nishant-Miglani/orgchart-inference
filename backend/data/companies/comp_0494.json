@@ -4907,7 +4907,5 @@
     "department_accuracy": 0.9927,
     "seniority_accuracy": 0.9781,
     "unassigned_count": 0
-  },
-  "domain": "oasislogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

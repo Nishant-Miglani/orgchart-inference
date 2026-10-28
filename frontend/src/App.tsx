@@ -9,22 +9,22 @@ import { Company, CompanySummary, Employee, BenchmarkReport } from "./types";
 import { Navbar } from "./components/Navbar";
 import { CompanySearchBar } from "./components/CompanySearchBar";
 import { CompanyHeader, CompanyDetailTab } from "./components/CompanyHeader";
-import { OrgChartCanvas } from "./components/OrgChartCanvas";
+import { OrgHierarchyView } from "./components/OrgHierarchyView";
 import { DirectoryView } from "./components/DirectoryView";
 import { SalesIntelligenceView } from "./components/SalesIntelligenceView";
 import { CompanyAnalyticsView } from "./components/CompanyAnalyticsView";
 import { NodeDrawer } from "./components/NodeDrawer";
 import { BenchmarkModal } from "./components/BenchmarkModal";
-import { Search, Sliders, Sparkles, X } from "lucide-react";
+import { Sparkles, X } from "lucide-react";
 
 export const App: React.FC = () => {
   const [companies, setCompanies] = useState<CompanySummary[]>([]);
   const [selectedCompanyId, setSelectedCompanyId] = useState<string>("comp_0001");
   const [company, setCompany] = useState<Company | null>(null);
 
-  // Category & Domain Type Filters
+  // Category & Size Filters
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
-  const [selectedDomainType, setSelectedDomainType] = useState<string>("All");
+  const [selectedSize, setSelectedSize] = useState<string>("All");
 
   // Detail view active tab
   const [activeTab, setActiveTab] = useState<CompanyDetailTab>("chart");
@@ -34,12 +34,9 @@ export const App: React.FC = () => {
   const [highlightedEmployeeIds, setHighlightedEmployeeIds] = useState<Set<string>>(new Set());
   const [economicBuyerId, setEconomicBuyerId] = useState<string | undefined>(undefined);
 
-  // Org chart view controls
-  const [chartDepartmentFilter, setChartDepartmentFilter] = useState<string>("All");
-  const [chartPersonSearch, setChartPersonSearch] = useState<string>("" );
+  // Ground Truth & Threshold controls
   const [compareWithGroundTruth, setCompareWithGroundTruth] = useState<boolean>(false);
   const [confidenceThreshold, setConfidenceThreshold] = useState<number>(0.68);
-  const [showThresholdControl, setShowThresholdControl] = useState<boolean>(false);
   const [isReinferring, setIsReinferring] = useState<boolean>(false);
 
   // Benchmark modal
@@ -78,8 +75,6 @@ export const App: React.FC = () => {
     setHighlightedEmployeeIds(new Set());
     setEconomicBuyerId(undefined);
     setBannerMessage(null);
-    setChartDepartmentFilter("All");
-    setChartPersonSearch("");
     try {
       const compData = await fetchCompany(companyId);
       setCompany(compData);
@@ -114,7 +109,7 @@ export const App: React.FC = () => {
     }
   };
 
-  // Trace reporting path from node drawer or directory
+  // Trace reporting path from node drawer, directory, or sales view
   const handleHighlightChain = (emp: Employee) => {
     if (!company) return;
     const empMap = new Map(company.employees.map((e) => [e.id, e]));
@@ -133,22 +128,7 @@ export const App: React.FC = () => {
     setHighlightedEmployeeIds(ids);
     setEconomicBuyerId(buyerId);
     setSelectedEmployee(emp);
-    setBannerMessage(`Tracing reporting hierarchy for ${emp.name} (${emp.raw_title}) up to Executive Leadership.`);
-  };
-
-  // Auto-search person within org chart
-  const handleChartPersonSearch = (val: string) => {
-    setChartPersonSearch(val);
-    if (!val.trim() || !company) return;
-    const matched = company.employees.find(
-      (e) =>
-        e.name.toLowerCase().includes(val.toLowerCase()) ||
-        e.raw_title.toLowerCase().includes(val.toLowerCase())
-    );
-    if (matched) {
-      setSelectedEmployee(matched);
-      setHighlightedEmployeeIds(new Set([matched.id]));
-    }
+    setBannerMessage(`Tracing hierarchy path for ${emp.name} (${emp.raw_title}) up to Executive Leadership.`);
   };
 
   if (isLoading || !company) {
@@ -182,11 +162,6 @@ export const App: React.FC = () => {
     );
   }
 
-  // Unique departments for canvas filter
-  const departments = Array.from(
-    new Set(company.employees.map((e) => e.inferred_department).filter(Boolean))
-  ) as string[];
-
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", background: "#f8fafc" }}>
       {/* 1. Sleek Top Navbar */}
@@ -198,15 +173,15 @@ export const App: React.FC = () => {
         totalCompanies={companies.length}
       />
 
-      {/* 2. Company Search Box & Category / Domain Type Filters */}
+      {/* 2. Company Search Box & Category / Size Filters (Clean & Simple) */}
       <CompanySearchBar
         companies={companies}
         selectedCompanyId={selectedCompanyId}
         onSelectCompany={handleSelectCompany}
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory}
-        selectedDomainType={selectedDomainType}
-        onSelectDomainType={setSelectedDomainType}
+        selectedSize={selectedSize}
+        onSelectSize={setSelectedSize}
       />
 
       {/* 3. Selected Company Details Header & Navigation Tabs */}
@@ -228,6 +203,7 @@ export const App: React.FC = () => {
             justifyContent: "space-between",
             fontSize: "12px",
             color: "#1e40af",
+            flexShrink: 0,
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -244,175 +220,25 @@ export const App: React.FC = () => {
       )}
 
       {/* 5. Main Content Area based on Active Tab */}
-      <div style={{ flex: 1, position: "relative", display: "flex", overflow: "hidden" }}>
+      <div style={{ flex: 1, minHeight: 0, position: "relative", display: "flex", overflow: "hidden" }}>
         {activeTab === "chart" && (
-          <div style={{ flex: 1, display: "flex", flexDirection: "column", position: "relative", overflow: "hidden" }}>
-            {/* Org Chart Sub-Toolbar */}
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                padding: "8px 20px",
-                background: "#ffffff",
-                borderBottom: "1px solid var(--border-subtle)",
-                zIndex: 10,
-                flexWrap: "wrap",
-                gap: "10px",
-              }}
-            >
-              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                {/* Department filter for canvas */}
-                <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                  <span style={{ fontSize: "12px", color: "var(--text-secondary)", fontWeight: 500 }}>
-                    Filter Dept:
-                  </span>
-                  <select
-                    value={chartDepartmentFilter}
-                    onChange={(e) => setChartDepartmentFilter(e.target.value)}
-                    style={{
-                      height: "32px",
-                      padding: "0 8px",
-                      background: "#ffffff",
-                      border: "1px solid var(--border-medium)",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      color: "var(--text-primary)",
-                      outline: "none",
-                    }}
-                  >
-                    <option value="All">All Departments ({company.employees.length} nodes)</option>
-                    {departments.map((d) => (
-                      <option key={d} value={d}>
-                        {d}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                {/* Person search inside chart */}
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "6px",
-                    padding: "0 8px",
-                    background: "#ffffff",
-                    border: "1px solid var(--border-medium)",
-                    borderRadius: "6px",
-                    height: "32px",
-                    width: "220px",
-                  }}
-                >
-                  <Search size={13} color="var(--text-muted)" />
-                  <input
-                    type="text"
-                    placeholder="Find person in chart..."
-                    value={chartPersonSearch}
-                    onChange={(e) => handleChartPersonSearch(e.target.value)}
-                    style={{
-                      border: "none",
-                      outline: "none",
-                      background: "transparent",
-                      fontSize: "12px",
-                      color: "var(--text-primary)",
-                      width: "100%",
-                    }}
-                  />
-                  {chartPersonSearch && (
-                    <button
-                      onClick={() => setChartPersonSearch("")}
-                      style={{ background: "transparent", border: "none", cursor: "pointer", color: "var(--text-muted)" }}
-                    >
-                      <X size={12} />
-                    </button>
-                  )}
-                </div>
-              </div>
-
-              {/* Right: Confidence Threshold Settings */}
-              <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                <button
-                  onClick={() => setShowThresholdControl(!showThresholdControl)}
-                  className={`btn-chip ${showThresholdControl ? "active" : ""}`}
-                  style={{ fontSize: "11px", padding: "4px 8px" }}
-                  title="Adjust AI Confidence Cutoff"
-                >
-                  <Sliders size={12} />
-                  Cutoff: {(confidenceThreshold * 100).toFixed(0)}%
-                </button>
-
-                {highlightedEmployeeIds.size > 0 && (
-                  <button
-                    onClick={() => {
-                      setHighlightedEmployeeIds(new Set());
-                      setEconomicBuyerId(undefined);
-                      setBannerMessage(null);
-                    }}
-                    className="btn-secondary"
-                    style={{ fontSize: "11px", padding: "4px 8px" }}
-                  >
-                    Clear Highlights
-                  </button>
-                )}
-              </div>
-            </div>
-
-            {/* Threshold Popover Drawer (if open) */}
-            {showThresholdControl && (
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  padding: "8px 20px",
-                  background: "#ffffff",
-                  borderBottom: "1px solid var(--border-medium)",
-                  fontSize: "12px",
-                  zIndex: 20,
-                  boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
-                }}
-              >
-                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                  <span style={{ fontWeight: 600, color: "var(--text-secondary)" }}>
-                    Confidence Threshold: <strong style={{ color: "var(--accent-blue)" }}>{(confidenceThreshold * 100).toFixed(0)}%</strong>
-                  </span>
-                  <input
-                    type="range"
-                    min="0.45"
-                    max="0.95"
-                    step="0.05"
-                    value={confidenceThreshold}
-                    onChange={(e) => setConfidenceThreshold(parseFloat(e.target.value))}
-                    style={{ width: "150px", accentColor: "var(--accent-blue)", cursor: "pointer" }}
-                  />
-                  <span style={{ fontSize: "11px", color: "var(--text-muted)" }}>
-                    (Higher = stricter precision. Lower = higher recall.)
-                  </span>
-                </div>
-
-                <button
-                  onClick={handleReinfer}
-                  disabled={isReinferring}
-                  className="btn-primary"
-                  style={{ fontSize: "11px", padding: "4px 10px" }}
-                >
-                  {isReinferring ? "Re-inferring..." : "Re-Infer Org Chart"}
-                </button>
-              </div>
-            )}
-
-            {/* Canvas */}
-            <OrgChartCanvas
-              company={company}
-              selectedEmployeeId={selectedEmployee?.id}
-              onSelectEmployee={(emp) => setSelectedEmployee(emp)}
-              highlightedEmployeeIds={highlightedEmployeeIds}
-              economicBuyerId={economicBuyerId}
-              compareWithGroundTruth={compareWithGroundTruth}
-              departmentFilter={chartDepartmentFilter}
-            />
-          </div>
+          <OrgHierarchyView
+            company={company}
+            selectedEmployeeId={selectedEmployee?.id}
+            onSelectEmployee={(emp) => setSelectedEmployee(emp)}
+            highlightedEmployeeIds={highlightedEmployeeIds}
+            economicBuyerId={economicBuyerId}
+            compareWithGroundTruth={compareWithGroundTruth}
+            confidenceThreshold={confidenceThreshold}
+            onThresholdChange={setConfidenceThreshold}
+            onReinfer={handleReinfer}
+            isReinferring={isReinferring}
+            onClearHighlights={() => {
+              setHighlightedEmployeeIds(new Set());
+              setEconomicBuyerId(undefined);
+              setBannerMessage(null);
+            }}
+          />
         )}
 
         {activeTab === "directory" && (

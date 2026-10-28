@@ -7685,7 +7685,5 @@
     "department_accuracy": 0.9767,
     "seniority_accuracy": 0.9674,
     "unassigned_count": 2
-  },
-  "domain": "radiantprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

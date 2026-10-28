@@ -4977,7 +4977,5 @@
     "department_accuracy": 0.9784,
     "seniority_accuracy": 0.964,
     "unassigned_count": 0
-  },
-  "domain": "metroconsumerbrands.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

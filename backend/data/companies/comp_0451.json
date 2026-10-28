@@ -5125,7 +5125,5 @@
     "department_accuracy": 0.979,
     "seniority_accuracy": 0.972,
     "unassigned_count": 1
-  },
-  "domain": "starlightgeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

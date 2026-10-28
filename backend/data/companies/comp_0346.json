@@ -5475,7 +5475,5 @@
     "department_accuracy": 0.9739,
     "seniority_accuracy": 0.9673,
     "unassigned_count": 1
-  },
-  "domain": "crestviewdepartmentstores.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

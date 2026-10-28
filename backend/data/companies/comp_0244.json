@@ -11217,7 +11217,5 @@
     "department_accuracy": 0.9937,
     "seniority_accuracy": 0.9778,
     "unassigned_count": 8
-  },
-  "domain": "novaoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

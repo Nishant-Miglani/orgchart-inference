@@ -5292,7 +5292,5 @@
     "department_accuracy": 0.9797,
     "seniority_accuracy": 0.9595,
     "unassigned_count": 2
-  },
-  "domain": "halcyontradingco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

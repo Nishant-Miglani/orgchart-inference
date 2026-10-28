@@ -5381,7 +5381,5 @@
     "department_accuracy": 0.9801,
     "seniority_accuracy": 0.9603,
     "unassigned_count": 4
-  },
-  "domain": "sterlingsupermarkets.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

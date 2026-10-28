@@ -8024,7 +8024,5 @@
     "department_accuracy": 0.9777,
     "seniority_accuracy": 0.9598,
     "unassigned_count": 1
-  },
-  "domain": "atlasholdings.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

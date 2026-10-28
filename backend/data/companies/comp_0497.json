@@ -7316,7 +7316,5 @@
     "department_accuracy": 0.9755,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 0
-  },
-  "domain": "avenueapparelco.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

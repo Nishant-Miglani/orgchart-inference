@@ -8024,7 +8024,5 @@
     "department_accuracy": 0.9911,
     "seniority_accuracy": 0.9821,
     "unassigned_count": 1
-  },
-  "domain": "solsticegeneralmerchandise.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

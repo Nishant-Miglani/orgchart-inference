@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9861,
     "seniority_accuracy": 0.9653,
     "unassigned_count": 0
-  },
-  "domain": "atlasapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

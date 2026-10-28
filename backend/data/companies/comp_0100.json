@@ -12897,7 +12897,5 @@
     "department_accuracy": 0.9892,
     "seniority_accuracy": 0.9704,
     "unassigned_count": 49
-  },
-  "domain": "primeapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

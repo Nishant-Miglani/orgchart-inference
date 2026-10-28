@@ -5300,7 +5300,5 @@
     "department_accuracy": 0.9797,
     "seniority_accuracy": 0.9797,
     "unassigned_count": 1
-  },
-  "domain": "radianthomegoods.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

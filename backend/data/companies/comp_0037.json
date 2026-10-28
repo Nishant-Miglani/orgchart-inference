@@ -8000,7 +8000,5 @@
     "department_accuracy": 0.9866,
     "seniority_accuracy": 0.9777,
     "unassigned_count": 4
-  },
-  "domain": "crestviewluxuryemporium.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

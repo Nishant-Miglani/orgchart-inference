@@ -5357,7 +5357,5 @@
     "department_accuracy": 0.9669,
     "seniority_accuracy": 0.9536,
     "unassigned_count": 7
-  },
-  "domain": "goldenrodluxuryemporium.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

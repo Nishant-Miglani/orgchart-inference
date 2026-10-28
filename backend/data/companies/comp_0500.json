@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9801,
     "seniority_accuracy": 0.9735,
     "unassigned_count": 1
-  },
-  "domain": "atlasdepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -10439,7 +10439,5 @@
     "department_accuracy": 0.9898,
     "seniority_accuracy": 0.9829,
     "unassigned_count": 7
-  },
-  "domain": "crowndepartmentstores.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

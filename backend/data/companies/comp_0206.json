@@ -5357,7 +5357,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9801,
     "unassigned_count": 7
-  },
-  "domain": "primemarkets.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

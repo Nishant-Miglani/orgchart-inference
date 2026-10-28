@@ -7936,7 +7936,5 @@
     "department_accuracy": 0.9777,
     "seniority_accuracy": 0.9688,
     "unassigned_count": 12
-  },
-  "domain": "redwoodmarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

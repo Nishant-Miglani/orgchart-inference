@@ -7532,7 +7532,5 @@
     "department_accuracy": 0.9858,
     "seniority_accuracy": 0.9858,
     "unassigned_count": 8
-  },
-  "domain": "catalystdigitalgoods.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.9675,
     "seniority_accuracy": 0.974,
     "unassigned_count": 1
-  },
-  "domain": "cobaltlogisticsretail.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

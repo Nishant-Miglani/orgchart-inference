@@ -5413,7 +5413,5 @@
     "department_accuracy": 0.9934,
     "seniority_accuracy": 0.9669,
     "unassigned_count": 0
-  },
-  "domain": "cobaltgeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

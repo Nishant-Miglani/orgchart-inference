@@ -8875,7 +8875,5 @@
     "department_accuracy": 0.9839,
     "seniority_accuracy": 0.9679,
     "unassigned_count": 6
-  },
-  "domain": "pacificdepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

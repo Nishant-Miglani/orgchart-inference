@@ -52,8 +52,7 @@ def health_check():
 @app.get("/api/companies")
 def list_companies(
     sub_sector: Optional[str] = Query(None, description="Filter by retail category/sub-sector"),
-    domain_type: Optional[str] = Query(None, description="Filter by domain type (e.g. .com, .com.au, .store)"),
-    search: Optional[str] = Query(None, description="Search company name, domain, HQ, or sector"),
+    search: Optional[str] = Query(None, description="Search company name, HQ, or sector"),
     size_category: Optional[str] = Query(None, description="Filter by size tier"),
     min_precision: Optional[float] = Query(None, description="Filter by minimum precision score"),
     limit: int = Query(500, ge=1, le=500),
@@ -61,7 +60,6 @@ def list_companies(
 ):
     companies, total_count = data_store.list_companies(
         sub_sector=sub_sector,
-        domain_type=domain_type,
         search_query=search,
         size_category=size_category,
         min_precision=min_precision,

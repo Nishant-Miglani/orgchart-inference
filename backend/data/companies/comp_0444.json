@@ -5467,7 +5467,5 @@
     "department_accuracy": 0.9804,
     "seniority_accuracy": 0.9739,
     "unassigned_count": 2
-  },
-  "domain": "velocityluxuryemporium.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

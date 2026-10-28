@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.9935,
     "seniority_accuracy": 0.987,
     "unassigned_count": 0
-  },
-  "domain": "ventureholdings.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

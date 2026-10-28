@@ -6522,7 +6522,5 @@
     "department_accuracy": 0.9835,
     "seniority_accuracy": 0.978,
     "unassigned_count": 1
-  },
-  "domain": "sierraprovisions.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9934,
     "seniority_accuracy": 0.9868,
     "unassigned_count": 1
-  },
-  "domain": "redwoodholdings.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

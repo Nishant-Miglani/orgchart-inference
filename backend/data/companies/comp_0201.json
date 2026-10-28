@@ -6304,7 +6304,5 @@
     "department_accuracy": 0.9886,
     "seniority_accuracy": 0.9886,
     "unassigned_count": 0
-  },
-  "domain": "nordicomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

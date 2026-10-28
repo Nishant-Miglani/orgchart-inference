@@ -5483,7 +5483,5 @@
     "department_accuracy": 0.9869,
     "seniority_accuracy": 0.9869,
     "unassigned_count": 0
-  },
-  "domain": "silvergatesupplyco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

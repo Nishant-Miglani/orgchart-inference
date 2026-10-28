@@ -4837,7 +4837,5 @@
     "department_accuracy": 0.9926,
     "seniority_accuracy": 0.9852,
     "unassigned_count": 0
-  },
-  "domain": "urbanbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

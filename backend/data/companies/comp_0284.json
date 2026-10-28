@@ -10921,7 +10921,5 @@
     "department_accuracy": 0.9935,
     "seniority_accuracy": 0.9805,
     "unassigned_count": 10
-  },
-  "domain": "amberdepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

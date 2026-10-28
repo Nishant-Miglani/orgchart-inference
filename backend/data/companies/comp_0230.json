@@ -5411,7 +5411,5 @@
     "department_accuracy": 0.9673,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 9
-  },
-  "domain": "urbanlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

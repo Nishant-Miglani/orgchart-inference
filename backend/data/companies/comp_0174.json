@@ -8024,7 +8024,5 @@
     "department_accuracy": 0.9955,
     "seniority_accuracy": 0.9777,
     "unassigned_count": 1
-  },
-  "domain": "evergreenapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

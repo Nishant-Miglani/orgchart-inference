@@ -5020,7 +5020,5 @@
     "department_accuracy": 0.9714,
     "seniority_accuracy": 0.9571,
     "unassigned_count": 1
-  },
-  "domain": "pinnacledepartmentstores.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

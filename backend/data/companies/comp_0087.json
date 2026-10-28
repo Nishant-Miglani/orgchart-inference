@@ -6353,7 +6353,5 @@
     "department_accuracy": 0.9777,
     "seniority_accuracy": 0.9665,
     "unassigned_count": 7
-  },
-  "domain": "cobaltdirectstores.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

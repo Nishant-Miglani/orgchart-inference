@@ -4778,7 +4778,5 @@
     "department_accuracy": 0.9701,
     "seniority_accuracy": 0.9701,
     "unassigned_count": 3
-  },
-  "domain": "ambersupplyco.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

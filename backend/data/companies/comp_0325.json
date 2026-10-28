@@ -4907,7 +4907,5 @@
     "department_accuracy": 0.9781,
     "seniority_accuracy": 0.9708,
     "unassigned_count": 0
-  },
-  "domain": "novasupermarkets.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

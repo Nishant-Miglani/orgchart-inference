@@ -4977,7 +4977,5 @@
     "department_accuracy": 0.9712,
     "seniority_accuracy": 0.964,
     "unassigned_count": 0
-  },
-  "domain": "apexsupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

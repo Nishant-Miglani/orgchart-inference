@@ -15,8 +15,8 @@ interface CompanySearchBarProps {
   onSelectCompany: (companyId: string) => void;
   selectedCategory: string;
   onSelectCategory: (category: string) => void;
-  selectedDomainType: string;
-  onSelectDomainType: (domainType: string) => void;
+  selectedSize?: string;
+  onSelectSize?: (size: string) => void;
 }
 
 export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
@@ -25,8 +25,8 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
   onSelectCompany,
   selectedCategory,
   onSelectCategory,
-  selectedDomainType,
-  onSelectDomainType,
+  selectedSize = "All",
+  onSelectSize,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +37,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
     return companies.find((c) => c.id === selectedCompanyId);
   }, [companies, selectedCompanyId]);
 
-  // Extract unique categories and domain types
+  // Extract unique categories (sub-sectors)
   const categories = useMemo(() => {
     const set = new Set<string>();
     companies.forEach((c) => {
@@ -46,43 +46,39 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
     return Array.from(set).sort();
   }, [companies]);
 
-  const domainTypes = useMemo(() => {
+  // Extract unique sizes
+  const sizes = useMemo(() => {
     const set = new Set<string>();
     companies.forEach((c) => {
-      if (c.domain_type) set.add(c.domain_type);
+      if (c.size_category) set.add(c.size_category);
     });
     return Array.from(set).sort();
   }, [companies]);
 
-  // Filter companies based on category, domain type, and search term
+  // Filter companies based on category, size, and search term
   const filteredCompanies = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
     return companies.filter((c) => {
-      // Category filter
+      // Category filter (industry vertical)
       if (selectedCategory !== "All" && c.sub_sector.toLowerCase() !== selectedCategory.toLowerCase()) {
         return false;
       }
-      // Domain type filter
-      if (
-        selectedDomainType !== "All" &&
-        c.domain_type &&
-        !c.domain_type.toLowerCase().includes(selectedDomainType.toLowerCase())
-      ) {
+      // Size tier filter
+      if (selectedSize !== "All" && c.size_category.toLowerCase() !== selectedSize.toLowerCase()) {
         return false;
       }
-      // Search term
+      // Search term (searches name, category, and HQ)
       if (term) {
         const nameMatch = c.name.toLowerCase().includes(term);
-        const domainMatch = c.domain ? c.domain.toLowerCase().includes(term) : false;
         const hqMatch = c.headquarters ? c.headquarters.toLowerCase().includes(term) : false;
         const sectorMatch = c.sub_sector ? c.sub_sector.toLowerCase().includes(term) : false;
-        if (!nameMatch && !domainMatch && !hqMatch && !sectorMatch) {
+        if (!nameMatch && !hqMatch && !sectorMatch) {
           return false;
         }
       }
       return true;
     });
-  }, [companies, selectedCategory, selectedDomainType, searchTerm]);
+  }, [companies, selectedCategory, selectedSize, searchTerm]);
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -95,11 +91,11 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const hasActiveFilters = selectedCategory !== "All" || selectedDomainType !== "All" || searchTerm.length > 0;
+  const hasActiveFilters = selectedCategory !== "All" || selectedSize !== "All" || searchTerm.length > 0;
 
   const handleResetFilters = () => {
     onSelectCategory("All");
-    onSelectDomainType("All");
+    if (onSelectSize) onSelectSize("All");
     setSearchTerm("");
   };
 
@@ -108,7 +104,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
       style={{
         background: "#ffffff",
         borderBottom: "1px solid var(--border-subtle)",
-        padding: "12px 24px",
+        padding: "10px 24px",
       }}
     >
       <div
@@ -120,7 +116,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
           gap: "12px",
         }}
       >
-        {/* Left Side: Searchable Combobox & Filters */}
+        {/* Left Side: Searchable Input & Category Filter */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px", flex: 1, minWidth: "320px", maxWidth: "900px" }}>
           {/* Search Box / Dropdown Input */}
           <div ref={containerRef} style={{ position: "relative", flex: "1 1 360px", minWidth: "260px" }}>
@@ -132,19 +128,19 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                 border: isOpen ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
                 borderRadius: "8px",
                 padding: "0 10px",
-                height: "38px",
+                height: "36px",
                 boxShadow: isOpen ? "0 0 0 3px rgba(37, 99, 235, 0.12)" : "0 1px 2px 0 rgba(0,0,0,0.04)",
                 transition: "all 0.15s ease",
               }}
             >
-              <Search size={16} color="var(--text-muted)" style={{ flexShrink: 0, marginRight: "8px" }} />
+              <Search size={15} color="var(--text-muted)" style={{ flexShrink: 0, marginRight: "8px" }} />
               <input
                 ref={inputRef}
                 type="text"
                 placeholder={
                   selectedCompany
-                    ? `${selectedCompany.name} (type to search 500 companies)...`
-                    : "Search companies by name or domain..."
+                    ? `Search 500 companies (Current: ${selectedCompany.name})...`
+                    : "Search 500 companies by name, category, or HQ..."
                 }
                 value={searchTerm}
                 onChange={(e) => {
@@ -193,7 +189,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                   alignItems: "center",
                 }}
               >
-                <ChevronDown size={15} style={{ transform: isOpen ? "rotate(180deg)" : "none", transition: "transform 0.15s" }} />
+                <ChevronDown size={14} style={{ transform: isOpen ? "rotate(180deg)" : "none", transition: "transform 0.15s" }} />
               </button>
             </div>
 
@@ -301,19 +297,6 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                                 >
                                   {c.name}
                                 </span>
-                                {c.domain && (
-                                  <span
-                                    style={{
-                                      fontSize: "11px",
-                                      color: "var(--text-muted)",
-                                      background: "#f1f5f9",
-                                      padding: "1px 6px",
-                                      borderRadius: "4px",
-                                    }}
-                                  >
-                                    {c.domain}
-                                  </span>
-                                )}
                               </div>
                               <div style={{ fontSize: "11px", color: "var(--text-muted)", display: "flex", gap: "8px", marginTop: "2px" }}>
                                 <span>{c.sub_sector}</span>
@@ -326,20 +309,6 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                           </div>
 
                           <div style={{ display: "flex", alignItems: "center", gap: "10px", flexShrink: 0 }}>
-                            {c.domain_type && (
-                              <span
-                                style={{
-                                  fontSize: "11px",
-                                  color: "var(--text-secondary)",
-                                  background: "#f8fafc",
-                                  border: "1px solid var(--border-subtle)",
-                                  padding: "2px 6px",
-                                  borderRadius: "4px",
-                                }}
-                              >
-                                {c.domain_type.split(" ")[0]}
-                              </span>
-                            )}
                             <span
                               style={{
                                 fontSize: "11px",
@@ -369,7 +338,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
               value={selectedCategory}
               onChange={(e) => onSelectCategory(e.target.value)}
               style={{
-                height: "38px",
+                height: "36px",
                 padding: "0 10px",
                 background: "#ffffff",
                 border: selectedCategory !== "All" ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
@@ -379,7 +348,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
                 fontWeight: selectedCategory !== "All" ? 600 : 500,
                 outline: "none",
                 cursor: "pointer",
-                maxWidth: "200px",
+                maxWidth: "220px",
               }}
             >
               <option value="All">All Categories ({companies.length})</option>
@@ -391,36 +360,38 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
             </select>
           </div>
 
-          {/* Domain Type Filter Dropdown */}
-          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-            <label style={{ fontSize: "12px", fontWeight: 600, color: "var(--text-secondary)", whiteSpace: "nowrap" }}>
-              Domain:
-            </label>
-            <select
-              value={selectedDomainType}
-              onChange={(e) => onSelectDomainType(e.target.value)}
-              style={{
-                height: "38px",
-                padding: "0 10px",
-                background: "#ffffff",
-                border: selectedDomainType !== "All" ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
-                borderRadius: "8px",
-                fontSize: "12px",
-                color: selectedDomainType !== "All" ? "var(--accent-blue)" : "var(--text-primary)",
-                fontWeight: selectedDomainType !== "All" ? 600 : 500,
-                outline: "none",
-                cursor: "pointer",
-                maxWidth: "180px",
-              }}
-            >
-              <option value="All">All Domains</option>
-              {domainTypes.map((dt) => (
-                <option key={dt} value={dt}>
-                  {dt}
-                </option>
-              ))}
-            </select>
-          </div>
+          {/* Company Size Tier Filter */}
+          {onSelectSize && (
+            <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+              <label style={{ fontSize: "12px", fontWeight: 600, color: "var(--text-secondary)", whiteSpace: "nowrap" }}>
+                Size:
+              </label>
+              <select
+                value={selectedSize}
+                onChange={(e) => onSelectSize(e.target.value)}
+                style={{
+                  height: "36px",
+                  padding: "0 8px",
+                  background: "#ffffff",
+                  border: selectedSize !== "All" ? "1px solid var(--accent-blue)" : "1px solid var(--border-medium)",
+                  borderRadius: "8px",
+                  fontSize: "12px",
+                  color: selectedSize !== "All" ? "var(--accent-blue)" : "var(--text-primary)",
+                  fontWeight: selectedSize !== "All" ? 600 : 500,
+                  outline: "none",
+                  cursor: "pointer",
+                  maxWidth: "160px",
+                }}
+              >
+                <option value="All">All Sizes</option>
+                {sizes.map((sz) => (
+                  <option key={sz} value={sz}>
+                    {sz.split("(")[0].trim()}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           {/* Reset Filters Button */}
           {hasActiveFilters && (
@@ -428,7 +399,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
               onClick={handleResetFilters}
               className="btn-secondary"
               style={{
-                height: "38px",
+                height: "36px",
                 padding: "0 10px",
                 fontSize: "12px",
                 display: "inline-flex",
@@ -461,9 +432,7 @@ export const CompanySearchBar: React.FC<CompanySearchBarProps> = ({
             >
               <Building2 size={13} color="var(--accent-blue)" />
               <strong style={{ color: "var(--text-primary)" }}>{selectedCompany.name}</strong>
-              {selectedCompany.domain && (
-                <span style={{ color: "var(--text-muted)" }}>• {selectedCompany.domain}</span>
-              )}
+              <span style={{ color: "var(--text-muted)" }}>• {selectedCompany.sub_sector}</span>
             </div>
           </div>
         )}

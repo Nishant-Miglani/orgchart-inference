@@ -4802,7 +4802,5 @@
     "department_accuracy": 0.9701,
     "seniority_accuracy": 0.9627,
     "unassigned_count": 0
-  },
-  "domain": "sterlingbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

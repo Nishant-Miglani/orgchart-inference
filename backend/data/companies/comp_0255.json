@@ -7984,7 +7984,5 @@
     "department_accuracy": 0.9777,
     "seniority_accuracy": 0.9688,
     "unassigned_count": 6
-  },
-  "domain": "velocityconsumerbrands.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

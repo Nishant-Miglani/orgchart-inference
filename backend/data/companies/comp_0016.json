@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9653,
     "seniority_accuracy": 0.9583,
     "unassigned_count": 0
-  },
-  "domain": "urbangeneralmerchandise.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

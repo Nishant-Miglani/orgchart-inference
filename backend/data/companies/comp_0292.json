@@ -12730,7 +12730,5 @@
     "department_accuracy": 0.9972,
     "seniority_accuracy": 0.9832,
     "unassigned_count": 11
-  },
-  "domain": "venturesupplyco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

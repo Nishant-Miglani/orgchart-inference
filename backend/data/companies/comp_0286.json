@@ -5136,7 +5136,5 @@
     "department_accuracy": 0.9653,
     "seniority_accuracy": 0.9444,
     "unassigned_count": 4
-  },
-  "domain": "nordicboutiquegroup.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

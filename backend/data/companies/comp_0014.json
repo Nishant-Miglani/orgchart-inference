@@ -11932,7 +11932,5 @@
     "department_accuracy": 0.9882,
     "seniority_accuracy": 0.9676,
     "unassigned_count": 32
-  },
-  "domain": "beaconboutiquegroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5389,7 +5389,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9603,
     "unassigned_count": 3
-  },
-  "domain": "horizondirectstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

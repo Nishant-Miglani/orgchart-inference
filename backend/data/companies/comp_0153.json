@@ -8366,7 +8366,5 @@
     "department_accuracy": 0.9786,
     "seniority_accuracy": 0.9786,
     "unassigned_count": 2
-  },
-  "domain": "sterlingboutiquegroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

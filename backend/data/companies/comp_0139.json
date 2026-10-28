@@ -5133,7 +5133,5 @@
     "department_accuracy": 0.965,
     "seniority_accuracy": 0.951,
     "unassigned_count": 0
-  },
-  "domain": "venturegeneralmerchandise.co",
-  "domain_type": "Corporate (.co)"
+  }
 }

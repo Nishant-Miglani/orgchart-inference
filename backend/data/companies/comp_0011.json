@@ -7945,7 +7945,5 @@
     "department_accuracy": 0.978,
     "seniority_accuracy": 0.9824,
     "unassigned_count": 24
-  },
-  "domain": "cobaltsupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

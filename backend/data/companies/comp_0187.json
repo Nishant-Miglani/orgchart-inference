@@ -8033,7 +8033,5 @@
     "department_accuracy": 0.9824,
     "seniority_accuracy": 0.9648,
     "unassigned_count": 13
-  },
-  "domain": "solsticehomegoods.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

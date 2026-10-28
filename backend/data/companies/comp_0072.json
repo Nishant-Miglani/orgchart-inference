@@ -5989,7 +5989,5 @@
     "department_accuracy": 0.982,
     "seniority_accuracy": 0.9641,
     "unassigned_count": 0
-  },
-  "domain": "nordicgeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

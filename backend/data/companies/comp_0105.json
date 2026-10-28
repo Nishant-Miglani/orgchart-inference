@@ -5160,7 +5160,5 @@
     "department_accuracy": 0.9722,
     "seniority_accuracy": 0.9583,
     "unassigned_count": 1
-  },
-  "domain": "novaomnichannelstores.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

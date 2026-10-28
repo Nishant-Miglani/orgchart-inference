@@ -4977,7 +4977,5 @@
     "department_accuracy": 0.9784,
     "seniority_accuracy": 0.9712,
     "unassigned_count": 0
-  },
-  "domain": "harbordigitalgoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

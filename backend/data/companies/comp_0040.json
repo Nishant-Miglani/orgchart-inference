@@ -5981,7 +5981,5 @@
     "department_accuracy": 0.976,
     "seniority_accuracy": 0.9701,
     "unassigned_count": 1
-  },
-  "domain": "pacificprovisions.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

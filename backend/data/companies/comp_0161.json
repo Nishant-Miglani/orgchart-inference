@@ -5028,7 +5028,5 @@
     "department_accuracy": 0.9929,
     "seniority_accuracy": 0.9929,
     "unassigned_count": 0
-  },
-  "domain": "apexboutiquegroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

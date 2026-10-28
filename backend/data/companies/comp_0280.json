@@ -5168,7 +5168,5 @@
     "department_accuracy": 0.9792,
     "seniority_accuracy": 0.9653,
     "unassigned_count": 0
-  },
-  "domain": "pinnaclesupplyco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

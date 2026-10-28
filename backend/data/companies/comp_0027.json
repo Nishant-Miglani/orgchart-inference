@@ -6914,7 +6914,5 @@
     "department_accuracy": 0.9697,
     "seniority_accuracy": 0.9495,
     "unassigned_count": 22
-  },
-  "domain": "apexgeneralmerchandise.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

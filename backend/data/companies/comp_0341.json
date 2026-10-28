@@ -8278,7 +8278,5 @@
     "department_accuracy": 0.9786,
     "seniority_accuracy": 0.9744,
     "unassigned_count": 13
-  },
-  "domain": "crestviewlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

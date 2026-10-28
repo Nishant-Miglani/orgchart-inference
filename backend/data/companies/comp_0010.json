@@ -5981,7 +5981,5 @@
     "department_accuracy": 0.9701,
     "seniority_accuracy": 0.9641,
     "unassigned_count": 1
-  },
-  "domain": "redwooddirectstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

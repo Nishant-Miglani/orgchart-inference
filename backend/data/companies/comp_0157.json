@@ -4759,7 +4759,5 @@
     "department_accuracy": 0.9774,
     "seniority_accuracy": 0.9699,
     "unassigned_count": 1
-  },
-  "domain": "summitsupplyco.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

@@ -11057,7 +11057,5 @@
     "department_accuracy": 0.9905,
     "seniority_accuracy": 0.9873,
     "unassigned_count": 28
-  },
-  "domain": "redwoodsupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

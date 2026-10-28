@@ -4789,7 +4789,5 @@
     "department_accuracy": 0.9704,
     "seniority_accuracy": 0.963,
     "unassigned_count": 6
-  },
-  "domain": "zenithmarkets.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

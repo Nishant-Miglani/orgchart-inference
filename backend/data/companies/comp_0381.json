@@ -13113,7 +13113,5 @@
     "department_accuracy": 0.9919,
     "seniority_accuracy": 0.9811,
     "unassigned_count": 22
-  },
-  "domain": "amberomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

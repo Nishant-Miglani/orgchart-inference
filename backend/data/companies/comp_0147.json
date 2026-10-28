@@ -11057,7 +11057,5 @@
     "department_accuracy": 0.9873,
     "seniority_accuracy": 0.9746,
     "unassigned_count": 28
-  },
-  "domain": "nordicsupermarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

@@ -8105,7 +8105,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9692,
     "unassigned_count": 4
-  },
-  "domain": "goldenrodbrands.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

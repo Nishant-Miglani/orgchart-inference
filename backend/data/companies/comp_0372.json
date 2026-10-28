@@ -6900,7 +6900,5 @@
     "department_accuracy": 0.9796,
     "seniority_accuracy": 0.9745,
     "unassigned_count": 15
-  },
-  "domain": "pacificholdings.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

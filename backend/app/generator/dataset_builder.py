@@ -107,26 +107,9 @@ def build_synthetic_dataset(
         # 2. Inject real-world noise into employee titles and metadata
         employees = noise_injector.apply_noise(employees)
 
-        # Generate realistic domain & domain type
-        clean_name = "".join(c for c in company_name.lower() if c.isalnum())
-        domain_opts = [
-            (".com", "Commercial (.com)"),
-            (".com", "Commercial (.com)"),
-            (".com", "Commercial (.com)"),
-            (".com.au", "Regional AU (.com.au)"),
-            (".store", "E-Commerce (.store)"),
-            (".io", "Tech & Digital (.io)"),
-            (".co", "Corporate (.co)"),
-        ]
-        tld, dtype = domain_opts[i % len(domain_opts)]
-        domain = f"{clean_name}{tld}"
-        domain_type = dtype
-
         company = Company(
             id=company_id,
             name=company_name,
-            domain=domain,
-            domain_type=domain_type,
             sub_sector=sub_sector,
             size_category=size_category,
             employee_count=len(employees),
@@ -146,8 +129,6 @@ def build_synthetic_dataset(
         summary = CompanySummary(
             id=company.id,
             name=company.name,
-            domain=company.domain,
-            domain_type=company.domain_type,
             sub_sector=company.sub_sector,
             size_category=company.size_category,
             employee_count=company.employee_count,

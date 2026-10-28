@@ -5300,7 +5300,5 @@
     "department_accuracy": 0.973,
     "seniority_accuracy": 0.9595,
     "unassigned_count": 1
-  },
-  "domain": "zenithsupermarkets.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

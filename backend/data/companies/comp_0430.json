@@ -5475,7 +5475,5 @@
     "department_accuracy": 0.9739,
     "seniority_accuracy": 0.9673,
     "unassigned_count": 1
-  },
-  "domain": "novaretailgroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

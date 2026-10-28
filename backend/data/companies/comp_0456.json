@@ -4813,7 +4813,5 @@
     "department_accuracy": 0.9704,
     "seniority_accuracy": 0.963,
     "unassigned_count": 3
-  },
-  "domain": "pinnaclehomegoods.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

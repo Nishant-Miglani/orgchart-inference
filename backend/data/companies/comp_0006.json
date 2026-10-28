@@ -11065,7 +11065,5 @@
     "department_accuracy": 0.9968,
     "seniority_accuracy": 0.9968,
     "unassigned_count": 27
-  },
-  "domain": "starlightsupplyco.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

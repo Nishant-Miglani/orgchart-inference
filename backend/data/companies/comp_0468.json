@@ -6724,7 +6724,5 @@
     "department_accuracy": 0.9734,
     "seniority_accuracy": 0.9628,
     "unassigned_count": 2
-  },
-  "domain": "kestreldirectstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

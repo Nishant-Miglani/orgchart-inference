@@ -4452,7 +4452,5 @@
     "department_accuracy": 0.9839,
     "seniority_accuracy": 0.9919,
     "unassigned_count": 0
-  },
-  "domain": "beacondepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

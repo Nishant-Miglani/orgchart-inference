@@ -7992,7 +7992,5 @@
     "department_accuracy": 0.9821,
     "seniority_accuracy": 0.9688,
     "unassigned_count": 5
-  },
-  "domain": "sterlingomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -9171,7 +9171,5 @@
     "department_accuracy": 0.9844,
     "seniority_accuracy": 0.9805,
     "unassigned_count": 4
-  },
-  "domain": "pinnacledirectstores.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

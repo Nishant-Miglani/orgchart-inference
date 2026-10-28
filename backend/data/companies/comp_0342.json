@@ -8978,7 +8978,5 @@
     "department_accuracy": 0.9843,
     "seniority_accuracy": 0.9764,
     "unassigned_count": 15
-  },
-  "domain": "amberlogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

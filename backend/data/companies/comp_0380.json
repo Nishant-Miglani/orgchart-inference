@@ -5470,7 +5470,5 @@
     "department_accuracy": 0.974,
     "seniority_accuracy": 0.9481,
     "unassigned_count": 6
-  },
-  "domain": "zenithgeneralmerchandise.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

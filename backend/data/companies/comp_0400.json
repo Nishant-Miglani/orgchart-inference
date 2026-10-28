@@ -7004,7 +7004,5 @@
     "department_accuracy": 0.9643,
     "seniority_accuracy": 0.9541,
     "unassigned_count": 2
-  },
-  "domain": "apexbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

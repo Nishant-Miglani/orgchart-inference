@@ -8137,7 +8137,5 @@
     "department_accuracy": 0.978,
     "seniority_accuracy": 0.9648,
     "unassigned_count": 0
-  },
-  "domain": "kestreloutfitters.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

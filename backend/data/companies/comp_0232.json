@@ -12108,7 +12108,5 @@
     "department_accuracy": 0.9882,
     "seniority_accuracy": 0.9794,
     "unassigned_count": 10
-  },
-  "domain": "zenithconsumerbrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

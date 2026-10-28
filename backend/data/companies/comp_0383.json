@@ -5160,7 +5160,5 @@
     "department_accuracy": 0.9792,
     "seniority_accuracy": 0.9653,
     "unassigned_count": 1
-  },
-  "domain": "summitomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

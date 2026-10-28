@@ -8113,7 +8113,5 @@
     "department_accuracy": 0.978,
     "seniority_accuracy": 0.9692,
     "unassigned_count": 3
-  },
-  "domain": "crownoutfitters.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

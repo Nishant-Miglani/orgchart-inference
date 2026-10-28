@@ -10487,7 +10487,5 @@
     "department_accuracy": 0.9795,
     "seniority_accuracy": 0.9659,
     "unassigned_count": 1
-  },
-  "domain": "venturebrands.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -5405,7 +5405,5 @@
     "department_accuracy": 0.9868,
     "seniority_accuracy": 0.9669,
     "unassigned_count": 1
-  },
-  "domain": "nordicsupplyco.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

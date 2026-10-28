@@ -5136,7 +5136,5 @@
     "department_accuracy": 0.9653,
     "seniority_accuracy": 0.9722,
     "unassigned_count": 4
-  },
-  "domain": "elementdirectstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

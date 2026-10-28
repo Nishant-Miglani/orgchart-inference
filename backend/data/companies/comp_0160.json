@@ -6972,7 +6972,5 @@
     "department_accuracy": 0.9898,
     "seniority_accuracy": 0.9796,
     "unassigned_count": 6
-  },
-  "domain": "elementhomegoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

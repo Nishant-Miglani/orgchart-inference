@@ -10310,7 +10310,5 @@
     "department_accuracy": 0.9897,
     "seniority_accuracy": 0.9759,
     "unassigned_count": 10
-  },
-  "domain": "luminadepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

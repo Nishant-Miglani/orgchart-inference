@@ -5160,7 +5160,5 @@
     "department_accuracy": 1.0,
     "seniority_accuracy": 0.9931,
     "unassigned_count": 1
-  },
-  "domain": "sterlingretailgroup.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

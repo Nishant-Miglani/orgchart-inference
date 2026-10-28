@@ -8032,7 +8032,5 @@
     "department_accuracy": 0.9955,
     "seniority_accuracy": 0.9821,
     "unassigned_count": 0
-  },
-  "domain": "sierrasupermarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

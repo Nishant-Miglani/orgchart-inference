@@ -5876,7 +5876,5 @@
     "department_accuracy": 0.9817,
     "seniority_accuracy": 0.9756,
     "unassigned_count": 1
-  },
-  "domain": "equinoxomnichannelstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

@@ -7020,7 +7020,5 @@
     "department_accuracy": 0.9796,
     "seniority_accuracy": 0.9745,
     "unassigned_count": 0
-  },
-  "domain": "silvergatedepartmentstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

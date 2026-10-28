@@ -8025,7 +8025,5 @@
     "department_accuracy": 0.9912,
     "seniority_accuracy": 0.9868,
     "unassigned_count": 14
-  },
-  "domain": "harborluxuryemporium.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

@@ -5028,7 +5028,5 @@
     "department_accuracy": 0.9929,
     "seniority_accuracy": 0.9857,
     "unassigned_count": 0
-  },
-  "domain": "meridianboutiquegroup.com.au",
-  "domain_type": "Regional AU (.com.au)"
+  }
 }

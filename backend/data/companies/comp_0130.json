@@ -4802,7 +4802,5 @@
     "department_accuracy": 0.9851,
     "seniority_accuracy": 0.9701,
     "unassigned_count": 0
-  },
-  "domain": "crownmarkets.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

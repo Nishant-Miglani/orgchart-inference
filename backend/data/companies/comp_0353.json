@@ -4720,7 +4720,5 @@
     "department_accuracy": 0.9926,
     "seniority_accuracy": 0.9706,
     "unassigned_count": 19
-  },
-  "domain": "redwoodboutiquegroup.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

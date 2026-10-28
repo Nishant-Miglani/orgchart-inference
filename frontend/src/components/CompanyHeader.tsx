@@ -1,11 +1,9 @@
 import React from "react";
 import {
-  Globe,
   MapPin,
   Calendar,
   Users,
   ShieldCheck,
-  ExternalLink,
   GitGraph,
   UsersRound,
   Sparkles,
@@ -81,33 +79,6 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
                 {company.name}
               </h1>
 
-              {/* Domain pill */}
-              {company.domain && (
-                <a
-                  href={`https://${company.domain}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: "4px",
-                    fontSize: "12px",
-                    fontWeight: 500,
-                    color: "var(--accent-blue)",
-                    background: "var(--accent-blue-subtle)",
-                    padding: "2px 8px",
-                    borderRadius: "6px",
-                    border: "1px solid #bfdbfe",
-                    textDecoration: "none",
-                  }}
-                  title={`Visit https://${company.domain}`}
-                >
-                  <Globe size={12} />
-                  {company.domain}
-                  <ExternalLink size={11} style={{ opacity: 0.7 }} />
-                </a>
-              )}
-
               {/* Category Pill */}
               <span
                 style={{
@@ -122,23 +93,6 @@ export const CompanyHeader: React.FC<CompanyHeaderProps> = ({
               >
                 {company.sub_sector}
               </span>
-
-              {/* Domain Type Pill */}
-              {company.domain_type && (
-                <span
-                  style={{
-                    fontSize: "11px",
-                    fontWeight: 600,
-                    color: "#0f766e",
-                    background: "#ccfbf1",
-                    padding: "2px 8px",
-                    borderRadius: "6px",
-                    border: "1px solid #99f6e4",
-                  }}
-                >
-                  {company.domain_type}
-                </span>
-              )}
 
               {/* Size Category */}
               <span

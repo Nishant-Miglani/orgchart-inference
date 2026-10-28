@@ -5510,7 +5510,5 @@
     "department_accuracy": 0.987,
     "seniority_accuracy": 0.974,
     "unassigned_count": 1
-  },
-  "domain": "ironwooddirectstores.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

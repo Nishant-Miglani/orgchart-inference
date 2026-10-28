@@ -5028,7 +5028,5 @@
     "department_accuracy": 1.0,
     "seniority_accuracy": 0.9857,
     "unassigned_count": 0
-  },
-  "domain": "cobaltluxuryemporium.io",
-  "domain_type": "Tech & Digital (.io)"
+  }
 }

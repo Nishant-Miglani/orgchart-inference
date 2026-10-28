@@ -4627,7 +4627,5 @@
     "department_accuracy": 0.9922,
     "seniority_accuracy": 0.969,
     "unassigned_count": 0
-  },
-  "domain": "silvergatedigitalgoods.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

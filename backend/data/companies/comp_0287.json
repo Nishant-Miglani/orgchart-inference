@@ -5308,7 +5308,5 @@
     "department_accuracy": 0.9797,
     "seniority_accuracy": 0.9595,
     "unassigned_count": 0
-  },
-  "domain": "radiantdigitalgoods.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

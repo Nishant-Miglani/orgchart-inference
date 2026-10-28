@@ -5475,7 +5475,5 @@
     "department_accuracy": 0.9804,
     "seniority_accuracy": 0.9608,
     "unassigned_count": 1
-  },
-  "domain": "timberlineoutfitters.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

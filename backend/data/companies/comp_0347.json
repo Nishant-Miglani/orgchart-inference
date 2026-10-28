@@ -7020,7 +7020,5 @@
     "department_accuracy": 0.9745,
     "seniority_accuracy": 0.9694,
     "unassigned_count": 0
-  },
-  "domain": "blueskydigitalgoods.store",
-  "domain_type": "E-Commerce (.store)"
+  }
 }

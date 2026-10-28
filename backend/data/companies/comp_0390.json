@@ -7871,7 +7871,5 @@
     "department_accuracy": 0.9774,
     "seniority_accuracy": 0.9683,
     "unassigned_count": 7
-  },
-  "domain": "novalogisticsretail.com",
-  "domain_type": "Commercial (.com)"
+  }
 }

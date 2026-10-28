@@ -5518,7 +5518,5 @@
     "department_accuracy": 0.9805,
     "seniority_accuracy": 0.974,
     "unassigned_count": 0
-  },
-  "domain": "equinoxapparelco.com",
-  "domain_type": "Commercial (.com)"
+  }
 }
