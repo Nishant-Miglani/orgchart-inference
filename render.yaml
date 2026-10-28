@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: firmable-orgchart
+    name: orgchart-inference
     runtime: docker
     plan: free
     region: oregon
     envVars:
       - key: PORT
         value: 8000
+
